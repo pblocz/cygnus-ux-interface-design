@@ -6,7 +6,7 @@ title: Blogging Like a Hacker
 # Segundo prototipo de DSI
 {:.no_toc}
 
-* Table of contents
+* Table of contentsima
 {:toc}
 
 
@@ -32,7 +32,7 @@ secciones estuviesen muy bien definidas, para no restar importancia a los
 objetivos de la aplicación. El resultado de este proceso de diseño es la
 siguiente interfaz:
 
-![inicial](./images/inicio.png)
+![inicial](./assets/img/inicio.png)
 
 Cómo se puede ver, nuestro diseño es circular y dividido en *sectores*, de
 forma que cada sector representa un conjunto de funcionalidad. En el *centro*
@@ -63,7 +63,7 @@ simplemente con arrastrarlo a distintos sitios. Cuando arrastras usamos una
 mascara visual en la remarcamos los lugares a donde puede arrastrar, además de
 posiblemente *pegamento*.
 
-![drag and drop](./images/tablet-drag.png)
+![drag and drop](./assets/img/tablet-drag.png)
 
 En general, de un vistazo se puede identificar fácilmente lo que estás viendo
 una vez que comprendes la estructura de la aplicación y es muy rápido buscar
@@ -116,7 +116,7 @@ Al desarrollar la aplicación estudiamos lo que estaba haciendo la competencia
 del sector. Concretamente miramos [Grooveshark] y [Spotify]. Aquí tenemos una
 captura de Grooveshark:
 
-![grooveshark](./images/grooveshark.png)
+![grooveshark](./assets/img/grooveshark.png)
 
 Cómo se puede ver, ya por su diseño ve vislumbra que el objetivo principal es
 ser *reproductores de música* en el sentido más tradicional de escucharla.
@@ -128,7 +128,7 @@ canciones nuevas** que el usuario no conozca y que pueda **clasificar y
 ordenar sus descubrimientos**. Una aplicación que tiene un objetivo parecido
 es [Musicovery].
 
-![musicovery](./images/musicovery.png)
+![musicovery](./assets/img/musicovery.png)
 
 Esta aplicación busca lo mismo que nosotros pero tiene una serie de
 problemas:
