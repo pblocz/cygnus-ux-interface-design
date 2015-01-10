@@ -6,7 +6,7 @@ title: Blogging Like a Hacker
 # Segundo prototipo de DSI
 {:.no_toc}
 
-* Table of contentsima
+* Table of contents
 {:toc}
 
 
@@ -17,6 +17,8 @@ title: Blogging Like a Hacker
 
 
 ## Introducción
+
+[test url](.{{ site.pages | where:"id","site-test" | map: "url" }})
 
 Hemos diseñado y realizado el prototipo de una aplicación de música con una
 interfaz novedosa orientada a tablets. Nos hemos basado en los siguientes

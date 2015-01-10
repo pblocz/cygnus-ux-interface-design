@@ -1,16 +1,20 @@
+{% assign root_prefix="" %}
+{% assign depth_levels = page.path | split: "/" | size %}
+
+{% for i in (2..depth_levels) %}
+    {% assign root_prefix= root_prefix | append:'../' %}
+{%endfor%}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      {% include _header.html %}
+      {% include header.html %}
   </head>
 
   <body>
-
     <div class="markdown-body">
-
         {{ content }}
-    
-    </div><!-- /.container -->
+    </div>
 
     {% include footer.html %}
   </body>
