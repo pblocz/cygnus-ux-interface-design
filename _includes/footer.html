@@ -9,6 +9,19 @@
 <!-- For smooth scroolling in toc -->
 <script src="{{root_prefix}}assets/js/jquery.smooth-scroll.js"/></script>
 
+<!-- For smooth scroolling in toc -->
+<script src="{{root_prefix}}assets/js/flippant.min.js"/></script>
+
+
 <script type="text/javascript">
     $("#markdown-toc a").smoothScroll();
+
+    $('.skelleton-container .panel').each(function(){
+        var back_content = $('.skelleton-content',this).html();
+        $(this).click(function(){
+            var back = flippant.flip($(this).parent('.skelleton-container')[0],back_content);
+            $('.flippant-back').click(function(){back.close();});
+        })
+
+    });
 </script>

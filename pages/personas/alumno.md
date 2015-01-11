@@ -1,37 +1,41 @@
 ---
 layout: default
-title: Esqueleto para alumno
-id: esqueleto-alumno
-excerpt: Alumno joven tipo que lleva ya un tiempo en la universidad y sabe moverse
+title: Diego García, el alumno universitario
+id: diego-garcia
+excerpt: Alumno de 3º de Ingeniería Química que va al día con sus asignaturas
 ---
+{% include utility.html %}
 
 # {{page.title}}
 
-{{page.excerpt}}
+![https://es.wikipedia.org/wiki/Izquierda_Aut%C3%B3noma#mediaviewer/File:Gabriel_Boric.jpg]({{root_prefix}}assets/img/Gabriel_Boric.jpg)
 
-## Datos personales
+## Demografía y perfil
 
-+ Alumno universitario joven entre el comienzo y la mitad de la carrera
++ 21 años
++ Tiene un ordenador y móvil con acceso a internet, los usa a diario
++ Está mucho tiempo en la facultad, no solo en clase, también estudia, come y pasa parte del tiempo libre allí.
 
-+ Nativo tecnológico que no tiene problemas con internet y las nuevas tecnologías, además tiene un móvil con acceso a internet y ordenador en casa que usa a diario.
+## Background
 
+Está en 3º de Ingeniería Química, va al día con sus asignatura, pero el año pasado le costó un poco y tuvo que estudiar en septiembre. Le gusta su carrera y aprender, por lo que dedica tiempo a estudiar, pero no es lo único que hace, también dedica su tiempo libre a otras actividades, en concreto juega al baloncesto en el equipo de su facultad, por lo que intenta ser eficiente cuando se pone a hacer cosas para la carrera y no perder mucho el tiempo para poder tener tiempo para todo.
 
-## Uso del CV y vida académica
+## Vida académica
 
-+ El profesor sube apuntes, temas, la guía docente y otro material complementario de interés, como las calificaciones.
++ Asiste a casi todas las clases y toma apuntes de en ella, aunque a veces el profesor pasa ya los apuntes así que no necesita tomar apuntes.
 
-+ Entregar trabajos por el CV.
++ La mayor parte de sus profesores usan el CV, donde suben la guía de la asignatura, los distintos trabajos y entregas además de algunos apuntes. Ponen las notas ahí y las entregas también hay que subirlas al CV.
 
-+ Para comunicarse y resolver dudas a veces usa el foro o el correo interno de la aplicación, pero en muchos casos usa su correo electrónico para ello por ser más cómodo.
++ Cuando tiene alguna duda de algo o quiere concertar una tutoría normalmente va directamente a hablar con el profesor después de clase, aunque también usa el correo electrónico de la facultad para ello.
 
-+ A la hora de estudiar y buscar apuntes complementarios no basta con lo que sube el profesor, busca en google o con antiguos alumnos apuntes y exámenes anteriores.
++ Para estudiar usa sus apuntes, pero muchas veces no son suficientes así que busca en internet o pregunta a compañeros en clase por exámenes de años anteriores y si han encontrado apuntes o libros complementarios.
 
-+ Revisa el CV a menudo para ver si hay actualizaciones (aunque en muchos casos sin hacer nada más) y entra a diario a usarlo.
++ Revisa muy a menudo (incluso varias veces al día) el CV por si el profesor a subido algo nuevo.
 
-## Motivaciones e intereses
+## Motivaciones
 
-+ Usa el CV por que el profesor lo usa para seguir la asignatura
++ Quiere acabar la carrera y tener su título para poder buscar un trabajo sin tener que estar demasiado estresado por ello.
 
-+ Quiere aprender y participar en el desarrollo de la clase y en el aprendizaje
++ Está muy motivado con lo que estudia y su carrera, así que quiere  compartir lo que descurbre y aprende.
 
-+ Teme no enterarse de una entrega o de un nuevo temario
++ Mantenerse al día de lo que pasa y estar al día de lo que hacen sus compañeros, teme no enterarse de una entrega o que se le olvide que tenía que hacer algo.
