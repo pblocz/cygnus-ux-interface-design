@@ -16,14 +16,23 @@ title: Blogging Like a Hacker
 </style>
 
 
-## Introducción
-
 [test url](.{{ site.pages | where:"id","site-test" | map: "url" }})
+
+## Personas
+
 
 
 ### Esqueletos
 
-{% include esqueletos-show.html %}
+{% assign panel_show_folder="esqueletos" %}
+{% include panel-show.html %}
+
+
+### Personas
+
+{% assign panel_show_folder="personas" %}
+{% include panel-show.html %}
+
 
 Hemos diseñado y realizado el prototipo de una aplicación de música con una
 interfaz novedosa orientada a tablets. Nos hemos basado en los siguientes

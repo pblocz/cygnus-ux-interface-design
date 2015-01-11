@@ -5,7 +5,7 @@ id: esqueleto-alumno
 excerpt: Alumno joven tipo que lleva ya un tiempo en la universidad y sabe moverse
 ---
 
-# {{ page.title}}
+# {{page.title}}
 
 {{page.excerpt}}
 
