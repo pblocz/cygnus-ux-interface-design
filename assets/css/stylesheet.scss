@@ -1,0 +1,59 @@
+---
+---
+$bgsize: 10px;
+$bgcolor: #BEBEBE;
+$stripsize: 15%;
+$stripcolor: rgba(0,0,0,0.1);
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body .markdown-body {
+  max-width: 45em;
+  padding: 30px;
+}
+
+body {
+    background-color: white;
+    background-image: linear-gradient(45deg,
+        $stripcolor,
+        $stripcolor $stripsize,
+        transparent $stripsize,
+        transparent 50% - $stripsize,
+        $stripcolor 50% - $stripsize,
+        $stripcolor 50% + $stripsize,
+        transparent 50% + $stripsize,
+        transparent 100% - $stripsize,
+        $stripcolor 100% - $stripsize);
+    background-size: $bgsize $bgsize;
+}
+
+.panel{
+    border-width: 2px;
+}
+
+.panel-default {
+    border-color: $bgcolor;
+}
+
+@for $counter from 1 through 2  {
+    .markdown-body h#{$counter} {
+        border-bottom: 1px solid $bgcolor;
+    }
+}
+
+
+
+.skelleton-container .panel { padding: 0; }
+
+.skelleton-container h3 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
