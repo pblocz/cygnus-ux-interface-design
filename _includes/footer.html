@@ -16,6 +16,17 @@
 <script type="text/javascript">
     $("#markdown-toc a").smoothScroll();
 
+    $('#markdown-toc').each(function(){
+        var wrapper = '<div class="markdown-toc-wrapper"></div>',
+            toogle = $('<div class="markdown-toc-toggle"><a href="javascript:void(0);">Tabla de contenidos</a></div>'),
+            toc = $(this);
+
+        toogle.click(function(){
+            toc.slideToggle();
+        })
+        toc.wrap(wrapper).before(toogle);
+        toc.hide();
+    });
     /*
     $('.skelleton-container .panel').each(function(){
         var back_content = $('.skelleton-content',this).html();

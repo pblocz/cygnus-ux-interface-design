@@ -45,15 +45,26 @@ body {
 }
 
 
+// skelleton and persona panel container
+.skelleton-container {
+    .panel { padding: 0; }
+    h3 {
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 16px;
+        color: inherit;
+    }
+}
 
-.skelleton-container .panel { padding: 0; }
+// markdown toc overrides
+.markdown-toc-wrapper{
+    position: relative;
 
-.skelleton-container h3 {
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 16px;
-    color: inherit;
+    .markdown-toc-toggle {
+        position: absolute;
+        right: 0px;
+    }
 }
