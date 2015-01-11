@@ -1,0 +1,22 @@
+{% for page in site.pages %}
+ {% assign url_array = page.url | split: "/" %}
+ {% if  url_array contains "esqueletos" %}
+ <div class="container-fluid skelleton-container">
+  <div class="panel panel-default col-sm-6">
+      <div class="panel-heading">
+          <h3 class="panel-title">
+              <a href=".{{root_prefix}}{{page.url}}">{{ page.title }}</a>
+          </h3>
+      </div>
+      <div class="panel-body">
+          <div>
+              {{page.excerpt}}
+          </div>
+      </div>
+      <div class="skelleton-content" style="display:none;">
+          {{page.content}}
+      </div>
+  </div>
+ </div>
+ {% endif %}
+{% endfor %}

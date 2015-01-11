@@ -20,6 +20,11 @@ title: Blogging Like a Hacker
 
 [test url](.{{ site.pages | where:"id","site-test" | map: "url" }})
 
+
+### Esqueletos
+
+{% include esqueletos-show.html %}
+
 Hemos diseñado y realizado el prototipo de una aplicación de música con una
 interfaz novedosa orientada a tablets. Nos hemos basado en los siguientes
 principios:
