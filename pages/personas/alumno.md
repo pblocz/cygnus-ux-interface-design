@@ -4,11 +4,10 @@ title: Diego García, el alumno universitario
 id: diego-garcia
 excerpt: Alumno de 3º de Ingeniería Química que va al día con sus asignaturas
 ---
-{% include utility.html %}
 
 # {{page.title}}
 
-![https://es.wikipedia.org/wiki/Izquierda_Aut%C3%B3noma#mediaviewer/File:Gabriel_Boric.jpg]({{root_prefix}}assets/img/Gabriel_Boric.jpg)
+![https://es.wikipedia.org/wiki/Izquierda_Aut%C3%B3noma#mediaviewer/File:Gabriel_Boric.jpg]({{site.baseurl}}/assets/img/Gabriel_Boric.jpg)
 
 ## Demografía y perfil
 
