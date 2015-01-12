@@ -4,7 +4,7 @@ $bgsize: 10px;
 $bgcolor: #BEBEBE;
 $stripsize: 15%;
 $stripcolor: rgba(0,0,0,0.1);
-
+$body_wdith: 45em;
 body {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -29,6 +29,18 @@ body {
         $stripcolor 100% - $stripsize);
     background-size: $bgsize $bgsize;
 }
+
+
+// General style
+p { text-align: justify; }
+img {
+    display:block;
+    text-align:center;
+    margin: 0 auto;
+    max-width: 34em!important;
+}
+
+
 
 .panel{
     border-width: 2px;
