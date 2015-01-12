@@ -37,4 +37,35 @@
 
     });
     */
+
+    (function(win,doc,$){
+        function centerModal() {
+            $(this).css('display', 'block');
+            var $dialog = $(this).find(".modal-dialog");
+            var offset = ($(window).height() - $dialog.height()) / 2;
+            // Center modal vertically in window
+            $dialog.css("margin-top", offset);
+        }
+
+        $('.modal').on('show.bs.modal', centerModal);
+        $(window).on("resize", function () {
+            $('.modal:visible').each(centerModal);
+        });
+
+        var modal_html =
+        '<div id="image-preview" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="image-preview-modal" aria-hidden="true">'+
+            '<div class="modal-dialog"> <div class="modal-content"> <div class="modal-body">'+
+                '<img class="img-responsive">'+
+            '</div> </div> </div>'+
+        '</div>';
+
+        // add format to images
+        $('img').wrap('<a class="thumbnail" href="javascript:void(0);"></a>');
+        $('img').click(function(){
+            $('#image-preview img').attr('src',$(this).attr('src'));
+            $('#image-preview').modal('show');
+        })
+        $('body').append($(modal_html));
+
+    })(window,document,jQuery);
 </script>

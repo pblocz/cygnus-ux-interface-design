@@ -51,11 +51,22 @@ body {
 
 // General style
 p { text-align: justify; }
-img {
+
+@mixin image-style() {
     display:block;
     text-align:center;
     margin: 0 auto;
     max-width: 34em!important;
+}
+
+.markdown-body {
+    a.thumbnail {
+        @include image-style();
+    }
+
+    :not(a.thumbnail) > img {
+        @include image-style();
+    }
 }
 
 
@@ -96,5 +107,18 @@ img {
     .markdown-toc-toggle {
         position: absolute;
         right: 0px;
+    }
+}
+
+
+// modal image preview
+
+@media (min-width: 768px) {
+    #image-preview {
+        .modal-dialog {
+            width: inherit;
+            max-width: 2 * $body_wdith;
+            display: table;
+        }
     }
 }
