@@ -24,8 +24,6 @@ body {
     $i: 0%;
     $res: "";
     @while $i <= 100%  {
-        @warn $i;
-
         @if $i == 0% or $i+ $ssize / 2 == 100% {
             $res: $res + "#{$fgloopcolor} #{$i}, #{$bgloopcolor} #{$i+$ssize / 2}";
             @if $i == 0% { $res: $res + ","; }
