@@ -131,18 +131,19 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 ## Hipótesis de personas
 
+
 ## Esqueletos
 
-{% assign panel_show_folder="esqueletos" %}
-{% include panel-show.html %}
-
+{% include panel-show.html panel_show_folder="esqueletos" %}
 
 ## Personas
 
-{% assign panel_show_folder="personas" %}
-{% include panel-show.html %}
+{% include panel-show.html panel_show_folder="personas" %}
+
 
 # Definición de requisitos
+
+{% include include_id page_id='problemas-visiones' %}
 
 ## Escenarios de contexto
 

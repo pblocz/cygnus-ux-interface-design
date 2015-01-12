@@ -7,12 +7,12 @@ This template generates cards for the elements in a folder
 <div class="container-fluid skelleton-container">
 {% for page in site.pages %}
  {% assign url_array = page.url | split: "/" %}
- {% if  url_array contains panel_show_folder %}
+ {% if  url_array contains include.panel_show_folder %}
   <div class="col-sm-6">
       <div class="panel panel-default">
           <div class="panel-heading">
               <h3 class="panel-title">
-                  <a href="{{site.baseurl}}{{page.url}}">{{ page.title }}</a>
+                  <a href="{{site.baseurl}}{{page.url}}" id="{{page.id}}">{{ page.title }}</a>
               </h3>
           </div>
           <div class="panel-body">
