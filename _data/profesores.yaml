@@ -1,0 +1,76 @@
+personas:
+    - name: "Profesor Experto"
+      id: prf1
+      url: "#esqueleto-prof-experto"
+    - name: "Profesor Novato"
+      id: prf2
+      url: "#esqueleto-prof-joven"
+    - name: "Profesor entrevista"
+      id: prfe
+
+variables:
+    - left: "no usa CV"
+      right: "usa CV mucho"
+      values:
+          - ['prf1',15%]
+          - ['prf2',60%]
+          - ['prfe', 50%]
+
+    - left: "uso pasivo"
+      right: "uso activo"
+      values:
+          - ['prf1',20%]
+          - ['prf2',80%]
+          - ['prfe', 25%]
+
+
+    - left: "No disponible"
+      right: "Siempre disponible"
+      values:
+          - ['prf1',70%]
+          - ['prf2',90%]
+          - ['prfe',85%]
+
+    - left: "No genera contenido"
+      right: "Todo generado"
+      values:
+          - ['prf1',75%]
+          - ['prf2',20%]
+          - ['prfe',5%]
+
+    - left: "nada de clase en cv"
+      right: "toda la clase en cv"
+      values:
+          - ['prf1',50%]
+          - ['prf2',30%]
+          - ['prfe',45%]
+
+
+    - left: "pocos años docencia"
+      right: "muchos años"
+      values:
+          - ['prf1',65%]
+          - ['prf2',15%]
+          - ['prfe',5%]
+
+
+    - left: "poco manejo NT"
+      right: "mucho manejo NT"
+      values:
+          - ['prfe',35%]
+
+
+    - left: "no usa NT en clase"
+      right: "toda la clase NT"
+      values:
+          - ['prfe',30%]
+
+
+    - left: "explicar mucho"
+      right: "explicar profundidad"
+      values: []
+
+
+    - left: "usa cv por comodidad"
+      right: "por la exp. docente"
+      values: []

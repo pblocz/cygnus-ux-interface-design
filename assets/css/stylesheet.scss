@@ -145,13 +145,39 @@ p { text-align: justify; }
     @include cooper-text('left','right');
     @include cooper-text('right','left');
 
+    .progress-wrapper {
+        position: relative;
+        //padding-bottom: 10px;
+        //overflow: hidden;
+        margin-left: 100px;
+        margin-right: 100px;
+        .persona {
+            position: absolute;
+            padding: 10px;
+            margin-left: -10px; // fix, using left: N%; is correct
+        }
+
+        $persona_colors: #B30012 #337AB7 #40AB62;
+        @for $i from 1 through length($persona_colors) {
+            .persona-#{$i} {
+                background-color: nth($persona_colors,$i);
+                border-color: darken(nth($persona_colors,$i),30%);
+            }
+        }
+    }
+
+
     .progress {
         margin-bottom: 0px;
         border-radius: 0px;
+        height: 10px;
+        float: left;
+        width: 100%;
     }
 
     .progress-bar {
         background-color: $bgfgcolor;
+        height: 10px;
     }
 
     .text {
