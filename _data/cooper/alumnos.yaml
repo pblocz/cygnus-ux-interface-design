@@ -1,0 +1,71 @@
+personas:
+    - name: "Alumno UNED"
+      id: alm2
+    - name: "Alumno 1"
+      id: alm1
+
+variables:
+    - left: "no usa CV"
+      right: "usa CV a diario"
+      values:
+          - ['alm1',70%]
+          - ['alm2',90%]
+
+    - left: "uso pasivo"
+      right: "uso activo"
+      values:
+          - ['alm1',75%]
+          - ['alm2',85%]
+
+
+    - left: "no revisa cv"
+      right: "revisa a diario"
+      values:
+          - ['alm1',90%]
+
+
+    - left: "estudia en papel"
+      right: "estudia usando NT"
+      values:
+          - ['alm1',60%]
+          - ['alm2',20%]
+
+    - left: "profesor == alumno"
+      right: "profesor tirano"
+      values:
+          - ['alm1',40%]
+          - ['alm2',30%]
+
+
+    - left: "sin estudios"
+      right: "doctorado"
+      values:
+          - ['alm1',30%]
+          - ['alm2',15%]
+
+
+    - left: "estudiar solo"
+      right: "estudiar en grupo"
+      values:
+          - ['alm1',65%]
+          - ['alm2',5%]
+
+
+    - left: "aprender por su cuenta"
+      right: "aprender en grupo"
+      values:
+          - ['alm1',25%]
+
+
+    - left: "tecnologías nvl. usuario"
+      right: "tecnologías nvl. experto"
+      values:
+          - ['alm1',65%]
+          - ['alm2',50%]
+
+
+    - left: "trabajo puntual"
+      right: "trabajo continuo"
+      values:
+          - ['alm1', 65%]
+          - ['alm2', 60%]

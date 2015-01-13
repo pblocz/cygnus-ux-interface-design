@@ -7,6 +7,15 @@ $bgfgcolor: #BEBEBE;
 $stripsize: 5px;
 $stripcolor: rgba(0,0,0,0.1);
 $body_wdith: 45em;
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 body {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -139,6 +148,9 @@ p { text-align: justify; }
             float: #{$pos};
             border-top-#{$rpos}-radius: 0px;
             border-bottom-#{$rpos}-radius: 0px;
+
+            > div { @include vertical-align; }
+
         }
     }
 
@@ -147,14 +159,19 @@ p { text-align: justify; }
 
     .progress-wrapper {
         position: relative;
-        //padding-bottom: 10px;
-        //overflow: hidden;
         margin-left: 100px;
         margin-right: 100px;
         .persona {
-            position: absolute;
             padding: 10px;
-            margin-left: -10px; // fix, using left: N%; is correct
+
+            @include vertical-align;
+            position: absolute; // fix in this case
+
+            // fix to translate left and top to use left: N% to position the center
+            -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translateX(-50%,-50%);
+            transform: translateX(-50%,-50%);
+
         }
 
         $persona_colors: #B30012 #337AB7 #40AB62;
@@ -173,6 +190,8 @@ p { text-align: justify; }
         height: 10px;
         float: left;
         width: 100%;
+        @include vertical-align;
+        position: absolute;
     }
 
     .progress-bar {

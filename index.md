@@ -133,8 +133,15 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 ### Profesores
 
-{% for variable in site.data.profesores.variables %}
-	{% assign personas = site.data.profesores.personas %}
+{% for variable in site.data.cooper.profesores.variables %}
+	{% assign personas = site.data.cooper.profesores.personas %}
+	{% include cooper_var.html %}
+{% endfor %}
+
+### Alumnos
+
+{% for variable in site.data.cooper.alumnos.variables %}
+	{% assign personas = site.data.cooper.alumnos.personas %}
 	{% include cooper_var.html %}
 {% endfor %}
 

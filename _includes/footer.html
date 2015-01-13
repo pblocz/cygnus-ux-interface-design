@@ -80,11 +80,13 @@
 
             max_h = Math.max.apply(this,$('.text',this).map(function(i,v){ return $(v).outerHeight();}));
 
+            /*
             $('.progress',this).css('margin-top',""+(max_h - progress_h)/ 2.0+"px");
             $('.persona',this).each(function(){
                 console.log($(this).outerHeight()/2.0)
                 $(this).css('margin-top',''+((max_h - $(this).outerHeight())/2.0) + "px");
             })
+            */
         })
     })(window,document,jQuery);
 
