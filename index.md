@@ -131,6 +131,14 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 ## Hipótesis de personas
 
+### Profesores
+{% include cooper_var.html left_text="Usa CV nada" right_text="Usa CV mucho" %}
+{% include cooper_var.html left_text="Uso pasivo" right_text="Uso activo" %}
+{% include cooper_var.html left_text="No com. con alumno" right_text="Disp. con alumno" %}
+{% include cooper_var.html left_text="No genera contenido" right_text="Todo contenido generado" %}
+{% include cooper_var.html left_text="No CV en clase" right_text="Toda la clase en CV" %}
+
+
 
 ## Esqueletos
 

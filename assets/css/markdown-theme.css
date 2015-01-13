@@ -727,7 +727,7 @@ body .markdown-body
 }
 
 /* progress bar*/
-.markdown-body .progress {
+/*.markdown-body .progress {
   display: block;
   width: 300px;
   margin: 10px 0;
@@ -864,6 +864,7 @@ body .markdown-body
     inset 0 4px 12px rgba(255, 255, 255, .7),
     inset 0 -12px 0 rgba(0, 0, 0, .05);
 }
+*/
 
 /* Multimarkdown Critic Blocks */
 .markdown-body .critic_mark {

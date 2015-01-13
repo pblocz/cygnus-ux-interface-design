@@ -125,3 +125,39 @@ p { text-align: justify; }
         }
     }
 }
+
+
+// cooper vars
+.cooper-var {
+    position: relative;
+    margin-bottom: 10px;
+
+    @mixin cooper-text($pos, $rpos) {
+        .#{$pos}-text {
+            /*position: absolute;
+            #{$pos}: 0px;*/
+            float: #{$pos};
+            border-top-#{$rpos}-radius: 0px;
+            border-bottom-#{$rpos}-radius: 0px;
+        }
+    }
+
+    @include cooper-text('left','right');
+    @include cooper-text('right','left');
+
+    .progress {
+        margin-bottom: 0px;
+        border-radius: 0px;
+    }
+
+    .progress-bar {
+        background-color: $bgfgcolor;
+    }
+
+    .text {
+        width: 100px;
+        white-space: inherit;
+        padding: 4px 10px;
+        border-color: $bgfgcolor;
+    }
+}

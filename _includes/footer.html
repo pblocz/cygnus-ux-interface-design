@@ -69,4 +69,19 @@
         });
 
     })(window,document,jQuery);
+
+    // cooper-vars
+    (function(win,doc,$){
+        $('.cooper-var').each(function(){
+            var max_h = Math.max.apply(this,$('.text',this).map(function(i,v){ return $(v).height();}));
+            var progress_h = $('.progress-bar',this).outerHeight();
+
+            $('.text',this).each(function(){ $(this).height(max_h); });
+
+            max_h = Math.max.apply(this,$('.text',this).map(function(i,v){ return $(v).outerHeight();}));
+            console.log(max_h,progress_h,(max_h - progress_h)/ 2.0);
+
+            $('.progress',this).css('margin-top',""+(max_h - progress_h)/ 2.0+"px");
+        })
+    })(window,document,jQuery);
 </script>
