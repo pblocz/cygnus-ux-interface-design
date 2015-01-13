@@ -7,12 +7,14 @@ personas:
 variables:
     - left: "no usa CV"
       right: "usa CV a diario"
+      description: "grado de uso del campus virtual"
       values:
           - ['alm1',70%]
           - ['alm2',90%]
 
     - left: "uso pasivo"
       right: "uso activo"
+      description: "grado de participación en el campus virtual"
       values:
           - ['alm1',75%]
           - ['alm2',85%]
@@ -20,18 +22,21 @@ variables:
 
     - left: "no revisa cv"
       right: "revisa a diario"
+      description: "cuanto revisa y le engancha el campus"
       values:
           - ['alm1',90%]
 
 
     - left: "estudia en papel"
       right: "estudia usando NT"
+      description: "si usa nuevas tecnologías o no al estudiar"
       values:
           - ['alm1',60%]
           - ['alm2',20%]
 
     - left: "profesor == alumno"
       right: "profesor tirano"
+      description: "La relación profesor alumno en las clases"
       values:
           - ['alm1',40%]
           - ['alm2',30%]
@@ -39,6 +44,7 @@ variables:
 
     - left: "sin estudios"
       right: "doctorado"
+      description: "El nivel de estudios que están cursando"
       values:
           - ['alm1',30%]
           - ['alm2',15%]
@@ -46,6 +52,7 @@ variables:
 
     - left: "estudiar solo"
       right: "estudiar en grupo"
+      description: "La forma de estudiar respecto a con quien lo hace"
       values:
           - ['alm1',65%]
           - ['alm2',5%]
@@ -53,12 +60,14 @@ variables:
 
     - left: "aprender por su cuenta"
       right: "aprender en grupo"
+      description: "si le gusta aprender por libros/tutorial el solo o en clase o cursos"
       values:
           - ['alm1',25%]
 
 
     - left: "tecnologías nvl. usuario"
       right: "tecnologías nvl. experto"
+      description: "el nivel de experiencia y uso de las nuevas tecnologías del alumno"
       values:
           - ['alm1',65%]
           - ['alm2',50%]
@@ -66,6 +75,7 @@ variables:
 
     - left: "trabajo puntual"
       right: "trabajo continuo"
+      description: "la forma en la que estudia y trabaja: al día o si lo va dejando"
       values:
           - ['alm1', 65%]
           - ['alm2', 60%]

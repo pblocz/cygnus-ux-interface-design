@@ -24,6 +24,7 @@ body {
 body .markdown-body {
   max-width: 45em;
   padding: 30px;
+  overflow: visible;
 }
 
 body {
@@ -137,14 +138,13 @@ p { text-align: justify; }
 
 
 // cooper vars
+$cooper-label-size: 100px;
 .cooper-var {
     position: relative;
     margin-bottom: 10px;
 
     @mixin cooper-text($pos, $rpos) {
         .#{$pos}-text {
-            /*position: absolute;
-            #{$pos}: 0px;*/
             float: #{$pos};
             border-top-#{$rpos}-radius: 0px;
             border-bottom-#{$rpos}-radius: 0px;
@@ -159,8 +159,8 @@ p { text-align: justify; }
 
     .progress-wrapper {
         position: relative;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: $cooper-label-size;
+        margin-right: $cooper-label-size;
         .persona {
             padding: 10px;
 
@@ -200,9 +200,24 @@ p { text-align: justify; }
     }
 
     .text {
-        width: 100px;
+        width: $cooper-label-size;
         white-space: inherit;
         padding: 4px 10px;
         border-color: $bgfgcolor;
+    }
+
+    .popover {
+        .popover-title { display: none; }
+
+        /*
+        h3 {
+            margin-top: auto;
+            margin-bottom: auto;
+            font-weight: inherit;
+            font-size: inherit;
+            line-height: inherit;
+
+        }
+        */
     }
 }
