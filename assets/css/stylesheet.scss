@@ -75,6 +75,7 @@ p { text-align: justify; }
     border-width: 2px;
 }
 
+
 .panel-default {
     border-color: $bgfgcolor;
 }
@@ -85,6 +86,8 @@ p { text-align: justify; }
     }
 }
 
+// reset link styles in panels
+.skelleton-container .panel a { color:inherit; }
 
 // skelleton and persona panel container
 .skelleton-container {

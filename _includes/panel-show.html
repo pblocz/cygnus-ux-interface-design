@@ -9,7 +9,11 @@ This template generates cards for the elements in a folder
  {% assign url_array = page.url | split: "/" %}
  {% if  url_array contains include.panel_show_folder %}
   <div class="col-sm-6">
-      <div class="panel panel-default">
+      <div class="panel
+          {% if page.type == 'primary' %}panel-primary
+          {% elsif page.type == 'secondary' %}panel-info
+          {% else %}panel-default{% endif %}"
+          >
           <div class="panel-heading">
               <h3 class="panel-title">
                   <a href="{{site.baseurl}}{{page.url}}" id="{{page.id}}">{{ page.title }}</a>

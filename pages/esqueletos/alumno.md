@@ -2,6 +2,7 @@
 layout: default
 title: Esqueleto para alumno
 id: esqueleto-alumno
+type: primary
 excerpt: Alumno joven tipo que lleva ya un tiempo en la universidad y sabe moverse
 ---
 
