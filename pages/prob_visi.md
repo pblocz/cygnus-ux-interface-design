@@ -18,13 +18,13 @@ id: problemas-visiones
 
 
 
-+ [Diego](#diego-garcia) revisa muy a menudo el cv para que no se le pase nada nuevo, además tiene notas (post-it) para recordar cuando tenía fechas destacadas
++ [Diego](#diego-garcia) revisa muy a menudo el cv para que no se le pase nada nuevo, además tiene notas (post-it) para recordar cuando tenía fechas destacadas.
 
-+ (El profesor) está cansado de tener que repetir la misma información de la asignatura (bibliografía,  método de calificación, descripción, ...) en varios sitios cada vez que decide modificar algo
++ (El profesor) está cansado de tener que repetir la misma información de la asignatura (bibliografía,  método de calificación, descripción, ...) en varios sitios cada vez que decide modificar algo.
 
-+ El profesor no sabe lo que puede o no hacer en el cv por que hay muchas opciones y no se siente capaz/con ganas de mirar el manual o ponerse a investigst así qie siempre usa las mismas 3 funciones y para el resto no usa el campus
++ El profesor no sabe lo que puede o no hacer en el cv por que hay muchas opciones y no se siente capaz/con ganas de mirar el manual o ponerse a investigar así que siempre usa las mismas 3 funciones y para el resto no usa el campus
 
-+ (El alumno) quiere compartir algo con sus compañeros de forma rápida,  pero no le interesa que el profesor se entere se entere (o no puede ni debe enterarse por cuestiones legales ¬_¬)
++ (El alumno) quiere compartir algo con sus compañeros de forma rápida,  pero no le interesa que el profesor se entere (o no puede ni debe enterarse por cuestiones legales ¬_¬).
 
 + (El alumno) quiere poder conservar sus apuntes de temas anteriores o  otro cursos/cursos anteriores a ver que se hizo, pero cuando el curso acaba se eliminan y no se pueden acceder a cursos que no son los suyos, además si se guarda algo en el ordenador, siempre se le olvida donde estaba.
 
@@ -43,9 +43,9 @@ id: problemas-visiones
 
 + Se facilitará el poder ver de manera rápida si ha habido alguna modificación en alguno de los cursos y cuando, además esta información se notificará por distintos canales. También tendra alguna forma de calendario donde ver las futuras citas o eventos en general.
 
-+ La aplicación tendrá la información y secciones organizadas de manera lógica y todo lo que se pueda se autogenerará (por ejemplo las fichas docentes)
++ (La aplicación) tendrá la información y secciones organizadas de manera lógica y todo lo que se pueda se autogenerará (por ejemplo las fichas docentes)
 
-+ La interfaz tiene que ser muy simple y que de manera visual o con recordatorios simples se muestren las opciones (no solo mostrar subir archivo, crear apunte y que el prof no use nada más)
++ La interfaz tiene que ser muy simple y que de manera visual o con recordatorios simples se muestren las opciones (no solo mostrar subir archivo, crear apunte y que el profesor no use nada más).
 
 + La aplicación tendrá algún tipo de comunicación interna en la que los profesores no estén, por ejemplo, foros sin profesor, salas de grupo de chat (al estilo g-talk)...
 
