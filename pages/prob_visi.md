@@ -99,3 +99,5 @@ id: problemas-visiones
 + Poder ver cursos incluso aunque no estés matriculado, el profesor define qué elementos se pueden ver por “visitantes” y cuáles no.
 
 + En la actualidad usamos para compartir apuntes/prácticas: Dropbox, Github, Bitbucket, Trello, Drive, etc. Debería ser posible unificar todas estas plataformas desde el CV 
+
++ ¿Qué entra en este examen? Al poner una fecha de examen, poder ver en una lista con links todos los apuntes y ejercicios que entran en el examen.
