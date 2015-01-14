@@ -97,3 +97,5 @@ id: problemas-visiones
 + Que se generen listas de forma automática de exámenes de años anteriores (uno de los entrevistados comentaba que su método principal de estudio era practicar con exámenes). Así mismo, poder subir soluciones para esos exámenes si no están resueltos, que el profesor u otros alumnos puedan verificarlo, etc.
 
 + Poder ver cursos incluso aunque no estés matriculado, el profesor define qué elementos se pueden ver por “visitantes” y cuáles no.
+
++ En la actualidad usamos para compartir apuntes/prácticas: Dropbox, Github, Bitbucket, Trello, Drive, etc. Debería ser posible unificar todas estas plataformas desde el CV 
