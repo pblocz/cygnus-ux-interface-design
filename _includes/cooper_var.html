@@ -8,7 +8,7 @@ variable.values
 <div class="cooper-var clearfix">
     {% assign dirs = 'left,right' | split:',' %}
     {% for dir in dirs %}{%capture reversed %}{% if dir == 'left' %}right{%else%}left{%endif%}{%endcapture%}
-    <div class="btn btn-default {{dir}}-text text" data-toggle="popover" data-trigger="hover" title="Descripción de la variable" data-content="{{variable.description}}" data-placement="{{reversed}}"><div>{{variable | map:dir}}</div></div>
+    <div class="btn btn-default {{dir}}-text text" data-toggle="popover" data-trigger="hover" title="Descripción de la variable" data-content="{{variable.description}}" data-placement="auto {{reversed}}"><div>{{variable | map:dir}}</div></div>
     {% endfor %}
 
     <div class="progress-wrapper">
