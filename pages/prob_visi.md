@@ -74,7 +74,7 @@ id: problemas-visiones
 
 + Los alumnos tienen acceso a contenido con distintas visibilidad, a nivel de curso, asignatura, facultad, grupo de amigos... 
 
-+ Las calificaciones, bibibliografía, descripción, … deberían tener secciones específicas en las que al profesor le sea más fácil rellenarlo y que a partir de ellos genere contenido, como la ficha docente
++ Las calificaciones, bibliografía, descripción, … deberían tener secciones específicas en las que al profesor le sea más fácil rellenarlo y que a partir de ellos genere contenido, como la ficha docente
 
 + Un panel de control simple y visual donde se resalten las opciones que se usan y que los profesores no se sientan saturados, overwhelmed, con lo que pueden hacer o no
 
