@@ -55,24 +55,45 @@ id: problemas-visiones
 
 ## Lluvia de Ideas
 {:.lluvia}
+
 + Debería tener un apartado de notificaciones que llegasen al móvil cuando el alumno tenga una nota nueva, un mensaje, nuevos apuntes o algo que requiera su atención.
+
 + Los profesores tienen que tener la posibilidad de subir sus apuntes y marcarlos como apuntes de una asignatura concreta.
+
 + Un profesor tiene que tener un listado de asignaturas que imparte, cada asignatura tiene un listado de alumnos.
+
 + El alumno en cada asignatura ve, al menos dos apartados de apuntes, los aprobados por el profesor y los públicos.
+
 + Existencia de un calendario y una vista simplificada del mismo a modo agenda como google calendar, que automáticamente ponga fechas de exámenes y otros eventos relevantes.
+
 + Sacar mensajes en el momento del logueo o en un apartado a modo de “Sabías qué…?” contando la existencia de alguna funcionalidad de la herramienta poco utilizada, con un enlace a la explicación más detallada.
+
 + Debería de tener chats de grupo en los que discutir sobre temas (en contraposición  a foros), que además se conserven y te notifique si te envian algo offline (g-talk).
+
 + Cada elemento que sube el profesor es granular, el alumno puede guardarlo, descargarlo, compartirlo,... y le sale en una zona de elementos guardados 
+
 + Los alumnos tienen acceso a contenido con distintas visibilidad, a nivel de curso, asignatura, facultad, grupo de amigos... 
+
 + Las calificaciones, bibibliografía, descripción, … deberían tener secciones específicas en las que al profesor le sea más fácil rellenarlo y que a partir de ellos genere contenido, como la ficha docente
+
 + Un panel de control simple y visual donde se resalten las opciones que se usan y que los profesores no se sientan saturados, overwhelmed, con lo que pueden hacer o no
+
 + Simplificar el sistema de calificación de notas con tres modos, media aritmética, ponderada (por porcentajes) y personalizada (en la que se permite al profesor poner sus propias fórmulas).
+
 + Desarrollar una interfaz móvil que avise de las notificaciones, ya que parece lo más importante en las entrevistas. 
+
 + Aunque la idea inicial era una edición colaborativa de documentos, no parece algo muy requerido por los alumnos. Sin embargo, si que puede ser posible permitir subida de documentos para todos los alumnos.
+
 + Tener un espacio de preguntas y respuestas rápidas, ya que uno de los alumnos entrevistados dijo que usaba bastante el foro, pero que los hilos a veces eran rápidos
+
 + Poder importar .xls con las notas (o exportar uno para rellenarlo), ya que muchos profesores las generan en excel 
+
 + Un espacio de notificaciones común con contenidos de todos los cursos inscritos y bien visible (posiblemente lo primero que se vea al logearse)
+
 + Posibilidad de acceso a cursos de años anteriores, muchas veces hay que recuperar material de asignaturas de otros años.
+
 + Que el profesor pueda “verificar” apuntes de los subidos por los alumnos para comprobar que estén bien
+
 + Que se generen listas de forma automática de exámenes de años anteriores (uno de los entrevistados comentaba que su método principal de estudio era practicar con exámenes). Así mismo, poder subir soluciones para esos exámenes si no están resueltos, que el profesor u otros alumnos puedan verificarlo, etc.
+
 + Poder ver cursos incluso aunque no estés matriculado, el profesor define qué elementos se pueden ver por “visitantes” y cuáles no.
