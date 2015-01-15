@@ -20,6 +20,13 @@ Después entra al campus, activa los apuntes y la hoja de problemas que ya tení
 
 Al terminar la clase se le acerca uno de sus alumnos para pedirle una tutoría, para el día siguiente. No sabe si podrá así que queda en ponerle una *petición de cita* en el campus, para que elija cuando le viene bien quedar. Tras esto se va a tomarse un café a la cafetería, se encuentra con su amigo Tomás, que se doctoró con él, mientras hablan de lo fácil que es dar de alta una asignatura, que con solo un par de clicks y añadir a los alumnos ya lo tienes hecho.
 
-Cuando termina se va al despacho, sube las calificaciones de los ejercicios que ha corregido y añade las horas que puede quedar con el alumno para la tutoría y que el elija cuando le viene bien.
+Cuando termina se va al despacho, sube las calificaciones de los ejercicios que ha corregido y mira el calendario del campus para ver las tutorías, clases, seminarios y cursos que tiene, crea un evento de tutoría con el alumno en los que  añade las horas que puede quedar con él para la tutoría y que elija cuando le viene bien.
 
 ## Requisitos
+
++ Subir apuntes y hojas de problemas al campus de forma que el usuario no lo pueda ver y que después pueda activarlo
++ Poder imprimir apuntes desde el campus
++ Dar de alta un curso con poco clicks
++ Calendario centralizado donde se vean todos los eventos que tiene el profesor relacionados con su vida académica
++ Organizar eventos y tutorías desde el campus para que cada uno decida cuando/como pueden (por ejemplo tutorías) y que se añadan al calendario
++ Añadir calificaciones de manera rápida
