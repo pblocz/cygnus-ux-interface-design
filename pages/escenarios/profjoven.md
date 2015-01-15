@@ -1,4 +1,4 @@
----
+
 layout: default
 title: Esqueleto para profesor joven
 id: esqueleto-prof-joven

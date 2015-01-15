@@ -1,6 +1,7 @@
+---
 layout: default
 title: Escenario Profesor
-id: escenario-profesor-1
+id: escenario-profesor
 type: primary
 excerpt: Escenario de profesor un dia normal en la universidad.
 ---

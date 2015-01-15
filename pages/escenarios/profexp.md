@@ -1,4 +1,4 @@
----
+
 layout: default
 title: Esqueleto para profesor experimentado
 id: esqueleto-prof-experto
