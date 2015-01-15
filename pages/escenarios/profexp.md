@@ -2,7 +2,7 @@
 layout: default
 title: Esqueleto para profesor experimentado
 id: esqueleto-prof-experto
-type: primary
+
 excerpt: Profesor que lleva toda su vida dando clases en la universidad
 ---
 

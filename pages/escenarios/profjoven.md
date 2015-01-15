@@ -2,7 +2,7 @@
 layout: default
 title: Esqueleto para profesor joven
 id: esqueleto-prof-joven
-type: secondary
+
 excerpt: Profesor joven que lleva muy poco tiempo de docencia
 ---
 

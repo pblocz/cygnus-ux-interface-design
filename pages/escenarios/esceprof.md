@@ -1,6 +1,7 @@
 layout: default
 title: Escenario Profesor
 id: escenario-profesor-1
+type: primary
 excerpt: Escenario de profesor un dia normal en la universidad.
 ---
 
@@ -31,68 +32,68 @@ Tras la tutoría, Eva repasa su agenda de mañana pinchando en un divertido icon
 ### Requisitos de Datos
 
 #### Agenda
-Fechas de exámenes
-Tutorías
-Clases
+- Fechas de exámenes
+- Tutorías
+- Clases
 
 #### Mensajes
-Pendientes de leer
-Tutorías
-Respuestas
-Alumnos
-Nombres
-Asignaturas en las que coinciden
-Entregas
-Notas
-Contacto
-Tutorías
+- Pendientes de leer
+- Tutorías
+- Respuestas
+- Alumnos
+- Nombres
+- Asignaturas en las que coinciden
+- Entregas
+- Notas
+- Contacto
+- Tutorías
 
 #### Asignaturas
-Horarios con aulas
-Programa
-Apuntes
-Clases programadas
-Entregas programados
-Exámenes programados
-Alumnos matriculados
-Notas de alumnos
-Sistema de calificación
+- Horarios con aulas
+- Programa
+- Apuntes
+- Clases programadas
+- Entregas programados
+- Exámenes programados
+- Alumnos matriculados
+- Notas de alumnos
+- Sistema de calificación
 
 #### Entregas
-Enunciado
-Peso en la nota
-Respuestas de alumnos
-Calificación de alumnos
-Comentarios a las respuestas
-Públicas o privadas
-Fechas de entrega
-Feedback público
+- Enunciado
+- Peso en la nota
+- Respuestas de alumnos
+- Calificación de alumnos
+- Comentarios a las respuestas
+- Públicas o privadas
+- Fechas de entrega
+- Feedback público
 
 ### Requisitos funcionales
-Consultar alumnos relacionados
-Consultar agenda
-Consultar apuntes subidos
-Corregir entregas
-Poner notas
-Modificar notas
-Preparar sistema de calificación
-Preparar entregas
-Preparar agenda
-Subir apuntes
-Dar buen o mal feedback a respuestas de alumnos.
-Rechazar tutorías y proponer otro horario
-Rechazar tutorías.
-Aceptar tutorías
-Responder mensajes.
-Programar clases con apuntes
+- Consultar alumnos relacionados
+- Consultar agenda
+- Consultar apuntes subidos
+- Corregir entregas
+- Poner notas
+- Modificar notas
+- Preparar sistema de calificación
+- Preparar entregas
+- Preparar agenda
+- Subir apuntes
+- Dar buen o mal feedback a respuestas de alumnos.
+- Rechazar tutorías y proponer otro horario
+- Rechazar tutorías.
+- Aceptar tutorías
+- Responder mensajes.
+- Programar clases con apuntes
 
 ### Requisitos de contexto
-Con posibles interrupciones
-Operar en el ordenador
-Notificaciones en el móvil
-Operaciones rápidas en móvil
+- Con posibles interrupciones
+- Operar en el ordenador
+- Notificaciones en el móvil
+- Operaciones rápidas en móvil
 
 
 ### Otros requisitos
-Fácil manejo
-Versión web y App
+- Fácil manejo
+- Versión web y App
