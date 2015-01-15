@@ -168,11 +168,26 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 {% include include_id page_id='problemas-visiones' %}
 
-## Escenarios de contexto
+## Escenarios de contexto Y Requisitos
 
 {% include panel-show.html panel_show_folder="escenarios" %}
 
-## Descripción de requisitos
-
-
 # Framework de diseño
+
+## Factor de forma, la postura y metodos de entrada
+
+El factor de forma viene definido en los escenarios de contexto, en resumen se podria decir que se trata de una interaccion por medio de un ordenador habitual y las notificaciones en el movil.
+
+En lo referido a la postura, se trata principalmente de postura soberana ya que tu interactuas directamente con la aplicacion. Aunque posee caracteristicas de postura temporal en el tema de notificaciones en el movil o las notificaciones de escritorio.
+
+Para terminar este punto, los metodos de entrada utilizados son los de cualquier PC, es decir, trackpad, raton, teclado o pantalla tactil.
+
+## Elementos de datos y funcionales (jerarquizados)
+
+## Bocetos
+
+{% include panel-show.html panel_show_folder="bocetos" %}
+
+## Escenarios key path
+
+## Escenarios de validacion
