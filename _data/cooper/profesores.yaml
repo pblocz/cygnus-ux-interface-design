@@ -11,6 +11,7 @@ personas:
 variables:
     - left: "no usa CV"
       right: "usa CV mucho"
+      description: "grado de uso del campus"
       values:
           - ['prf1',15%]
           - ['prf2',60%]
@@ -18,6 +19,7 @@ variables:
 
     - left: "uso pasivo"
       right: "uso activo"
+      description: "La manera en la que usa y se implica con el campus"
       values:
           - ['prf1',20%]
           - ['prf2',80%]
@@ -26,6 +28,7 @@ variables:
 
     - left: "No disponible"
       right: "Siempre disponible"
+      description: "El nivel de disponibilidad que tienen los profesores respecto a sus alumnos"
       values:
           - ['prf1',70%]
           - ['prf2',90%]
@@ -33,6 +36,7 @@ variables:
 
     - left: "No genera contenido"
       right: "Todo generado"
+      description: "Si todos los apuntes los hace el profesor o si el contenido es de libros u otros"
       values:
           - ['prf1',75%]
           - ['prf2',20%]
@@ -40,6 +44,7 @@ variables:
 
     - left: "nada de clase en cv"
       right: "toda la clase en cv"
+      description: "El nivel de integración del campus en las clases"
       values:
           - ['prf1',50%]
           - ['prf2',30%]
@@ -48,6 +53,7 @@ variables:
 
     - left: "pocos años docencia"
       right: "muchos años"
+      description: "El tiempo que lleva dando clase"
       values:
           - ['prf1',65%]
           - ['prf2',15%]

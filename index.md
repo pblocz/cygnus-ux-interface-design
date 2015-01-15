@@ -131,6 +131,8 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 ## Hipótesis de personas
 
+	Añadir aquí las personas ad hoc
+
 ### Profesores
 
 {% for variable in site.data.cooper.profesores.variables %}
@@ -156,6 +158,13 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 
 # Definición de requisitos
+
+{%comment%}
+{% assign probvisis = site.pages | where:'type','probvisi' %}
+{% for prob in probvisis %}
+{% include probvisi.html %}
+{%endfor%}
+{%endcomment%}
 
 {% include include_id page_id='problemas-visiones' %}
 
