@@ -32,12 +32,12 @@ Tras la tutoría, Eva repasa su agenda de mañana pinchando en un divertido icon
 
 ### Requisitos de Datos
 
-#### Agenda
+##### Agenda
 - Fechas de exámenes
 - Tutorías
 - Clases
 
-#### Mensajes
+##### Mensajes
 - Pendientes de leer
 - Tutorías
 - Respuestas
@@ -49,7 +49,7 @@ Tras la tutoría, Eva repasa su agenda de mañana pinchando en un divertido icon
 - Contacto
 - Tutorías
 
-#### Asignaturas
+##### Asignaturas
 - Horarios con aulas
 - Programa
 - Apuntes
@@ -60,7 +60,7 @@ Tras la tutoría, Eva repasa su agenda de mañana pinchando en un divertido icon
 - Notas de alumnos
 - Sistema de calificación
 
-#### Entregas
+##### Entregas
 - Enunciado
 - Peso en la nota
 - Respuestas de alumnos
