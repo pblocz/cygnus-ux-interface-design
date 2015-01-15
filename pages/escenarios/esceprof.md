@@ -30,71 +30,22 @@ Tras la tutoría, Eva repasa su agenda de mañana pinchando en un divertido icon
 
 ## Requisitos
 
-### Requisitos de Datos
+- Consultar (acción) alumnos matriculados (objeto) desde la asignatura (contexto)
 
-##### Agenda
-- Fechas de exámenes
-- Tutorías
-- Clases
+- Consultar (acción) fechas de exámenes (objeto) desde una asignatura (contexto)
 
-##### Mensajes
-- Pendientes de leer
-- Tutorías
-- Respuestas
-- Alumnos
-- Nombres
-- Asignaturas en las que coinciden
-- Entregas
-- Notas
-- Contacto
-- Tutorías
+- Consultar (acción) apuntes subidos (objeto) desde una asignatura (contexto)
 
-##### Asignaturas
-- Horarios con aulas
-- Programa
-- Apuntes
-- Clases programadas
-- Entregas programados
-- Exámenes programados
-- Alumnos matriculados
-- Notas de alumnos
-- Sistema de calificación
+- Corregir, calificar, comentar (acción) entregas (objeto) desde la herramienta (contexto)
 
-##### Entregas
-- Enunciado
-- Peso en la nota
-- Respuestas de alumnos
-- Calificación de alumnos
-- Comentarios a las respuestas
-- Públicas o privadas
-- Fechas de entrega
-- Feedback público
+- Calificar (acción) exámenes de aula (objeto) con diferentes ponderaciones (contexto)
 
-### Requisitos funcionales
-- Consultar alumnos relacionados
-- Consultar agenda
-- Consultar apuntes subidos
-- Corregir entregas
-- Poner notas
-- Modificar notas
-- Preparar sistema de calificación
-- Preparar entregas
-- Preparar agenda
-- Subir apuntes
-- Dar buen o mal feedback a respuestas de alumnos.
-- Rechazar tutorías y proponer otro horario
-- Rechazar tutorías.
-- Aceptar tutorías
-- Responder mensajes.
-- Programar clases con apuntes
+- Modificar (acción) notas de un alumno (objeto) desde su perfil (contexto)
 
-### Requisitos de contexto
-- Con posibles interrupciones
-- Operar en el ordenador
-- Notificaciones en el móvil
-- Operaciones rápidas en móvil
+- Asignar (acción) apuntes a una hora de clase (objeto) desde la agenda sin subir archivos (contexto)
 
+- Dar (acción) buen o mal feedback (objeto) a respuestas de alumnos. (contexto)
 
-### Otros requisitos
-- Fácil manejo
-- Versión web y App
+- Rechazar, aceptar o  (acción) tutorías y proponer otro horario (objeto) por una petición de tutoría desde el teléfono o web (contexto)
+
+- Recibir (acción) notificaciones de eventos (objeto) cuando suceden en el móvil (contexto)
