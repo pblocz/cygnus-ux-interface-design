@@ -161,6 +161,8 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 ## Escenarios de contexto
 
+{% include panel-show.html panel_show_folder="escenarios" %}
+
 ## Descripción de requisitos
 
 
