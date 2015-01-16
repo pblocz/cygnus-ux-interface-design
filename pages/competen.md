@@ -71,7 +71,7 @@ A continuación se muestra una tabla comparativa con información sobre cómo cu
 
 
 | Plataforma | PatataBrava | RinconDelVago | Google Drive | Drop Box |
-|:-:			  |:-:				|:-:	|:-:	|:-:	|
+|:-:	  |:-:	|:-:	|:-:	|:-:	|
 | Formato | PDF | PDF, DOC | Cualquiera | Cualquiera |
 | Tipo | Apuntes | Apuntes, trabajos, exámenes | Cualquiera | Cualquiera |
 | Límite espacio | 10 Mb | 10 Mb | 15 Gb | 2 Gb (gratuito) |
@@ -79,7 +79,7 @@ A continuación se muestra una tabla comparativa con información sobre cómo cu
 | Otros | Frases de profesores | Sección de humor | Edición simultánea | Sincronización automática |
 
 
-## Recomendaciones
+### Recomendaciones
 {:.recomendaciones}
 
 A partir del análisis realizado en la etapa anterior se ha extraído información para realizar una serie de recomendaciones para diseñar nuestra aplicación:

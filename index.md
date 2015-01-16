@@ -174,20 +174,27 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 # Framework de diseño
 
-## Factor de forma, la postura y metodos de entrada
+## Plan de Diseño
 
-El factor de forma viene definido en los escenarios de contexto, en resumen se podria decir que se trata de una interaccion por medio de un ordenador habitual y las notificaciones en el movil.
+{% include include_id page_id='plan-diseno' %}
 
-En lo referido a la postura, se trata principalmente de postura soberana ya que tu interactuas directamente con la aplicacion. Aunque posee caracteristicas de postura temporal en el tema de notificaciones en el movil o las notificaciones de escritorio.
+## Resultado
 
-Para terminar este punto, los metodos de entrada utilizados son los de cualquier PC, es decir, trackpad, raton, teclado o pantalla tactil.
 
-## Elementos de datos y funcionales (jerarquizados)
+### Factor de forma, la postura y métodos de entrada
 
-## Bocetos
+El factor de forma viene definido en los escenarios de contexto, en resumen se podría decir que se trata de una interacción por medio de un ordenador habitual y las notificaciones en el móvil.
+
+En lo referido a la postura, se trata principalmente de postura soberana ya que tu interactúas directamente con la aplicación. Aunque posee características de postura temporal en el tema de notificaciones en el móvil o las notificaciones de escritorio.
+
+Para terminar este punto, los métodos de entrada utilizados son los de cualquier PC, es decir, trackpad, ratón, teclado o pantalla táctil.
+
+### Elementos de datos y funcionales
+
+### Bocetos
 
 {% include panel-show.html panel_show_folder="bocetos" %}
 
-## Escenarios key path
+### Escenarios key path
 
-## Escenarios de validacion
+### Escenarios de validación
