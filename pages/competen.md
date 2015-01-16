@@ -4,11 +4,9 @@ title: Análisis de Competencia
 id: analisis-competencia
 ---
 
-## Análisis de Competencia
-
 Para encontrar posibles problemas que pueda llegar a tener nuestra aplicación, se estudiarán otros sistemas ya implantados que tienen ciertas características en común con el nuestro. Para ellos, se siguen los siguientes pasos:
 
-### Identificación de la competencia
+#### Identificación de la competencia
 {:.competencia}
 
 Las principales funcionalidades de nuestra aplicación son las: herramientas de campus virtual y de sharing de documentos. Estos dos ámbitos son muy separados, es decir, normalmente hay herramientas para el aula y fuera de esta para compartir trabajos y apuntes, pero no juntas.
@@ -32,7 +30,7 @@ El sharing de documentos es un punto muy genérico, así que lo centraremos en c
 + DropBox: es otro servicio de alojamiento de archivos en la nube que permite almacenar y sincronizar archivos en línea y entre ordenadores.
 
 
-### Dimensiones del producto
+#### Dimensiones del producto
 {:.dimensiones}
 
 Para determinar las características en las que nos centraremos para hacer el análisis de competencia, se estudiarán los dos tipos de herramientas que se han mencionado antes por separado:
@@ -57,7 +55,7 @@ Herramientas de intercambio de apuntes:
 
 + Permisos
 
-### Análisis de la competencia:
+#### Análisis de la competencia:
 
 A continuación se muestra una tabla comparativa con información sobre cómo cubre cada producto de la competencia las dimensiones identificadas.
 
@@ -70,6 +68,7 @@ A continuación se muestra una tabla comparativa con información sobre cómo cu
 | Herramientas de comunicación | Correo, foro | Correo, foro | Correo, foro |
 
 
+
 | Plataforma | PatataBrava | RinconDelVago | Google Drive | Drop Box |
 |:-:	  |:-:	|:-:	|:-:	|:-:	|
 | Formato | PDF | PDF, DOC | Cualquiera | Cualquiera |
@@ -79,7 +78,7 @@ A continuación se muestra una tabla comparativa con información sobre cómo cu
 | Otros | Frases de profesores | Sección de humor | Edición simultánea | Sincronización automática |
 
 
-### Recomendaciones
+#### Recomendaciones
 {:.recomendaciones}
 
 A partir del análisis realizado en la etapa anterior se ha extraído información para realizar una serie de recomendaciones para diseñar nuestra aplicación:

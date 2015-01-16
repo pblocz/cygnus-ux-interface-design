@@ -127,20 +127,24 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 # Modelado
 
+## Plan de Modelado
+
 	Explicar aquí la metodología usada
 
-## Hipótesis de personas
+## Resultados
+
+### Hipótesis de personas
 
 	Añadir aquí las personas ad hoc
 
-### Profesores
+#### Profesores
 
 {% for variable in site.data.cooper.profesores.variables %}
 	{% assign personas = site.data.cooper.profesores.personas %}
 	{% include cooper_var.html %}
 {% endfor %}
 
-### Alumnos
+#### Alumnos
 
 {% for variable in site.data.cooper.alumnos.variables %}
 	{% assign personas = site.data.cooper.alumnos.personas %}
@@ -148,16 +152,22 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 {% endfor %}
 
 
-## Esqueletos
+### Esqueletos
 
 {% include panel-show.html panel_show_folder="esqueletos" %}
 
-## Personas
+### Personas
 
 {% include panel-show.html panel_show_folder="personas" %}
 
 
 # Definición de requisitos
+
+## Plan de Requisitos
+
+   Que alguien escriba esto
+
+## Resultados
 
 {%comment%}
 {% assign probvisis = site.pages | where:'type','probvisi' %}
@@ -168,7 +178,7 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 {% include include_id page_id='problemas-visiones' %}
 
-## Escenarios de contexto Y Requisitos
+### Escenarios de contexto y requisitos
 
 {% include panel-show.html panel_show_folder="escenarios" %}
 
@@ -178,8 +188,7 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 {% include include_id page_id='plan-diseno' %}
 
-## Resultado
-
+## Resultados
 
 ### Factor de forma, la postura y métodos de entrada
 

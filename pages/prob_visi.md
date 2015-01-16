@@ -4,9 +4,9 @@ title: Enunciado de problemas y visiones
 id: problemas-visiones
 ---
 
-## Enunciado de problemas y visiones
+### Enunciado de problemas y visiones
 
-### Problemas
+#### Problemas
 {:.problemas}
 
 + [Juan Martín](#juan-martin) quiere publicar las calificaciones del último examen. Prefiere no colgarlas en un tablón de anuncios porque algunos alumnos viven lejos de a facultad. Tampoco quiere mandar un email con un PDF porque valora la privacidad de los alumnos. La herramienta actual le resulta frustrante y a menudo tiene problemas con ella.
@@ -32,7 +32,7 @@ id: problemas-visiones
 
 
 
-### Visiones
+#### Visiones
 {:.visiones}
 
 + (nuestro producto) permitirá la publicación de caificaciones de manera sencilla, de forma que los alumnos puedan consultarlas cómodamente desde casa. Además, se podrá hacer de manera privada para que cada alumno pueda ver sólo su nota.
@@ -53,7 +53,7 @@ id: problemas-visiones
 
 + El proceso de creación (o cualquier otro en el que se soliciten datos) sea muy granulado, pudiendo dejarlo para otro momento o terminarlo una vez que este creado.
 
-## Lluvia de Ideas
+### Lluvia de Ideas
 {:.lluvia}
 
 + Debería tener un apartado de notificaciones que llegasen al móvil cuando el alumno tenga una nota nueva, un mensaje, nuevos apuntes o algo que requiera su atención.
