@@ -116,7 +116,7 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 ## Resultados
 
 ### Análisis de la competencia
-	Que alguien lo escriba
+{% include include_id page_id='analisis-competencia' %}
 
 ### Entrevista
 	Qué entrevistas hemos hecho, por qué y un resumen de resultados
