@@ -200,6 +200,8 @@ Para terminar este punto, los métodos de entrada utilizados son los de cualquie
 
 ### Elementos de datos y funcionales
 
+![diagrama de gantt]({{site.baseurl}}/assets/img/requisitos_datos.png)
+
 ### Bocetos
 
 {% include panel-show.html panel_show_folder="bocetos" %}
@@ -207,3 +209,32 @@ Para terminar este punto, los métodos de entrada utilizados son los de cualquie
 ### Escenarios key path
 
 ### Escenarios de validación
+
+
+<!--
+
+1. investigación
+
+2. Modelado
+
+3. Requisitos / Escenarios de contexto
+
+4. Framework de diseño / prototipos iniciales
+
+5. prototipo de alta fidelidad
+
+6. evaluación
+
+
+cada seccion
+
+- organización del trabajo
+- resultados/productos
+- principales conclusiones
+
+mostrar producto / fotos
+- capturas de pantalla
+- no hace falta contarlos en detalle
+- recordad que luego los leeremos a fondo
+
+-->
