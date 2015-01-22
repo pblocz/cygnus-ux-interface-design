@@ -20,7 +20,7 @@
         - "J,V 12:30"
       menu: 
         - 
-          url: "/index.html"
+          url: "/asignatura/general.html"
           nombre: "general"
         - 
           url: ""
