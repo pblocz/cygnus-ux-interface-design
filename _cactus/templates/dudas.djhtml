@@ -1,4 +1,5 @@
 <ul class="media-list">
+  {% if  c|length > 0 %}
     {% for c in content %}
 	<li class="media-middle media">
 	    <div class="pull-left">
@@ -10,7 +11,7 @@
 		<h4 class="media-heading">
 		    {{c.titulo}} 
 		</h4>
-		<div>{{c.autor}} | {{c.fecha}}</div>
+		<div>{{c.autor}} | {{c.fecha}} | {{c.respuestas|length}} respuestas</div>
 	    </div>
 	    <div class="pull-right btn-group" role="group">
 		<button type="button" class="btn btn-default">
@@ -22,4 +23,7 @@
 	    </div>
 	</li>
     {% endfor %}
+  {% else %}
+   
+  {% endif %}
 </ul>

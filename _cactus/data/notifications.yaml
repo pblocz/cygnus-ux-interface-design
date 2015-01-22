@@ -37,19 +37,108 @@
         - 
           url: ""
           nombre: "calificaciones"
-      apuntes: 
-        - 
-          nombre: "Apunte nuevo"
-          tamano: "10K"
-          fecha: "22/01/2015"
-          img: "/static/images/40x40.gif"
-        - 
-          nombre: "Apunte random"
-          tamano: "10K"
-          fecha: "10/10/2010"
-          img: "/static/images/40x40.gif"
-        - 
-          nombre: "Apunte 2 random"
-          tamano: "10B"
-          fecha: "2/12/2011"
-          img: "/static/images/40x40.gif"
+      data:
+        apuntes: 
+          - 
+            nombre: "Apunte nuevo"
+            tamano: "10K"
+            fecha: "22/01/2015"
+            img: "/static/images/40x40.gif"
+          - 
+            nombre: "Apunte random"
+            tamano: "10K"
+            fecha: "10/10/2010"
+            img: "/static/images/40x40.gif"
+          - 
+            nombre: "Apunte 2 random"
+            tamano: "10B"
+            fecha: "2/12/2011"
+            img: "/static/images/40x40.gif"
+        problemas: 
+          - 
+            nombre: "Problema nuevo"
+            tamano: "10K"
+            fecha: "22/01/2015"
+            img: "/static/images/40x40.gif"
+          - 
+            nombre: "Problema random"
+            tamano: "10K"
+            fecha: "10/10/2010"
+            img: "/static/images/40x40.gif"
+          - 
+            nombre: "Problema 2 random"
+            tamano: "10B"
+            fecha: "2/12/2011"
+            img: "/static/images/40x40.gif"
+        extra: 
+          - 
+            nombre: "Extra nuevo"
+            tamano: "10K"
+            fecha: "22/01/2015"
+            img: "/static/images/40x40.gif"
+            autor: "Juan Martin"
+            nuevo: "false"
+            like: "false"
+          - 
+            nombre: "Extra random"
+            tamano: "10K"
+            fecha: "10/10/2010"
+            img: "/static/images/40x40.gif"
+            autor: "Juan Martin"
+            nuevo: "false"
+            like: "false"
+          - 
+            nombre: "Extra 2 random"
+            tamano: "10B"
+            fecha: "2/12/2011"
+            img: "/static/images/40x40.gif"
+            autor: "Juan Martin"
+            nuevo: "false"
+            like: "false"
+        dudas:
+          - 
+            titulo: "¿Que es...?"
+            preg: "alguien sabe que no sabe alguien que esto es una pregunta que alguien pudiese saber que no sabe la respuesta pero alguien quiere saber cual es la respuesta correcta a una pregunta no formulada."
+            fecha: "22/01/2015"
+            img: "/static/images/40x40.gif"
+            autor: "Juan Martin"
+            nuevo: "false"
+            like: "false"
+            respuestas:
+              -
+                autor: "Diego García"
+                positivo: "10"
+                negativo: "1"
+                img: "/static/images/40x40.gif"
+                resp: "No entiendo la pregunta."
+                nuevo: "true"
+              -
+                autor: "Watson"
+                positivo: "3"
+                negativo: "2"
+                img: "/static/images/40x40.git"
+                resp: "esta claro que si lo sabia"
+                nuevo: "false"
+          - 
+            titulo: "¿Puede ser...?"
+            preg: "Correcta la respuesta a una pregunta no formulada."
+            fecha: "22/01/2015"
+            img: "/static/images/40x40.gif"
+            autor: "Juan Martin"
+            nuevo: "false"
+            like: "false"
+            respuestas:
+              -
+                autor: "Diego García"
+                positivo: "10"
+                negativo: "1"
+                img: "/static/images/40x40.gif"
+                resp: "No entiendo la pregunta."
+                nuevo: "true"
+              -
+                autor: "Watson"
+                positivo: "3"
+                negativo: "2"
+                img: "/static/images/40x40.git"
+                resp: "esta claro que si lo sabia"
+                nuevo: "false"
