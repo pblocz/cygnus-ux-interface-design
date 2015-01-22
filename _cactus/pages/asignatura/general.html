@@ -19,10 +19,10 @@
 	</dl>
     </div>
 
-    {% include "panel.djhtml" with title="Apuntes" elements=asignatura.data.apuntes template="apuntes.djhtml" %}		
+    {% include "panel.djhtml" with title="Apuntes" elements=asignatura.data.apuntes template="panel/apuntes.djhtml" %}		
 
-{% include "panel.djhtml" with title="Dudas" elements=asignatura.data.dudas template="dudas.djhtml" %}
+{% include "panel.djhtml" with title="Dudas" elements=asignatura.data.dudas template="panel/dudas.djhtml" %}
 
-{% include "panel.djhtml" with title="Entregas" elements=asignatura.data.entregas template="entregas.djhtml" %}
+{% include "panel.djhtml" with title="Entregas" elements=asignatura.data.entregas template="panel/entregas.djhtml" %}
 </div>
 {% endblock %}
