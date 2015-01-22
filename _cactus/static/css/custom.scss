@@ -42,7 +42,7 @@ $notify-color: red;
 $search-height: 34px;
 $half-sh: $search-height / 2.0;
 .search-bar {
-	width: 300px;
+	width: 290px;
 	display: inline-block;
 	padding: 0;
 	margin-bottom: 0;
@@ -55,17 +55,27 @@ $half-sh: $search-height / 2.0;
 		}
 	}
 
-	.search-select {
+	// Fix vertical positioniong
+	.input-group-btn { vertical-align: initial; }
+
+	.bootstrap-select.search-select {
 		width: initial;
 		border-radius: 0;
-		padding: 1px;
-		width: 70px;
+		padding: 0;
+		width: 42px!important;
+		outline: none;
+
+		> .selectpicker { border-radius: 0; padding-left: 6px; padding-right: 16px; }
+		.caret { right: 8px; }
+		
+		.text-muted { color: inherit; }
 	}
 
-	button { 
+	.search-button { 
 		left: -4px;
 		border-bottom-right-radius: $half-sh;
 		border-top-right-radius: $half-sh;
+		outline: none;
 	}
 
 }
@@ -90,6 +100,7 @@ $half-sh: $search-height / 2.0;
 		> a {
 			padding-top: 10px;
 			padding-bottom: 10px;
+			padding-left: 14px;
 			> img { 
 				width: 35px;
 				margin-right: 7px;
