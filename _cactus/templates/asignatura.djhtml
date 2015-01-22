@@ -1,3 +1,4 @@
+{% extends 'base.html' %}
 {% comment %}
 
 @param asignatura.nombre
@@ -5,39 +6,27 @@
 @param asignatura.menu(lista de {'url':,'nombre':})
 {% endcomment %}
 
-<div class="jumbotron">
-    <h1>{{asignatura.nombre}}</h1>
-</div>
+{% block body %}
 
-<ul class="nav nav-tabs">
-	{% for m in asignatura.menu %}
-	<li role="presentation" 
-	    class="{% if_current_page m.url 'active' ''%}" >
-		<a href="{% url m.url%}">{{ m.nombre }}</a>
-	</li>
-	{% endfor %}
-</ul>
+    {% comment %}TODO: sustuir 0 por el nombre de la variable indice{% endcomment %}
+    {% with asignatura=data.notifications.asignaturas.0 %}
 
-<div class="tabs-main">
-	<div class="row">
-	    <div class="col-sm-6">
-		<dl class="dl-horizontal">
-		    <dt>Profesor</dt>
-		    <dd>{{asignatura.profesor}}</dd>
-		    <dt>Tutoria</dt>
-		    <dd>
-			<ul class="list-unstyled">
-			    {%for e in asignatura.tutorias %} 
-				<li>{{e}}</li>
-			    {% endfor %}
-			</ul>
-		    </dd>
-		    <dt>Descripción</dt>
-		    <dd>{{asignatura.descripcion}}</dd>
-		</dl>
-	    </div>
-
-		{% include "panel.djhtml" with title="apuntes" elements=asignatura.apuntes template="apuntes.djhtml" %}
-
+	<div class="jumbotron">
+	    <h1>{{asignatura.nombre}}</h1>
 	</div>
-</div>
+
+	<ul class="nav nav-tabs">
+	    {% for m in asignatura.menu %}
+		<li role="presentation" 
+		    class="{% if_current_page m.url 'active' ''%}" >
+		    <a href="{% url m.url%}">{{ m.nombre }}</a>
+		</li>
+	    {% endfor %}
+	</ul>
+
+	<div class="tabs-main">
+	    {% block tab_main %}
+	    {% endblock  %}
+	</div>
+    {% endwith %}
+{% endblock %}
