@@ -1,15 +1,17 @@
 ---
   msgs: 10
-  nots: 2
+  nots: 44
   calendar: 
     - 
-      date: "2015-01-11"
+      date: "2015-01-11 10:11"
       badge: true
       title: "sometitle"
+      img: "/static/images/40x40.gif"
     - 
-      date: "2015-01-21"
+      date: "2015-01-21 22:35"
       badge: false
       title: "some other title"
+      img: "a"
   asignaturas: 
     - 
       nombre: "Analisis Numérico"
@@ -38,6 +40,21 @@
           url: "/asignatura/calificaciones.html"
           nombre: "Calificaciones"
       data:
+        notas:
+          -
+            nombre: "Examen A"
+            nota: "8"
+            max: "10"
+          -
+            nombre: "Practica 0"
+            nota: "7"
+            max: "10"
+            entrega: "true"
+            url: "/asignatura/entregas.html"
+          -
+            nombre: "Examen B"
+            nota: ""
+            max: "10"
         apuntes: 
           - 
             nombre: "Apunte nuevo"

@@ -1,0 +1,25 @@
+<ul class="drender dropdown-menu">
+    {% for c in content %}
+	<li class="media-middle media">
+	    <div class="pull-left">
+		<a href="#" class="pull-left">
+		   <!--   <img src="{% static c.img %}" class="media-object"/> -->
+		</a>
+	    </div>
+	    <div class="media-body pull-left">
+		<h4 class="media-heading"> 
+		  <b>{{c.title}} </b>
+		</h4>
+		<div>{{c.date}}</div> 
+	    </div>
+	  <!--   <div class="pull-right btn-group" role="group">-->
+	<!-- 	<button type="button" class="btn btn-default"> -->
+	<!-- 	    <span class="glyphicon glyphicon-heart"></span> -->
+	<!-- 	</button> -->
+	<!-- 	<button type="button" class="btn btn-default"> -->
+	<!-- 	    <span class="glyphicon glyphicon-download-alt"></span> -->
+	<!-- 	</button> -->
+	 <!--    </div> -->
+	</li>
+    {% endfor %}
+</ul>
