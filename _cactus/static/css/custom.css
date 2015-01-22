@@ -75,3 +75,6 @@
 
 .tabs-main {
   margin-top: 30px; }
+
+  .media-nopadding .media {
+    padding-top: 0; }

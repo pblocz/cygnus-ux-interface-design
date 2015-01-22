@@ -21,7 +21,7 @@
       menu: 
         - 
           url: "/asignatura/general.html"
-          nombre: "general"
+          nombre: "General"
         - 
           url: "/asignatura/apuntes.html"
           nombre: "Apuntes"
