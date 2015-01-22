@@ -95,12 +95,14 @@
 	</div>
 
 	<div class="container main">
+	    {% comment %}
 	    <div class="col-md-4">
 		{%block body-left %}
 		<div id="app-calendar"></div>
 		{%endblock%}
 	    </div>
-	    <div class="col-md-8">
+	    {% endcomment %}
+	    <div class="col-md-12">
 		{% block body %}{% endblock %}
 	    </div>
 	</div>
