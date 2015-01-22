@@ -23,20 +23,20 @@
           url: "/asignatura/general.html"
           nombre: "general"
         - 
-          url: ""
-          nombre: "problemas"
+          url: "/asignatura/apuntes.html"
+          nombre: "Apuntes"
         - 
-          url: ""
-          nombre: "apuntes"
+          url: "/asignatura/problemas.html"
+          nombre: "Problemas"
         - 
-          url: ""
-          nombre: "entregas"
+          url: "/asignatura/entregas.html"
+          nombre: "Entregas"
         - 
-          url: ""
-          nombre: "dudas"
+          url: "/asignatura/dudas.html"
+          nombre: "Dudas"
         - 
-          url: ""
-          nombre: "calificaciones"
+          url: "/asignatura/calificaciones.html"
+          nombre: "Calificaciones"
       data:
         apuntes: 
           - 
