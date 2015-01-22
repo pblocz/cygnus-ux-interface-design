@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="{% static '/static/css/bootstrap-theme.css' %}">
         <link rel="stylesheet" href="{% static '/static/css/main.css' %}">
         <link rel="stylesheet" href="{% static '/static/css/zabuto_calendar.min.css' %}">
+        <link rel="stylesheet" href="{% static '/static/css/bootstrap-select.css' %}">
 
         <link rel="stylesheet" href="{% static '/static/css/custom.css' %}">
 
@@ -47,13 +48,24 @@
 			<div class="input-group">
 			    <input type="text" class="search form-control" placeholder="Search for...">
 			    <span class="input-group-btn">
-				<select class="search-select form-control">
-				    <option selected="selected">todo</option>
-				    <option>asignaturas</option>
-				    <option>apuntes</option>
-				    <option>dudas</option>
+				<select class="search-select"  data-show-subtext="true">
+				    <option selected="selected"
+					    data-icon='glyphicon-globe' data-subtext="todo">
+				    </option>
+				    <option data-icon='glyphicon-book' data-subtext="asignaturas">
+				    </option>
+				    <option data-icon='glyphicon-pencil' data-subtext="apuntes">
+				    </option>
+				    <option data-icon='glyphicon-question-sign' 
+					    data-subtext="dudas">
+				    </option>				
 				</select>
-				<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+
+				<button class="btn btn-default search-button"
+					type="button">
+				    <span class="glyphicon glyphicon-search">
+				    </span>
+				</button>
 			    </span>
 			</div>
 		    </form>
@@ -129,6 +141,7 @@
 	<script src="{% static '/static/js/vendor/bootstrap.js' %}"></script>
 	<script src="{% static '/static/js/vendor/underscore.js' %}"></script>
 	<script src="{% static '/static/js/vendor/zabuto_calendar.min.js' %}"></script>
+	<script src="{% static '/static/js/vendor/bootstrap-select.js' %}"></script>
 
 
 	<script src="{% static '/static/js/main.js' %}"></script>

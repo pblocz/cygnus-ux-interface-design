@@ -32,12 +32,12 @@
     .search-bar .input-group input:first-child {
       border-bottom-left-radius: 17px;
       border-top-left-radius: 17px; }
-    .search-bar .search-select {
+    .search-bar .bootstrap-select.search-select {
       width: initial;
       border-radius: 0;
       padding: 1px;
-      width: 70px; }
-      .search-bar button {
+      width: 60px !important; }
+      .search-bar .search-button {
         left: -4px;
         border-bottom-right-radius: 17px;
         border-top-right-radius: 17px; }
