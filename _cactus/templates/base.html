@@ -25,6 +25,12 @@
     </head>
 
     <body>
+	<!-- global data initialization -->
+	<script language="javascript">
+	 window.APP_DATA = {{data.json}};
+	</script>
+
+{% with data=data %}
 	<div class="navbar navbar-inverse navbar-fixed-top">
 	    <div class="container">
 		<div class="navbar-header">
@@ -65,47 +71,55 @@
 		    </form>
 
 		    <ul class="nav navbar-nav navbar-right">
-			<li class="dropdown user-navbar">
-			    <a href="{% url '/index.html' %}" 
-			       class="{% if_current_page '/index.html' 'active' '' %} dropdown-toggle disabled" data-toggle="dropdown">
-				<img src="{% static "/static/images/40x40.gif" %}" class="profile-image img-circle"> Username <b class="caret"></b>
-			    </a>
+		      <li class="dropdown user-navbar">
+			<a href="{% url '/index.html' %}" 
+			   class="{% if_current_page '/index.html' 'active' '' %} dropdown-toggle disabled" data-toggle="dropdown">
+			  <img src="{% static "/static/images/40x40.gif" %}" class="profile-image img-circle"> Username <b class="caret"></b>
+			</a>
 			    <ul class="dropdown-menu">
-				<li><a href="#">Action</a></li>
-				<li><a href="#">Another action</a></li>
-				<li><a href="#">Something else here</a></li>
-				<li class="divider"></li>
-				<li class="dropdown-header">Nav header</li>
-				<li><a href="#">Separated link</a></li>
-				<li><a href="#">One more separated link</a></li>
-			    </ul>
-
-
-			    <li class="{% if_current_page '/contact.html' 'active' '' %}">
-				<a href="{% url '/contact.html' %}">
-				    <span class="glyphicon glyphicon-inbox"></span>
-				    <span class="drender badge badge-notify" data-var="notifications.nots"></span>
-				</a>
-			    </li>
-			    <li class="{% if_current_page '/about.html' 'active' '' %}">
-				<a href="{% url '/about.html' %}">
-				    <span class="glyphicon glyphicon-envelope"></span>
-				    <span class="badge badge-notify">15</span>
-				</a>
-			    </li>
-
-			    <li class="{% if_current_page '/about.html' 'active' '' %}">
-				<a href="{% url '/about.html' %}">
-				    <span class="glyphicon glyphicon-cog"></span>
-				</a>
-			    </li>
+			      <li><a href="#">Action</a></li>
+			      <li><a href="#">Another action</a></li>
+			      <li><a href="#">Something else here</a></li>
+			      <li class="divider"></li>
+			      <li class="dropdown-header">Nav header</li>
+			      <li><a href="#">Separated link</a></li>
+			      <li><a href="#">One more separaaated link</a></li>
+			    </ul>			
 			</li>
 
+			<li class="dropdown {% if_current_page '/contact.html' 'active' '' %}">
+			  <a href="{% url '/contact.html' %}" class="dropdown-toggle" data-toggle="dropdown">
+			    <span class="glyphicon glyphicon-calendar"></span>
+			    <span class="drender badge badge-notify" data-var="notifications.nots"></span>
+			  </a>
+
+			  {% include "dropdown/calendario.djhtml" with content=data.notifications.calendar %}
+			</li>
+			<li class="dropdown {% if_current_page '/contact.html' 'active' '' %}">
+			  <a href="{% url '/contact.html' %}" class="dropdown-toggle" data-toggle="dropdown">
+			    <span class="glyphicon glyphicon-inbox"></span>
+			    <span class="drender badge badge-notify" data-var="notifications.nots">12</span>
+			  </a>
+		 {% include "dropdown/calendario.djhtml" with content=data.notifications.calendar %}
+			</li>
+			<li class="dropdown {% if_current_page '/contact.html' 'active' '' %}">
+			  <a href="{% url '/contact.html' %}" class="dropdown-toggle" data-toggle="dropdown">
+			    <span class="glyphicon glyphicon-envelope"></span>
+			    <span class="drender badge badge-notify" data-var="notifications.nots"></span>
+			  </a>
+			  {% include "dropdownable.djhtml" with elements=mensajes template="dropdown/mensajes.djhtml" %}
+			</li>
+			
+			<li class="{% if_current_page '/about.html' 'active' '' %}">
+			  <a href="{% url '/about.html' %}">
+			    <span class="glyphicon glyphicon-cog"></span>
+			  </a>
+			</li>
 		    </ul>
 		</div><!--/.navbar-collapse -->
 	    </div>
 	</div>
-
+{% endwith %}
 	<div class="container main">
 	    {% comment %}
 	    <div class="col-md-4">
@@ -122,11 +136,6 @@
 
 	<!-- Add here all underscore templates -->
 	{% underscore_templates %}
-
-	<!-- global data initialization -->
-	<script language="javascript">
-	 window.APP_DATA = {{data.json}} ;
-	</script>
 
 	<script src="{% static '/static/js/vendor/jquery-1.10.1.js' %}"></script>
 	<script src="{% static '/static/js/vendor/bootstrap.js' %}"></script>
