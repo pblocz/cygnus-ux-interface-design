@@ -24,7 +24,7 @@
   padding-top: 30px; }
 
   .search-bar {
-    width: 300px;
+    width: 290px;
     display: inline-block;
     padding: 0;
     margin-bottom: 0;
@@ -32,15 +32,27 @@
     .search-bar .input-group input:first-child {
       border-bottom-left-radius: 17px;
       border-top-left-radius: 17px; }
-    .search-bar .bootstrap-select.search-select {
-      width: initial;
-      border-radius: 0;
-      padding: 1px;
-      width: 60px !important; }
-      .search-bar .search-button {
-        left: -4px;
-        border-bottom-right-radius: 17px;
-        border-top-right-radius: 17px; }
+    .search-bar .input-group-btn {
+      vertical-align: initial; }
+      .search-bar .bootstrap-select.search-select {
+        width: initial;
+        border-radius: 0;
+        padding: 0;
+        width: 42px !important;
+        outline: none; }
+        .search-bar .bootstrap-select.search-select > .selectpicker {
+          border-radius: 0;
+          padding-left: 6px;
+          padding-right: 16px; }
+          .search-bar .bootstrap-select.search-select .caret {
+            right: 8px; }
+            .search-bar .bootstrap-select.search-select .text-muted {
+              color: inherit; }
+    .search-bar .search-button {
+      left: -4px;
+      border-bottom-right-radius: 17px;
+      border-top-right-radius: 17px;
+      outline: none; }
 
 .nav.navbar-nav > li > a {
   font-size: 20px; }
@@ -54,6 +66,7 @@
 .nav.navbar-nav .user-navbar > a {
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 14px;
   font-size: 17px; }
   .nav.navbar-nav .user-navbar > a > img {
     width: 35px;
