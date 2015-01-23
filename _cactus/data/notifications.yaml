@@ -32,15 +32,9 @@
       date: "2015-01-21 22:35"
       badge: false
       title: "some other title"
-<<<<<<< HEAD
       img: "/static/images/40x40.gif"
-  asignaturas: 
-    - 
-=======
-      img: "a"
   asignaturas:
     -
->>>>>>> 3f5e34fb02c469b6e99879bf72b40d42b7193d4a
       nombre: "Analisis Numérico"
       siglas: "ANUM"
       profesor: "Maria Rosa Florencia"
@@ -50,28 +44,25 @@
       menu:
         -
           url: "/asignatura/general.html"
-          nombre: "General"
+          nombre: "<span class='glyphicon glyphicon-info-sign'></span> General"
         -
           url: "/asignatura/apuntes.html"
-          nombre: "Apuntes"
+          nombre: "<span class='glyphicon glyphicon-pencil'></span> Apuntes"
         -
           url: "/asignatura/problemas.html"
-          nombre: "Problemas"
+          nombre: "<span class='glyphicon glyphicon-check'></span> Problemas"
         -
-<<<<<<< HEAD
           url: "/asignatura/extras.html"
-          nombre: "Extra"
+          nombre: "<span class='glyphicon glyphicon-share'></span> Compartido"
         - 
-=======
->>>>>>> 3f5e34fb02c469b6e99879bf72b40d42b7193d4a
           url: "/asignatura/entregas.html"
-          nombre: "Entregas"
+          nombre: "<span class='glyphicon glyphicon-dashboard'></span> Entregas"
         -
           url: "/asignatura/dudas.html"
-          nombre: "Dudas"
+          nombre: "<span class='glyphicon glyphicon-question-sign'></span> Dudas"
         -
           url: "/asignatura/calificaciones.html"
-          nombre: "Calificaciones"
+          nombre: "<span class='glyphicon glyphicon-list-alt'></span> Calificaciones"
       data:
         notas:
           -
@@ -201,13 +192,13 @@
         entregas:
           -
             titulo: "Practica 10"
-            fecha: "10/02/2015 00:00:00"
+            fecha: "10/02/2015 08:00:00"
             autor: "Juan luís"
           -
             titulo: "Practica 1"
-            fecha: "01/02/2015 00:00:00"
+            fecha: "01/02/2015 05:00:00"
             autor: "Juan luís"
 
           - titulo: "Practica 0"
-            fecha: "02/10/2014 00:00:00"
+            fecha: "02/10/2014 05:00:00"
             autor: "Juan luís"

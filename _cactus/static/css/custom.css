@@ -107,3 +107,25 @@
     content: " | "; }
     .bar-sep li:first-child:before {
       content: ""; }
+
+.profile .profile-image > img {
+  width: 100%;
+  max-width: 200px; }
+  .profile .profile-info {
+    padding-top: 20px; }
+    .profile .profile-info .profile-name {
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 20px; }
+      .profile .profile-info .profile-name > span {
+        margin-right: 8px;
+        white-space: nowrap; }
+        .profile .profile-info .profile-name > span:last-child {
+          margin-right: 0; }
+    .profile .profile-info .profile-element {
+      padding: 2px 0;
+      color: #999999; }
+
+.menu-nav > li > a {
+  color: #999999;
+  padding: 6px 8px; }
