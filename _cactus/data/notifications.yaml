@@ -11,7 +11,7 @@
       date: "2015-01-21 22:35"
       badge: false
       title: "some other title"
-      img: "a"
+      img: "/static/images/40x40.gif"
   asignaturas: 
     - 
       nombre: "Analisis Numérico"
@@ -30,6 +30,9 @@
         - 
           url: "/asignatura/problemas.html"
           nombre: "Problemas"
+        -
+          url: "/asignatura/extras.html"
+          nombre: "Extra"
         - 
           url: "/asignatura/entregas.html"
           nombre: "Entregas"
@@ -39,6 +42,9 @@
         - 
           url: "/asignatura/calificaciones.html"
           nombre: "Calificaciones"
+        -
+          url: "/asignatura/extras.html"
+          nombre: "Extra"
       data:
         notas:
           -
@@ -94,6 +100,8 @@
             fecha: "22/01/2015"
             img: "/static/images/40x40.gif"
             autor: "Juan Martin"
+            pos: "10"
+            neg: "0"
             nuevo: "false"
             like: "false"
           - 
@@ -102,6 +110,8 @@
             fecha: "10/10/2010"
             img: "/static/images/40x40.gif"
             autor: "Juan Martin"
+            pos: "10"
+            neg: "0"
             nuevo: "false"
             like: "false"
           - 
@@ -110,6 +120,8 @@
             fecha: "2/12/2011"
             img: "/static/images/40x40.gif"
             autor: "Juan Martin"
+            pos: "10"
+            neg: "0"
             nuevo: "false"
             like: "false"
         dudas:

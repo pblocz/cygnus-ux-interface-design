@@ -10,7 +10,9 @@
 {% block body %}
 
   {% comment %}TODO: sustuir 0 por el nombre de la variable indice{% endcomment %}
-  {% with asignatura=data.notifications.asignaturas.0 %}
+  
+    {% with asignatura=data.notifications.asignaturas.0 %}
+  
     
     <div class="jumbotron">
 	    <h1>{{asignatura.nombre}}</h1>
