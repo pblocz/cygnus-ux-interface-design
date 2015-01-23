@@ -11,6 +11,7 @@
   - en /underscore se añaden de templates, su nombre (sin extensión)
     se usa como el id del template
 */
+
 var drender = (function(doc,win,$){
 
     // configure underscore templates
@@ -55,7 +56,7 @@ var drender = (function(doc,win,$){
 
 
     // Data getters and setters for global app data
-    ret.getvar = function(s){ console.log(s); return byString(DATA,s)[0]; }
+    ret.getvar = function(s){ return byString(DATA,s)[0]; }
     ret.setvar = function(s,v) {
         var c = _.isFunction(v) ? v : function() { return v; }
         var vars = byString(DATA,s);
@@ -121,7 +122,6 @@ $(function(){
     function myDateFunction(id) {
         var date = $("#" + id).data("date");
         var hasEvent = $("#" + id).data("hasEvent");
-        console.log('You clicked on date ' + date);
         return true;
     }
 
@@ -142,7 +142,6 @@ $(function(){
         var date=$(this).data('date').split(' ');
         date[0] = date[0].substr(3, 2)+"/"+date[0].substr(0, 2)+"/"+date[0].substr(6, 4);
 
-        console.log(date);
         $(this).downCount({date: date.join(' '), offset: +1});
     });
 
@@ -156,12 +155,49 @@ $(function(){
 	}
     });
 
+
     // set filter for entregas perfil
-    $('.entregas-content').btsListFilter(
+    $('.filterable').btsListFilter(
 	'.search-input input',  // input element
 	{itemChild: '.media-heading,.text-muted', // childrens where to look
 	 itemEl: '.media',
 	 initial: false,
 	 resetOnBlur: false,
 	});
+
+
+    // apuntes like and unlike
+    $('.media.apuntes .btn-save').click(function(){
+	var v = $(this).closest('.media').data('var');
+	$(this).toggleClass('saved');
+	var save = $(this).hasClass('saved');
+
+	if(save) {
+	    drender.setvar('notifications.usuario.perfil.apuntes', 
+			   function(a){ a.push(v); return a; });
+	} else {
+	    drender.setvar('notifications.usuario.perfil.apuntes', 
+			   function(a){ return a.filter(
+			       function(el) { return el!=v;}); });
+	}
+	
+	// notify the changes
+	var text=(save ? 
+	 "Guardado <a href='#'>{0}</a> en tu perfil" : 
+	 "Eliminado <a href='#'>{0}</a> de tu perfil")
+	    .replace('{0}', drender.getvar(v+".nombre"));
+	$.growl(text);
+    }).each(function() {
+	var saved = drender.getvar('notifications.usuario.perfil.apuntes');
+	$(this).toggleClass('saved',
+                  _.contains( saved,$(this).closest('.media').data('var')));
+    });
+});
+
+
+// Configure growl notifications
+$.growl(false, {
+    type: "warning",
+    placement: { from: "bottom", align: "left" },
+    allow_dismiss: false,
 });

@@ -1,6 +1,10 @@
+{% comment %}
+content
+variable
+{% endcomment %}
 <ul class="media-list">
     {% for c in content %}
-	<li class="media-middle media">
+	<li class="media-middle media apuntes" data-var="{{variable}}.{{forloop.counter0}}">
 	    <div class="pull-left">
 		<a href="#" class="pull-left">
 		    <img src="{% static c.img %}" class="media-object"/>
@@ -10,10 +14,10 @@
 		<h4 class="media-heading">
 		    {{c.nombre}} 
 		</h4>
-		<div>{{c.tamano}} | {{c.fecha}}</div>
+		<div class="text-muted">{{c.tamano}} | {{c.fecha}}</div>
 	    </div>
 	    <div class="pull-right btn-group" role="group">
-		<button type="button" class="btn btn-default">
+		<button type="button" class="btn btn-default btn-save">
 		    <span class="glyphicon glyphicon-heart"></span>
 		</button>
 		<button type="button" class="btn btn-default">

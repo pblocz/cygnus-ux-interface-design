@@ -4,7 +4,7 @@
 {% block tab_main %}
 <div class="row">
 <div class="col-lg-6">
-    <div class="input-group">
+    <div class="input-group search-input">
       <input type="text" class="form-control" placeholder="Search for...">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
@@ -12,7 +12,9 @@
     </div><!-- /input-group -->
   </div><!-- /.col-lg-6 -->
 </div>
-<div class="row media-nopadding media-list"> 
+
+<div class="row media-nopadding filterable"> 
+
 
  {% for c in asignatura.data.dudas %}
 	<div class="col-sm-6 media media-middle">

@@ -10,6 +10,7 @@
     correo: "anormalez@ucm.es"
     telefono: "666 666666"
     perfil:
+      apuntes: []
       menu:
         - url: "/perfil/asignaturas.html"
           nombre: "<span class='glyphicon glyphicon-book'></span> Asignaturas"

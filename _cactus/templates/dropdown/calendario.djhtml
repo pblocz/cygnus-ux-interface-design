@@ -2,7 +2,7 @@
     {% for c in content %}
 	<li class="m">
 	    <div class="media-body pull-left">
-		<h4 class="media-heading"> 
+		<h4 class="media-heading">
 		  <a href="#">{{c.titulo}}</a>
 		</h4>
 		<div>{{c.fecha | make_list | join:"" }}</div> 
