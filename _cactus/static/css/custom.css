@@ -91,3 +91,19 @@
 
   .media-nopadding .media {
     margin-top: 10px; }
+
+    .countdown > li {
+      padding: 0;
+      float: left;
+      vertical-align: middle;
+      line-height: 44px; }
+      .countdown > li.day + li {
+        margin-right: 6px; }
+
+.panel .media-body .list-unstyled > li {
+  display: inline-block; }
+
+  .bar-sep li:before {
+    content: " | "; }
+    .bar-sep li:first-child:before {
+      content: ""; }

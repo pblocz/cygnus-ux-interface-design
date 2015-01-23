@@ -2,6 +2,7 @@ $container-width: 800px;
 $main-offset: 30px;
 
 $notify-color: red;
+$second-color: #999999;
 
 /* bootstrap media queries 
 @media (min-width: 1200px) 
@@ -136,4 +137,67 @@ $half-sh: $search-height / 2.0;
 
 .media-nopadding .media{
 	margin-top: 10px;
+}
+
+
+
+// countdown counter style
+
+.countdown {
+    > li { 
+	padding: 0; 
+	float: left; 
+	vertical-align: middle; 
+	line-height: 44px; 
+	&.day + li {
+	    margin-right: 6px;
+	}
+    }
+}
+
+
+// panel styling
+.panel .media-body .list-unstyled > li {
+    display: inline-block;
+}
+
+.bar-sep li {
+    &:before{ content:" | "; }
+    &:first-child:before {content:""}
+}
+
+// profile style
+
+.profile {
+    .profile-image > img { 
+	width: 100%;
+	max-width: 200px;
+    }
+    .profile-info {
+	padding-top: 20px;
+
+	.profile-name {
+	    font-weight: bold;
+	    font-size: 20px;
+	    margin-bottom: 20px;
+
+	    > span {
+		margin-right: 8px;
+		white-space: nowrap;
+		&:last-child { margin-right: 0; }
+	    }
+	}
+	.profile-element {
+	    padding: 2px 0;
+	    color: $second-color;
+	}
+    }
+}
+
+.menu-nav {
+
+    > li > a { 
+	color: $second-color;
+	padding: 6px 8px; 
+    }
 }

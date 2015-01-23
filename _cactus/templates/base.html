@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js">
+<<<<<<< HEAD
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -150,4 +151,153 @@
 
   {% block scripts %}
   {% endblock %}
+=======
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{% block title %}{%endblock%}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="{% static '/static/css/bootstrap.css' %}">
+        <style>
+         body {
+             padding-top: 50px;
+             padding-bottom: 20px;
+         }
+        </style>
+        <link rel="stylesheet" href="{% static '/static/css/bootstrap-theme.css' %}">
+        <link rel="stylesheet" href="{% static '/static/css/main.css' %}">
+        <link rel="stylesheet" href="{% static '/static/css/zabuto_calendar.min.css' %}">
+        <link rel="stylesheet" href="{% static '/static/css/bootstrap-select.css' %}">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css" rel="stylesheet"/>
+
+
+        <link rel="stylesheet" href="{% static '/static/css/custom.css' %}">
+
+	<!-- global data initialization -->
+	<script language="javascript">
+	 window.APP_DATA = {{data.json}};
+	</script>
+        <script src="{% static '/static/js/vendor/modernizr-2.6.2.js' %}"></script>
+
+    </head>
+
+    <body>
+
+{% with data=data %}
+	<div class="navbar navbar-inverse navbar-fixed-top">
+	    <div class="container">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		    </button>
+		    <a class="navbar-brand" href="{% url "/index.html" %}">Project name</a>
+		</div>
+
+		<div class="navbar-collapse collapse">
+
+		    <form class="navbar-form search-bar">
+			<div class="input-group">
+			    <input type="text" class="search form-control" placeholder="Search for...">
+			    <span class="input-group-btn">
+				<select class="search-select"  data-show-subtext="true">
+				    <option selected="selected"
+					    data-icon='glyphicon-globe' data-subtext="todo">
+				    </option>
+				    <option data-icon='glyphicon-book' data-subtext="asignaturas">
+				    </option>
+				    <option data-icon='glyphicon-pencil' data-subtext="apuntes">
+				    </option>
+				    <option data-icon='glyphicon-question-sign' 
+					    data-subtext="dudas">
+				    </option>				
+				</select>
+
+				<button class="btn btn-default search-button"
+					type="button">
+				    <span class="glyphicon glyphicon-search">
+				    </span>
+				</button>
+			    </span>
+			</div>
+		    </form>
+
+		    <ul class="nav navbar-nav navbar-right">
+		      <li class="dropdown user-navbar">
+			<a href="{% url '/perfil/index.html' %}" 
+			   class="{% if_current_page '/perfil/index.html' 'active' '' %} dropdown-toggle disabled" data-toggle="dropdown">
+			  <img src="{% static "/static/images/40x40.gif" %}" class="profile-image img-circle"> Username <b class="caret"></b>
+			</a>
+			    <ul class="dropdown-menu">
+			      <li><a href="#">Action</a></li>
+			      <li><a href="#">Another action</a></li>
+			      <li><a href="#">Something else here</a></li>
+			      <li class="divider"></li>
+			      <li class="dropdown-header">Nav header</li>
+			      <li><a href="#">Separated link</a></li>
+			      <li><a href="#">One more separaaated link</a></li>
+			    </ul>			
+			</li>
+
+			<li class="dropdown {% if_current_page '/contact.html' 'active' '' %}">
+			  <a href="{% url '/contact.html' %}" class="dropdown-toggle" data-toggle="dropdown">
+			    <span class="glyphicon glyphicon-calendar"></span>
+			    <span class="drender badge badge-notify" data-var="notifications.nots"></span>
+			  </a>
+
+			  {% include "dropdown/calendario.djhtml" with content=data.notifications.calendar %}
+			</li>
+			<li class="dropdown {% if_current_page '/contact.html' 'active' '' %}">
+			  <a href="{% url '/contact.html' %}" class="dropdown-toggle" data-toggle="dropdown">
+			    <span class="glyphicon glyphicon-inbox"></span>
+			    <span class="drender badge badge-notify" data-var="notifications.nots">12</span>
+			  </a>
+		 {% include "dropdown/calendario.djhtml" with content=data.notifications.calendar %}
+			</li>
+			<li class="dropdown {% if_current_page '/contact.html' 'active' '' %}">
+			  <a href="{% url '/contact.html' %}" class="dropdown-toggle" data-toggle="dropdown">
+			    <span class="glyphicon glyphicon-envelope"></span>
+			    <span class="drender badge badge-notify" data-var="notifications.msgs"></span>
+			  </a>
+			  {% include "dropdownable.djhtml" with elements=mensajes template="dropdown/mensajes.djhtml" %}
+			</li>
+			
+			<!--
+			<li class="{% if_current_page '/about.html' 'active' '' %}">
+			  <a href="{% url '/about.html' %}">
+			    <span class="glyphicon glyphicon-cog"></span>
+			  </a>
+			</li>
+			-->
+		    </ul>
+		</div><!--/.navbar-collapse -->
+	    </div>
+	</div>
+{% endwith %}
+	<div class="container main">
+		{% block body %}{% endblock %}
+	</div>
+
+
+	<!-- Add here all underscore templates -->
+	{% underscore_templates %}
+
+	<script src="{% static '/static/js/vendor/jquery-1.10.1.js' %}"></script>
+	<script src="{% static '/static/js/vendor/bootstrap.js' %}"></script>
+	<script src="{% static '/static/js/vendor/underscore.js' %}"></script>
+	<script src="{% static '/static/js/vendor/zabuto_calendar.min.js' %}"></script>
+	<script src="{% static '/static/js/vendor/bootstrap-select.js' %}"></script>
+	<script src="{% static '/static/js/vendor/jquery.downCount.js' %}"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+
+	<script src="{% static '/static/js/main.js' %}"></script>
+
+    </body>
+
+    {% block scripts %}
+    {% endblock %}
+>>>>>>> 3f5e34fb02c469b6e99879bf72b40d42b7193d4a
 </html>

@@ -1,45 +1,75 @@
 ---
   msgs: 10
   nots: 44
-  calendar: 
-    - 
+  usuario:
+    nombre: "Alumno"
+    apellidos: "Normal Normalez"
+    image: "/static/images/40x40.gif"
+    curso: "2014/2015"
+    correo: "anormalez@ucm.es"
+    telefono: "666 666666"
+    perfil:
+      menu:
+          - url: ""
+            nombre: "<span class='glyphicon glyphicon-pencil'></span> Apuntes"
+          - url: ""
+            nombre: "<span class='glyphicon glyphicon-book'></span> Asignatura"
+          - url: ""
+            nombre: "<span class='glyphicon glyphicon-dashboard'></span> Entregas"
+          - url: ""
+            nombre: "<span class='glyphicon glyphicon-question-sign'></span> Dudas"
+          - url: ""
+            nombre: "<span class='glyphicon glyphicon-list-alt'></span> Calificaciones"
+
+
+  calendar:
+    -
       date: "2015-01-11 10:11"
       badge: true
       title: "sometitle"
       img: "/static/images/40x40.gif"
-    - 
+    -
       date: "2015-01-21 22:35"
       badge: false
       title: "some other title"
+<<<<<<< HEAD
       img: "/static/images/40x40.gif"
   asignaturas: 
     - 
+=======
+      img: "a"
+  asignaturas:
+    -
+>>>>>>> 3f5e34fb02c469b6e99879bf72b40d42b7193d4a
       nombre: "Analisis Numérico"
       siglas: "ANUM"
       profesor: "Maria Rosa Florencia"
-      tutorias: 
+      tutorias:
         - "L,M 10:30"
         - "J,V 12:30"
-      menu: 
-        - 
+      menu:
+        -
           url: "/asignatura/general.html"
           nombre: "General"
-        - 
+        -
           url: "/asignatura/apuntes.html"
           nombre: "Apuntes"
-        - 
+        -
           url: "/asignatura/problemas.html"
           nombre: "Problemas"
         -
+<<<<<<< HEAD
           url: "/asignatura/extras.html"
           nombre: "Extra"
         - 
+=======
+>>>>>>> 3f5e34fb02c469b6e99879bf72b40d42b7193d4a
           url: "/asignatura/entregas.html"
           nombre: "Entregas"
-        - 
+        -
           url: "/asignatura/dudas.html"
           nombre: "Dudas"
-        - 
+        -
           url: "/asignatura/calificaciones.html"
           nombre: "Calificaciones"
       data:
@@ -58,40 +88,40 @@
             nombre: "Examen B"
             nota: ""
             max: "10"
-        apuntes: 
-          - 
+        apuntes:
+          -
             nombre: "Apunte nuevo"
             tamano: "10K"
             fecha: "22/01/2015"
             img: "/static/images/40x40.gif"
-          - 
+          -
             nombre: "Apunte random"
             tamano: "10K"
             fecha: "10/10/2010"
             img: "/static/images/40x40.gif"
-          - 
+          -
             nombre: "Apunte 2 random"
             tamano: "10B"
             fecha: "2/12/2011"
             img: "/static/images/40x40.gif"
-        problemas: 
-          - 
+        problemas:
+          -
             nombre: "Problema nuevo"
             tamano: "10K"
             fecha: "22/01/2015"
             img: "/static/images/40x40.gif"
-          - 
+          -
             nombre: "Problema random"
             tamano: "10K"
             fecha: "10/10/2010"
             img: "/static/images/40x40.gif"
-          - 
+          -
             nombre: "Problema 2 random"
             tamano: "10B"
             fecha: "2/12/2011"
             img: "/static/images/40x40.gif"
-        extra: 
-          - 
+        extra:
+          -
             nombre: "Extra nuevo"
             tamano: "10K"
             fecha: "22/01/2015"
@@ -101,7 +131,7 @@
             neg: "0"
             nuevo: "false"
             like: "false"
-          - 
+          -
             nombre: "Extra random"
             tamano: "10K"
             fecha: "10/10/2010"
@@ -111,7 +141,7 @@
             neg: "0"
             nuevo: "false"
             like: "false"
-          - 
+          -
             nombre: "Extra 2 random"
             tamano: "10B"
             fecha: "2/12/2011"
@@ -122,7 +152,7 @@
             nuevo: "false"
             like: "false"
         dudas:
-          - 
+          -
             titulo: "¿Que es...?"
             preg: "alguien sabe que no sabe alguien que esto es una pregunta que alguien pudiese saber que no sabe la respuesta pero alguien quiere saber cual es la respuesta correcta a una pregunta no formulada."
             fecha: "22/01/2015"
@@ -145,7 +175,7 @@
                 img: "/static/images/40x40.git"
                 resp: "esta claro que si lo sabia"
                 nuevo: "false"
-          - 
+          -
             titulo: "¿Puede ser...?"
             preg: "Correcta la respuesta a una pregunta no formulada."
             fecha: "22/01/2015"
@@ -168,3 +198,16 @@
                 img: "/static/images/40x40.git"
                 resp: "esta claro que si lo sabia"
                 nuevo: "false"
+        entregas:
+          -
+            titulo: "Practica 10"
+            fecha: "10/02/2015 00:00:00"
+            autor: "Juan luís"
+          -
+            titulo: "Practica 1"
+            fecha: "01/02/2015 00:00:00"
+            autor: "Juan luís"
+
+          - titulo: "Practica 0"
+            fecha: "02/10/2014 00:00:00"
+            autor: "Juan luís"

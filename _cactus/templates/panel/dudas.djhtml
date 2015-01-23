@@ -11,7 +11,11 @@
 		<h4 class="media-heading">
 		    {{c.titulo}} 
 		</h4>
-		<div>{{c.autor}} | {{c.fecha}} | {{c.respuestas|length}} respuestas</div>
+		<ul class="list-unstyled bar-sep">
+		    <li>{{c.autor}}</li>
+		    <li>{{c.fecha}}</li>
+		    <li>{{c.respuestas|length}} respuestas</li>
+		</ul>
 	    </div>
 	    <div class="pull-right btn-group" role="group">
 		<button type="button" class="btn btn-default">
