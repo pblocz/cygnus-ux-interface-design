@@ -51,7 +51,6 @@
 				var text = $(item).text(),
 					i = options.initial ? '^' : '',
 					regSearch = new RegExp(i + val,'i');
-			    console.log(text,i,regSearch,regSearch.test( text ));
 
 				return regSearch.test( text );
 			}
@@ -73,7 +72,6 @@
 					return options.itemFilter.call(searchlist, this, val);
 				}),
 				containsNot = items$.not(contains);
-		    console.log(contains);
 
 			if (options.itemChild){
 				contains = contains.parents(options.itemEl);
