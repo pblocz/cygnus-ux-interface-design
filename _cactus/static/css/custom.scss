@@ -2,6 +2,7 @@ $container-width: 800px;
 $main-offset: 30px;
 
 $notify-color: red;
+$second-color: #999999;
 
 /* bootstrap media queries 
 @media (min-width: 1200px) 
@@ -163,4 +164,34 @@ $half-sh: $search-height / 2.0;
 .bar-sep li {
     &:before{ content:" | "; }
     &:first-child:before {content:""}
+}
+
+// profile style
+
+.profile {
+    .profile-image > img { 
+	width: 100%;
+	max-width: 200px;
+    }
+    .profile-info {
+	padding-top: 20px;
+
+	.profile-name {
+	    font-weight: bold;
+	    font-size: 20px;
+	    //padding-bottom: 20px;
+	    margin-bottom: 20px;
+	    //border-bottom: 1px solid lighten($second-color,30%);
+
+	    > span {
+		margin-right: 8px;
+		white-space: nowrap;
+		&:last-child { margin-right: 0; }
+	    }
+	}
+	.profile-element {
+	    padding: 2px 0;
+	    color: $second-color;
+	}
+    }
 }

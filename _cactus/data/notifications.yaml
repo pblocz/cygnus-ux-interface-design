@@ -1,6 +1,13 @@
 ---
   msgs: 10
   nots: 44
+  usuario:
+    nombre: "Alumno"
+    apellidos: "Normal Normalez"
+    image: "/static/images/40x40.gif"
+    curso: "2014/2015"
+    correo: "anormalez@ucm.es"
+    telefono: "666 666666"
   calendar: 
     - 
       date: "2015-01-11 10:11"

@@ -6,7 +6,7 @@
 @param asignatura.menu(lista de {'url':,'nombre':})
 {% endcomment %}
  
-{% block title %}{% with asignatura=data.notifications.asignaturas.0 %}[{{asignatura.siglas}}] {{asignatura.nombre}} - CVC {% endwith %}{% endblock %}
+{% block title %}{% with asignatura=data.notifications.asignaturas.0 %}[{{asignatura.siglas}}] {{asignatura.nombre}} {% endwith %}{% endblock %}
 {% block body %}
 
   {% comment %}TODO: sustuir 0 por el nombre de la variable indice{% endcomment %}
