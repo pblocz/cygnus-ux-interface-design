@@ -179,9 +179,7 @@ $half-sh: $search-height / 2.0;
 	.profile-name {
 	    font-weight: bold;
 	    font-size: 20px;
-	    //padding-bottom: 20px;
 	    margin-bottom: 20px;
-	    //border-bottom: 1px solid lighten($second-color,30%);
 
 	    > span {
 		margin-right: 8px;
@@ -193,5 +191,13 @@ $half-sh: $search-height / 2.0;
 	    padding: 2px 0;
 	    color: $second-color;
 	}
+    }
+}
+
+.menu-nav {
+
+    > li > a { 
+	color: $second-color;
+	padding: 6px 8px; 
     }
 }
