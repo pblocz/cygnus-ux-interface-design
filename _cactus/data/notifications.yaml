@@ -1,6 +1,7 @@
 ---
-  msgs: 10
+  msgs: 1
   nots: 44
+  evts: 2
   usuario:
     nombre: "Alumno"
     apellidos: "Normal Normalez"
@@ -20,19 +21,22 @@
             nombre: "<span class='glyphicon glyphicon-question-sign'></span> Dudas"
           - url: ""
             nombre: "<span class='glyphicon glyphicon-list-alt'></span> Calificaciones"
+  correo:
+    - titulo: "Gracias"
+      autor: "Jose Rico Paves"
+      fecha: "2015-01-11 10:11"
 
-
-  calendar:
+  calendario:
     -
-      date: "2015-01-11 10:11"
+      fecha: "2015-01-11 10:11"
       badge: true
-      title: "sometitle"
+      titulo: "sometitle"
       img: "/static/images/40x40.gif"
     -
-      date: "2015-01-21 22:35"
+      fecha: "2015-01-21 22:35"
       badge: false
-      title: "some other title"
-      img: "a"
+      titulo: "some other title"
+      img: "/static/images/40x40.gif"
   asignaturas:
     -
       nombre: "Analisis Numérico"
@@ -44,22 +48,25 @@
       menu:
         -
           url: "/asignatura/general.html"
-          nombre: "General"
+          nombre: "<span class='glyphicon glyphicon-info-sign'></span> General"
         -
           url: "/asignatura/apuntes.html"
-          nombre: "Apuntes"
+          nombre: "<span class='glyphicon glyphicon-pencil'></span> Apuntes"
         -
           url: "/asignatura/problemas.html"
-          nombre: "Problemas"
+          nombre: "<span class='glyphicon glyphicon-check'></span> Problemas"
         -
+          url: "/asignatura/extras.html"
+          nombre: "<span class='glyphicon glyphicon-share'></span> Compartido"
+        - 
           url: "/asignatura/entregas.html"
-          nombre: "Entregas"
+          nombre: "<span class='glyphicon glyphicon-dashboard'></span> Entregas"
         -
           url: "/asignatura/dudas.html"
-          nombre: "Dudas"
+          nombre: "<span class='glyphicon glyphicon-question-sign'></span> Dudas"
         -
           url: "/asignatura/calificaciones.html"
-          nombre: "Calificaciones"
+          nombre: "<span class='glyphicon glyphicon-list-alt'></span> Calificaciones"
       data:
         notas:
           -
@@ -115,6 +122,8 @@
             fecha: "22/01/2015"
             img: "/static/images/40x40.gif"
             autor: "Juan Martin"
+            pos: "10"
+            neg: "0"
             nuevo: "false"
             like: "false"
           -
@@ -123,6 +132,8 @@
             fecha: "10/10/2010"
             img: "/static/images/40x40.gif"
             autor: "Juan Martin"
+            pos: "10"
+            neg: "0"
             nuevo: "false"
             like: "false"
           -
@@ -131,6 +142,8 @@
             fecha: "2/12/2011"
             img: "/static/images/40x40.gif"
             autor: "Juan Martin"
+            pos: "10"
+            neg: "0"
             nuevo: "false"
             like: "false"
         dudas:
@@ -183,13 +196,13 @@
         entregas:
           -
             titulo: "Practica 10"
-            fecha: "10/02/2015 00:00:00"
+            fecha: "10/02/2015 08:00:00"
             autor: "Juan luís"
           -
             titulo: "Practica 1"
-            fecha: "01/02/2015 00:00:00"
+            fecha: "01/02/2015 05:00:00"
             autor: "Juan luís"
 
           - titulo: "Practica 0"
-            fecha: "02/10/2014 00:00:00"
+            fecha: "02/10/2014 05:00:00"
             autor: "Juan luís"
