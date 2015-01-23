@@ -155,8 +155,9 @@ $(function(){
 	}
     });
 
+
     // set filter for entregas perfil
-    $('.entregas-content').btsListFilter(
+    $('.filterable').btsListFilter(
 	'.search-input input',  // input element
 	{itemChild: '.media-heading,.text-muted', // childrens where to look
 	 itemEl: '.media',

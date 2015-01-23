@@ -5,7 +5,7 @@
 <div class="row">
 <div class="alert alert-info col-sm-10 col-sm-offset-1" role="alert">En esta secci&oacute;n puedes compartir material con tus compañeros!</div>
 <div class="col-lg-6">
-    <div class="input-group">
+    <div class="input-group search-input">
       <input type="text" class="form-control" placeholder="Search for...">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
@@ -13,7 +13,7 @@
     </div><!-- /input-group -->
   </div><!-- /.col-lg-6 -->
  </div>
-<div class="row media-nopadding">
+<div class="row media-nopadding filterable">
 
  {% for c in asignatura.data.extra %}
 	<div class="col-sm-6 media">
@@ -26,8 +26,8 @@
 		<h4 class="media-heading">
 		    {{c.nombre}} 
 		</h4>
-		<div>{{c.tamano}} | {{c.fecha}}</div>
-		<div>{{c.autor}} | Votos: <tx class="text-success"><b>+{{c.pos}}</b></tx> / <tx class="text-danger"><b>-{{c.neg}}</b></tx></div>
+		<div class="text-muted">{{c.tamano}} | {{c.fecha}}</div>
+		<div class="text-muted">{{c.autor}} | Votos: <tx class="text-success"><b>+{{c.pos}}</b></tx> / <tx class="text-danger"><b>-{{c.neg}}</b></tx></div>
 	    </div>
 	    <div class="pull-right btn-group" role="group">
 		<button type="button" class="btn btn-default">

@@ -14,7 +14,7 @@ variable
 		<h4 class="media-heading">
 		    {{c.nombre}} 
 		</h4>
-		<div>{{c.tamano}} | {{c.fecha}}</div>
+		<div class="text-muted">{{c.tamano}} | {{c.fecha}}</div>
 	    </div>
 	    <div class="pull-right btn-group" role="group">
 		<button type="button" class="btn btn-default btn-save">
