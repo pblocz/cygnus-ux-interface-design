@@ -155,4 +155,11 @@ $(function(){
 	    drender.setvar(v,val);
 	}
     });
+
+    // set filter for entregas perfil
+    $('.entregas-content').btsListFilter('.search-input input', 
+	{itemChild: '.media-heading,.text-muted', 
+	 itemEl: '.media',
+	 initial: 'false'
+	});
 });

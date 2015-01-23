@@ -14,7 +14,7 @@
             nombre: "<span class='glyphicon glyphicon-pencil'></span> Apuntes"
           - url: ""
             nombre: "<span class='glyphicon glyphicon-book'></span> Asignatura"
-          - url: ""
+          - url: "/perfil/entregas.html"
             nombre: "<span class='glyphicon glyphicon-dashboard'></span> Entregas"
           - url: ""
             nombre: "<span class='glyphicon glyphicon-question-sign'></span> Dudas"

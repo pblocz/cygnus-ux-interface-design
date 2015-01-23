@@ -48,6 +48,9 @@
 		    </li>
 	        {% endfor %}
 	    </ul>
+	    <div class="profile-main tabs-main">
+		{% block profile-main %}{% endblock %}
+	    </div>
         </div>
     </div>
 {% endwith %}{% endblock %}
