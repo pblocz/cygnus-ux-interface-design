@@ -87,10 +87,10 @@
     margin: 10px 0; }
 
 .tabs-main {
-  margin-top: 20px; }
+  margin-top: 30px; }
 
   .media-nopadding .media {
-    margin-top: 10px; }
+    margin-top: 30px; }
 
     .countdown > li {
       padding: 0;
@@ -129,3 +129,9 @@
 .menu-nav > li > a {
   color: #999999;
   padding: 6px 8px; }
+
+.entregas-content {
+  margin-top: 15px; }
+  .entregas-content .media {
+    padding: 0 40px;
+    margin: 20px 0; }
