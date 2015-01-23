@@ -30,11 +30,12 @@
                     </div>
                     <div class="profile-element">
                         <span class="glyphicon glyphicon-envelope"></span>
-                        {{alumno.correo}}
+                        <span class="drender editable" data-var ="notifications.usuario.correo"></span>
                     </div>
                     <div class="profile-element">
                         <span class="glyphicon glyphicon-phone"></span>
-                        {{alumno.telefono}}
+			<span class="drender editable" data-var ="notifications.usuario.telefono"></span>
+                        
                     </div>
                 </div>
             </div>

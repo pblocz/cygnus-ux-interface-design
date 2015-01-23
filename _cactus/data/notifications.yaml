@@ -1,6 +1,7 @@
 ---
-  msgs: 10
+  msgs: 1
   nots: 44
+  evts: 2
   usuario:
     nombre: "Alumno"
     apellidos: "Normal Normalez"
@@ -20,18 +21,21 @@
             nombre: "<span class='glyphicon glyphicon-question-sign'></span> Dudas"
           - url: ""
             nombre: "<span class='glyphicon glyphicon-list-alt'></span> Calificaciones"
+  correo:
+    - titulo: "Gracias"
+      autor: "Jose Rico Paves"
+      fecha: "2015-01-11 10:11"
 
-
-  calendar:
+  calendario:
     -
-      date: "2015-01-11 10:11"
+      fecha: "2015-01-11 10:11"
       badge: true
-      title: "sometitle"
+      titulo: "sometitle"
       img: "/static/images/40x40.gif"
     -
-      date: "2015-01-21 22:35"
+      fecha: "2015-01-21 22:35"
       badge: false
-      title: "some other title"
+      titulo: "some other title"
       img: "/static/images/40x40.gif"
   asignaturas:
     -
