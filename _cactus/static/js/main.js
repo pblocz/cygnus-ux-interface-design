@@ -11,6 +11,7 @@
   - en /underscore se añaden de templates, su nombre (sin extensión)
     se usa como el id del template
 */
+
 var drender = (function(doc,win,$){
 
     // configure underscore templates
@@ -178,9 +179,24 @@ $(function(){
 			   function(a){ return a.filter(
 			       function(el) { return el!=v;}); });
 	}
+	
+	// notify the changes
+	var text=(save ? 
+	 "Guardado <a href='#'>{0}</a> en tu perfil" : 
+	 "Eliminado <a href='#'>{0}</a> de tu perfil")
+	    .replace('{0}', drender.getvar(v+".nombre"));
+	$.growl(text);
     }).each(function() {
 	var saved = drender.getvar('notifications.usuario.perfil.apuntes');
 	$(this).toggleClass('saved',
                   _.contains( saved,$(this).closest('.media').data('var')));
     });
+});
+
+
+// Configure growl notifications
+$.growl(false, {
+    type: "warning",
+    placement: { from: "bottom", align: "left" },
+    allow_dismiss: false,
 });
