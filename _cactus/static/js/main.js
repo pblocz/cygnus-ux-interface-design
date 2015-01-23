@@ -126,7 +126,19 @@ $(function(){
     });
 })
 
-// Definición del selectpicker de la busqueda en la barra superior
 $(function(){
+    // Definición del selectpicker de la busqueda en la barra superior
     $('.search-select').selectpicker({'showSubtext': true});
-})
+
+
+    // downcount
+    $('.countdown').each(function(){
+	var date=$(this).data('date').split(' ');
+	date[0] = date[0].substr(3, 2)+"/"+date[0].substr(0, 2)+"/"+date[0].substr(6, 4);
+
+	console.log(date);
+	$(this).downCount({date: date.join(' '), offset: +1});
+    });
+});
+
+

@@ -142,3 +142,16 @@
                 img: "/static/images/40x40.git"
                 resp: "esta claro que si lo sabia"
                 nuevo: "false"
+        entregas:
+          -
+            titulo: "Practica 10"
+            fecha: "10/02/2015 00:00:00"
+            autor: "Juan luís"         
+          - 
+            titulo: "Practica 1"
+            fecha: "01/02/2015 00:00:00"
+            autor: "Juan luís"
+
+          - titulo: "Practica 0"
+            fecha: "02/10/2014 00:00:00"
+            autor: "Juan luís"
