@@ -42,9 +42,6 @@
         - 
           url: "/asignatura/calificaciones.html"
           nombre: "Calificaciones"
-        -
-          url: "/asignatura/extras.html"
-          nombre: "Extra"
       data:
         notas:
           -

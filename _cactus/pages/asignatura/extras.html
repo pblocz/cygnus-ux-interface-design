@@ -3,6 +3,7 @@
 {% block tab_main %}
 
 <div class="row">
+<div class="alert alert-info col-sm-10 col-sm-offset-1" role="alert">En esta secci&oacute;n puedes compartir material con tus compañeros!</div>
 <div class="col-lg-6">
     <div class="input-group">
       <input type="text" class="form-control" placeholder="Search for...">
@@ -11,7 +12,7 @@
       </span>
     </div><!-- /input-group -->
   </div><!-- /.col-lg-6 -->
-</div>
+ </div>
 <div class="row media-nopadding">
 
  {% for c in asignatura.data.extra %}
@@ -26,7 +27,7 @@
 		    {{c.nombre}} 
 		</h4>
 		<div>{{c.tamano}} | {{c.fecha}}</div>
-		<div>{{c.autor}} | Votos: {{c.pos}} / -{{c.neg}}</div>
+		<div>{{c.autor}} | Votos: <tx class="text-success"><b>+{{c.pos}}</b></tx> / <tx class="text-danger"><b>-{{c.neg}}</b></tx></div>
 	    </div>
 	    <div class="pull-right btn-group" role="group">
 		<button type="button" class="btn btn-default">
