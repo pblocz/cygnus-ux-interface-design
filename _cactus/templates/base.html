@@ -101,7 +101,7 @@
 			    <span class="glyphicon glyphicon-inbox"></span>
 			    <span class="drender badge badge-notify" data-var="notifications.nots"></span>
 			  </a>
-			  {% include "dropdown/eventos.djhtml" with content=data.notifications.correo %}
+			  {% include "dropdown/eventos.djhtml" with content=data.notifications.eventos %}
 			</li>
 			<li class="dropdown {% if_current_page '/contact.html' 'active' '' %}">
 			  <a href="{% url '/contact.html' %}" class="dropdown-toggle" data-toggle="dropdown">

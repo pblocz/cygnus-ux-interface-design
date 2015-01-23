@@ -1,6 +1,6 @@
 ---
   msgs: 1
-  nots: 44
+  nots: 3
   evts: 2
   usuario:
     nombre: "Alumno"
@@ -11,21 +11,30 @@
     telefono: "666 666666"
     perfil:
       menu:
-          - url: ""
-            nombre: "<span class='glyphicon glyphicon-pencil'></span> Apuntes"
-          - url: ""
-            nombre: "<span class='glyphicon glyphicon-book'></span> Asignatura"
-          - url: "/perfil/entregas.html"
-            nombre: "<span class='glyphicon glyphicon-dashboard'></span> Entregas"
-          - url: ""
-            nombre: "<span class='glyphicon glyphicon-question-sign'></span> Dudas"
-          - url: ""
-            nombre: "<span class='glyphicon glyphicon-list-alt'></span> Calificaciones"
+        - url: "/perfil/asignaturas.html"
+          nombre: "<span class='glyphicon glyphicon-book'></span> Asignaturas"
+        - url: "/perfil/apuntes.html"
+          nombre: "<span class='glyphicon glyphicon-pencil'></span> Apuntes"
+        - url: "/perfil/entregas.html"
+          nombre: "<span class='glyphicon glyphicon-dashboard'></span> Entregas"
+        - url: "/perfil/dudas.html"
+          nombre: "<span class='glyphicon glyphicon-question-sign'></span> Dudas"
+        - url: "/perfil/calificaciones.html"
+          nombre: "<span class='glyphicon glyphicon-list-alt'></span> Calificaciones"
   correo:
     - titulo: "Gracias"
       autor: "Jose Rico Paves"
       fecha: "2015-01-11 10:11"
-
+  eventos:
+    - titulo: "Nuevo apunte ANNU"
+      fecha: "2015-01-11 10:11"
+      url: "/asignatura/apuntes.html"
+    - titulo: "Nuevo Problema"
+      fecha: "2015-01-11 10:11"
+      url: "/asignatura/problemas.html"
+    - titulo: "Nueva Respuesta en tu duda"
+      fecha: "2015-01-11 10:11"
+      url: "/asignatura/dudas/details.html"
   calendario:
     -
       fecha: "2015-01-11 10:11"

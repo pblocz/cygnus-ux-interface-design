@@ -1,0 +1,21 @@
+<ul class="dropdown-menu">
+  {% if  c|length > 0 %}
+    {% for c in content %}
+	<li class="m">
+	    <div class="media-body pull-left">
+		<h4 class="media-heading">
+		  <a href="{{c.url}}">{{c.titulo}}</a>
+		</h4>
+		<div>{{c.fecha}}</div>
+	    </div>
+	    <div class="pull-right btn-group" role="group">
+			<button type="button" class="btn btn-default">
+		    <span class="glyphicon glyphicon-eye-open"></span>
+		</button>
+	    </div>
+	</li>
+    {% endfor %}
+  {% else %}
+   
+  {% endif %}
+</ul>
