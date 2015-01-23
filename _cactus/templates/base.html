@@ -105,7 +105,7 @@
 			<li class="dropdown {% if_current_page '/contact.html' 'active' '' %}">
 			  <a href="{% url '/contact.html' %}" class="dropdown-toggle" data-toggle="dropdown">
 			    <span class="glyphicon glyphicon-envelope"></span>
-			    <span class="drender badge badge-notify" data-var="notifications.nots"></span>
+			    <span class="drender badge badge-notify" data-var="notifications.msgs"></span>
 			  </a>
 			  {% include "dropdownable.djhtml" with elements=mensajes template="dropdown/mensajes.djhtml" %}
 			</li>
