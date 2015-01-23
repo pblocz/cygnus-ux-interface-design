@@ -47,10 +47,12 @@
 				//val = val.replace(new RegExp("^[.]$|[\[\]|()*]",'g'),'');
 				//val = val.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
 				val = val && val.replace(new RegExp("[({[^.$*+?\\\]})]","g"),'');
-				
+
 				var text = $(item).text(),
 					i = options.initial ? '^' : '',
 					regSearch = new RegExp(i + val,'i');
+			    console.log(text,i,regSearch,regSearch.test( text ));
+
 				return regSearch.test( text );
 			}
 		}, options);		
@@ -80,8 +82,8 @@
 
 			if(val!=='' && val.length >= options.minLength)
 			{
-				contains.show();
 				containsNot.hide();
+				contains.show();
 
 				if($.type(options.sourceData)==='function')
 				{
