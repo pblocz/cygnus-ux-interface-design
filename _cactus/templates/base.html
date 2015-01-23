@@ -60,8 +60,7 @@
 				    </option>
 				    <option data-icon='glyphicon-pencil' data-subtext="apuntes">
 				    </option>
-				    <option data-icon='glyphicon-question-sign' 
-					    data-subtext="dudas">
+				    <option data-icon='glyphicon-question-sign' data-subtext="dudas">
 				    </option>				
 				</select>
 
@@ -94,7 +93,7 @@
 			<li class="dropdown {% if_current_page '/contact.html' 'active' '' %}">
 			  <a href="{% url '/contact.html' %}" class="dropdown-toggle" data-toggle="dropdown">
 			    <span class="glyphicon glyphicon-calendar"></span>
-			    <span class="drender badge badge-notify">{{data.notifications.nots}}</span>
+			    <span class="drender badge badge-notify" data-var="notifications.nots"></span>
 			  </a>
 
 			  {% include "dropdown/calendario.djhtml" with content=data.notifications.calendar %}
@@ -102,14 +101,14 @@
 			<li class="dropdown {% if_current_page '/contact.html' 'active' '' %}">
 			  <a href="{% url '/contact.html' %}" class="dropdown-toggle" data-toggle="dropdown">
 			    <span class="glyphicon glyphicon-inbox"></span>
-			    <span class="drender badge badge-notify">{{data.notifications.nots}}</span>
+			    <span class="drender badge badge-notify" data-var="notifications.nots"></span>
 			  </a>
 			  {% include "dropdown/calendario.djhtml" with content=data.notifications.calendar %}
 			</li>
 			<li class="dropdown {% if_current_page '/contact.html' 'active' '' %}">
 			  <a href="{% url '/contact.html' %}" class="dropdown-toggle" data-toggle="dropdown">
 			    <span class="glyphicon glyphicon-envelope"></span>
-			    <span class="drender badge badge-notify">{{data.notifications.nots}}</span>
+			    <span class="drender badge badge-notify" data-var="notifications.nots"></span>
 			  </a>
 			  {% include "dropdown/calendario.djhtml" with content=data.notifications.calendar %}
 			</li>
