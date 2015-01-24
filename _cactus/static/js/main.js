@@ -212,7 +212,7 @@ $(function(){
 	var text=(save ? 
 	 "Guardado <a href='#'>{0}</a> en tu perfil" : 
 	 "Eliminado <a href='#'>{0}</a> de tu perfil")
-	    .replace('{0}', drender.getvar(v+".nombre"));
+	    .replace('{0}', drender.getvar(v+".titulo"));
 	$.growl(text);
     }).each(function() {
 	var saved = drender.getvar('notifications.usuario.perfil.dudas');
