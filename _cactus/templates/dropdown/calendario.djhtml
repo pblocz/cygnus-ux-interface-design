@@ -1,3 +1,17 @@
+<div class="dropdown-menu">
+    <div class="event-list">
+	{% for c in content %}
+	    <div class="event">
+		<h4 class="event-heading">
+		    <a href="#">{{c.titulo}}</a>
+		</h4>
+		<div class="event-description">{{c.fecha}}</div>
+	    </div>
+	{% endfor %}
+    </div>
+</div>
+
+{% comment %}
 <ul class="dropdown-menu">
     {% for c in content %}
 	<li class="m">
@@ -18,3 +32,4 @@
 	</li>
     {% endfor %}
 </ul>
+{% endcomment %}
