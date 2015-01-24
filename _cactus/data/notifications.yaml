@@ -2,6 +2,10 @@
   msgs: 1
   nots: 3
   evts: 2
+  actual:
+    asignatura: 0
+    duda: 0
+    entrega: 0
   usuario:
     nombre: "Alumno"
     apellidos: "Normal Normalez"
@@ -11,11 +15,14 @@
     telefono: "666 666666"
     perfil:
       apuntes: []
+      dudas: []
       menu:
         - url: "/perfil/asignaturas.html"
           nombre: "<span class='glyphicon glyphicon-book'></span> Asignaturas"
         - url: "/perfil/apuntes.html"
           nombre: "<span class='glyphicon glyphicon-pencil'></span> Apuntes"
+        - url: "/perfil/compartido.html"
+          nombre: "<span class='glyphicon glyphicon-share'></span> Compartidos"
         - url: "/perfil/entregas.html"
           nombre: "<span class='glyphicon glyphicon-dashboard'></span> Entregas"
         - url: "/perfil/dudas.html"
@@ -59,24 +66,31 @@
         -
           url: "/asignatura/general.html"
           nombre: "<span class='glyphicon glyphicon-info-sign'></span> General"
+          id: "general"
         -
           url: "/asignatura/apuntes.html"
           nombre: "<span class='glyphicon glyphicon-pencil'></span> Apuntes"
+          id: "apuntes"
         -
           url: "/asignatura/problemas.html"
           nombre: "<span class='glyphicon glyphicon-check'></span> Problemas"
+          id: "problemas"
         -
           url: "/asignatura/extras.html"
           nombre: "<span class='glyphicon glyphicon-share'></span> Compartido"
+          id: "compartido"
         - 
           url: "/asignatura/entregas.html"
           nombre: "<span class='glyphicon glyphicon-dashboard'></span> Entregas"
+          id: "entregas"
         -
           url: "/asignatura/dudas.html"
           nombre: "<span class='glyphicon glyphicon-question-sign'></span> Dudas"
+          id: "dudas"
         -
           url: "/asignatura/calificaciones.html"
           nombre: "<span class='glyphicon glyphicon-list-alt'></span> Calificaciones"
+          id: "calificaciones"
       data:
         notas:
           -

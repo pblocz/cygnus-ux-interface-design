@@ -136,7 +136,37 @@
     padding: 0 40px;
     margin: 20px 0; }
 
-
 .saved .glyphicon-heart {
   color: #EA70A3; }
 
+  .dropdown-menu {
+    border: 2px solid #999999;
+    border-top-width: 0px;
+    padding: 0px;
+    max-height: 250px; }
+    .dropdown-menu .event-list {
+      min-width: 200px;
+      padding: 10px 0; }
+      .dropdown-menu .event-list .event {
+        padding: 8px 10px;
+        border-bottom: 1px solid #ccc; }
+        .dropdown-menu .event-list .event:last-child {
+          border-bottom: none; }
+          .dropdown-menu .event-list .event .event-heading {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin: 0; }
+            .dropdown-menu .event-list .event .event-description {
+              font-size: 80%;
+              color: #999999; }
+
+.dotted-list {
+  padding: 0px; }
+  .dotted-list > li {
+    display: inline;
+    white-space: nowrap; }
+    .dotted-list > li:after {
+      content: "-";
+      padding: 3px; }
+      .dotted-list > li:last-child:after {
+        content: none; }

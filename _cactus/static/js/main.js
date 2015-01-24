@@ -193,6 +193,34 @@ $(function(){
                   _.contains( saved,$(this).closest('.media').data('var')));
     });
 
+ // dudas like and unlike
+    $('.media.dudas .btn-save').click(function(){
+	var v = $(this).closest('.media').data('var');
+	$(this).toggleClass('saved');
+	var save = $(this).hasClass('saved');
+
+	if(save) {
+	    drender.setvar('notifications.usuario.perfil.dudas', 
+			   function(a){ a.push(v); return a; });
+	} else {
+	    drender.setvar('notifications.usuario.perfil.dudas', 
+			   function(a){ return a.filter(
+			       function(el) { return el!=v;}); });
+	}
+	
+	// notify the changes
+	var text=(save ? 
+	 "Guardado <a href='#'>{0}</a> en tu perfil" : 
+	 "Eliminado <a href='#'>{0}</a> de tu perfil")
+	    .replace('{0}', drender.getvar(v+".nombre"));
+	$.growl(text);
+    }).each(function() {
+	var saved = drender.getvar('notifications.usuario.perfil.dudas');
+	$(this).toggleClass('saved',
+                  _.contains( saved,$(this).closest('.media').data('var')));
+    });
+
+
 
     // slimscroll para eventos
     $('.dropdown-menu .event-list').each(function(){
