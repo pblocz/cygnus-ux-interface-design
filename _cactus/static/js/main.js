@@ -192,6 +192,14 @@ $(function(){
 	$(this).toggleClass('saved',
                   _.contains( saved,$(this).closest('.media').data('var')));
     });
+
+
+    // slimscroll para eventos
+    $('.dropdown-menu .event-list').each(function(){
+	$(this).slimScroll({
+	    height: "auto",
+	});
+    });
 });
 
 

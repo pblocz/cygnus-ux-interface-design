@@ -3,6 +3,7 @@ $main-offset: 30px;
 
 $notify-color: red;
 $second-color: #999999;
+$light-second-color: lighten($second-color,20%);
 $heart-color: #EA70A3;
 
 /* bootstrap media queries 
@@ -217,3 +218,48 @@ $half-sh: $search-height / 2.0;
 
 // set style for perfil apuntes
 .saved .glyphicon-heart { color: $heart-color; }
+
+
+// event dropdown style
+
+.dropdown-menu {
+    border: 2px solid $second-color;
+    border-top-width: 0px;
+    padding: 0px;
+    max-height: 250px;
+
+    .event-list {
+	min-width: 200px;
+	padding: 10px 0;
+
+	.event {
+	    padding: 8px 10px;
+	    border-bottom: 1px solid $light-second-color;
+	    &:last-child { border-bottom: none; }
+	    .event-heading {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		margin: 0;
+	    }
+	    .event-description {
+		font-size: 80%;
+		color: $second-color;
+	    }
+	}
+    }
+}
+
+
+.dotted-list {
+    padding: 0px;
+    > li{
+	display: inline; 
+	white-space: nowrap;
+
+	&:after { 
+	    content:  "-"; /*\00b7";*/ 
+	    padding: 3px; 
+	}
+	&:last-child:after { content: none; }
+    }
+}

@@ -1,7 +1,7 @@
+<!-- django -->
 {% extends 'asignatura.djhtml' %}
 
 {% block tab_main %}
-
 <div class="row">
 <div class="col-lg-6">
     <div class="input-group search-input">
@@ -12,10 +12,12 @@
     </div><!-- /input-group -->
   </div><!-- /.col-lg-6 -->
 </div>
+
 <div class="row media-nopadding filterable"> 
 
+
  {% for c in asignatura.data.dudas %}
-	<div class="col-sm-6 media">
+	<div class="col-sm-6 media media-middle">
 	    <div class="pull-left">
 		<a href="#" class="pull-left">
 		    <img src="{% static c.img %}" class="media-object"/>
@@ -24,10 +26,9 @@
 	    <div class="media-body pull-left">
 		<h4 class="media-heading">
 		    {{c.titulo}} 
-		</h4><ul class="list-unstyled bar-sep">
-		    <li>{{c.autor}}</li>
-		    <li>{{c.fecha}}</li>
-		    <li>{{c.respuestas|length}} respuestas</li>
+		</h4>
+		<ul class="list-unstyled bar-sep">
+		    <li>{{c.autor}} | {{c.fecha}} | {{c.respuestas|length}} respuestas</li>
 		</ul>
 	    </div>
 	    <div class="pull-right btn-group" role="group">
