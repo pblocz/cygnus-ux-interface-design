@@ -4,9 +4,9 @@
 % description: An example of presentation
 
 %% stylesheet
-% css/.impress-demo.css
 % css/style-2.css
 %%
+% self-contained
 % output-file: presentation.html
 
 
@@ -21,8 +21,8 @@
 # Distintas ideas {x=2000}
 
 - Antiguos alumnos participen en las anteriores asignaturas
-- Subir contenido extra, enlaces, ... 
-- Ver y participar en otros cursos y asignaturas (que no son el tuyo)
+- Subir contenido extra, Ver, ... 
+- enlaces y participar en otros cursos y asignaturas (que no son el tuyo)
 
 # Después de la investigación: Aula virtual [colaborativa]<.crossed> {x=4000}
 
