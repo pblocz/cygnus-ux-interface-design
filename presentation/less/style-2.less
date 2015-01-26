@@ -1,0 +1,245 @@
+@import 'lesshat.less';
+
+// Special slide variables
+@first-slide: ~'first-slide'; // For help text
+
+
+// Body style variables
+@body-bgcolor: #D2E4D3;//#BCD3BE; //#0077B1;
+@body-font: 'PT Sans Regular', sans-serif;
+@body-color: darken(@body-bgcolor,70%);
+
+@body-bgdotscolor: darken(@body-bgcolor,20%);
+@body-background-image: 
+    radial-gradient(@body-bgdotscolor 10%, transparent 15%), 
+    radial-gradient(@body-bgdotscolor 10%, transparent 15%);
+
+@body-text-shadow: none;//1px 1px 2px darken(@body-bgcolor,20%);
+
+
+// Step style variables
+@step-width: 900px; // Leave this way to ensure it is displayed correctly
+@step-padding: 40px;
+@step-font-size: 48px;
+@step-fallback-margin: 20px;
+@step-line-height: 1.5;
+
+@step-inactive-opacity: 0.2;
+
+
+
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url('/home/yo/.fonts/truetype/OpenSans/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "PT Sans Regular";
+    src: url('/home/yo/.fonts/truetype/PTSans/PT_Sans-Web-Regular.ttf');
+}
+
+html {
+    box-shadow: 0 0 100px rgba(0,0,0,0.5) inset;
+    background-size:16px 16px;
+    .background-image(@body-background-image);
+    background-color: @body-bgcolor;
+
+}
+
+body {
+    font-family: @body-font;
+    min-height: 740px;
+
+    margin: 0;
+    height: 100%;
+    color: @body-color;
+    text-shadow: @body-text-shadow;
+
+    .background-image(radial-gradient(center bottom, rgba(230,230,230,0.1) 41%, rgba(104,97,89,0.9) 130%));
+
+    box-shadow: 0 0 100px rgba(0,0,0,0.5) inset;
+    .backface-visibility(hidden);
+}
+
+
+
+
+
+.fallback-message {
+    font-family: sans-serif;
+    line-height: 1.3;
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+
+
+
+
+
+
+.step { // Some style are here to be correcty displayed in fallback
+    position: relative;
+    width: @step-width;
+    padding: @step-padding;
+    margin: @step-fallback-margin auto;
+
+    .box-sizing(border-box);
+
+    font-size: @step-font-size;
+    line-height: @step-line-height;
+}
+
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: @step-inactive-opacity;
+    .transition(opacity 1s);
+}
+
+// Style of active (current) step
+.impress-enabled .step.active { opacity: 1 }
+
+
+
+
+
+.slide() {
+    position:relative;
+    .transition(all 1s 1s);
+}
+
+.slide-left { .slide(); left: 100px; }
+.active .slide-left { left: 0px; }
+
+
+.scale-up { .slide(); .transform(scale(0));}
+.keyframes(~'scale-up,0%{transform:scale(0);} 80%{transform:scale(1.2);} to{transform:scale(1);}');
+.active .scale-up { .animation(scale-up 1s 1s); }
+
+
+.window-left { .slide(); left: 100px; opacity:0;}
+.active .window-left { left: 0px; opacity:1; }
+
+
+@delay-start: 1;
+.wleft-lists(@i) when (@i = 1) { li:nth-child(@{i}) { .transition(all 1s (@delay-start + @i)*1s); } }
+.wleft-lists(@i) when (default()){ 
+    @var: ~'li:nth-child(@{i})';
+    @{var} { .transition(all 1s (@delay-start + @i)*1s); } 
+    .wleft-lists(@i - 1);
+}
+
+
+.active .window-left-lists li { left:0; opacity: 1;}
+.window-left-lists { .wleft-lists(5); 
+    li { left: 100px; opacity:0; position: relative;}
+}
+
+
+
+.circle {
+    border-radius: 100%;
+    width: 500px; height: 500px;
+    background-color: @body-color;
+    color: @body-bgcolor;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    opacity: 0;
+    .transition(opacity 1s 1s);
+}
+.active .circle { opacity: 1; }
+
+.active .circle {
+    .animation(bounce 2s 1s);
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform:translateY(-100%);
+    opacity: 0;
+}
+
+    to {
+    -webkit-transform:translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+.hint {
+    display: none;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+
+    background: rgba(0,0,0,0.5);
+    color: #EEE;
+    text-align: center;
+
+    font-size: 50px;
+    padding: 20px;
+
+    z-index: 100;
+    opacity: 0;
+    .transform(translateY(400px));
+    .transition(opacity 1s, -webkit-transform 0.5s 1s);
+}
+.impress-enabled .hint { display: block }
+
+@impress-on-first-slide: ~'.impress-on-@{first-slide}';
+@{impress-on-first-slide} .hint {
+    opacity: 1;
+    .transform(translateY(0px));
+    .transition(opacity 1s 5s, -webkit-transform 0.5s 4.5s);
+}
+
+/*
+    And as the last thing there is a workaround for quite strange bug.
+    It happens a lot in Chrome. I don't remember if I've seen it in Firefox.
+
+    Sometimes the element positioned in 3D (especially when it's moved back
+    along Z axis) is not clickable, because it falls 'behind' the <body>
+    element.
+
+    To prevent this, I decided to make <body> non clickable by setting
+    pointer-events property to `none` value.
+    Value if this property is inherited, so to make everything else clickable
+    I bring it back on the #impress element.
+
+    If you want to know more about `pointer-events` here are some docs:
+    https://developer.mozilla.org/en/CSS/pointer-events
+
+    There is one very important thing to notice about this workaround - it makes
+    everything 'unclickable' except what's in #impress element.
+
+    So use it wisely ... or don't use at all.
+*/
+.impress-enabled          { pointer-events: none }
+.impress-enabled #impress { pointer-events: auto }
+
+
+
+// custom code
+.crossed {
+    text-decoration: line-through;
+}
