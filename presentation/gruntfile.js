@@ -19,7 +19,7 @@ module.exports = function(grunt) {
         },
         watch: {
             less: {
-                files: "*.less",
+                files: "**/*.less",
                 tasks: ["less"]
             },
             exec: {
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
                 tasks: ["exec"]
             },
             livereload: {
-                files: ["*.html","*.css"],
+                files: ["*.html","**/*.css"],
                 tasks: [],
                 options: { livereload: 35729 },
             },
