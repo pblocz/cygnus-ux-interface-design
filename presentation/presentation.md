@@ -4,9 +4,10 @@
 % description: An example of presentation
 %% stylesheet
 % css/style-2.css
+% css/font-awesome.css
 %%
 % output-file: presentation.html
-% self-contained
+
 
 # Cygnus {rot-y=180 #first-step}
 
@@ -72,7 +73,7 @@
 - Alumno Ingeniería
 - Profesor joven
 
-# Cuestionarios {xy=4455,4000 rot=180 zoom=0.1 .list-unstyled}
+# Cuestionarios {xy=4460,4000 rot=180 zoom=0.1 .list-unstyled}
 
 - uso del campus
 - uso de tecnologías
@@ -80,32 +81,41 @@
 
 
 
-# Conclusiones { xy=4000,-10000 rot=180 }
+# Conclusiones { xy=4270,4050 rot-y=180 data-rotate-z=180 zoom=0.6  }
 
+[]<div .circle-back>
+
+- demasiada funcionalidad
 - no interés en todo lo propuesto
-- restricciones: no desarrollamos todos los actores
+- restricciones: no todos los actores
+
+
+
 
 
 # Modelado de personas { xy=8000,-10000 rot=270}
 
+- 10-12 variables por actor
 - actores principales
-  - **profesor**
-  - **alumno**
+  <div class="list-unstyled">
+	- **profesor**
+	- **alumno**
+  </div>
 
-- 10-12 variables por cada uno
+# ¿Cuestionarios? { xy=8000,-11000 rot=270 .list-unstyled}
 
-# Cómo usamos los cuestionarios? { xy=8000,-8000 rot=270}
-
-- modelizamos esqueletos de personas (generalizaciones) de los cuestionarios
+- `personas virtuales` patrones
 - clasificamos en el modelo de cooper
 
-# ¡Problema! mucho ruido en alumnos { xy=8000,-6000 rot=270}
+# <i class="fa fa-exclamation-triangle"></i> mucho ruido en alumnos { xy=8000,-12000 rot=270 .lg-offset-left-li }
+
 - datos contradictorios
 - datos irrelevantes
 
-# ¡Problema! Pocos datos == pocos patrones { xy=8000,-4000 rot=270}
+#  <i class="fa fa-exclamation-triangle"></i> <i class="fa fa-arrow-down"></i> datos = <i class="fa fa-arrow-down"></i> patrones { xy=8500,-12000 rot=270 .lg-offset-left-li}
 
-- Difícil buscar patrones generales con 2 entrevistas
+- 2 entrevistas de alumnos...
+- 1 entrevista de profesor...
 
 
 # Personas obtenidas { xy=8000,-2000 rot=270}
@@ -186,11 +196,19 @@
 # Datos y funcional refinados {xyz=20900,-900,-2000 rot=-180 .md-offset-left}
 # Bocetos y mockup pencil {xyz=20900,-970,-2000 rot=-180 .md-offset-left}
 
-# Prototipo Axure
+<!-- # Prototipo Axure -->
 
-# Evaluaciones erísticas
+<!-- # Evaluaciones erísticas -->
 
-# Prototipo de final de alta fidelidad
+<!-- # Prototipo de final de alta fidelidad -->
+
+
+# {x=-20000}
+<video width="800px"  controls>
+	<!-- <source src="video.avi" type="video/avi"> -->
+	<source src="video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 <!--
 1. Bocetos iniciales

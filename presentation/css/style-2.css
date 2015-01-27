@@ -265,6 +265,18 @@ lesshat-selector {
 .past.drop {
   opacity: 1;
 }
+ul {
+  padding-left: 20px;
+  list-style: none;
+}
+li {
+  margin-bottom: 10px;
+}
+li:before {
+  font-family: 'FontAwesome';
+  content: '\f101';
+  margin: 0 15px 0 -10px;
+}
 h1 {
   margin: 0 0 10px 0;
 }
@@ -291,6 +303,10 @@ ul.list-unstyled,
   list-style: none;
   padding-left: 0;
 }
+ul.list-unstyled li:before,
+.list-unstyled ul li:before {
+  content: "" !important;
+}
 .back-hidden {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -306,6 +322,12 @@ ul.list-unstyled,
 }
 .md-offset-left > * {
   margin-left: 50px;
+}
+.md-offset-left-li ul {
+  margin-left: 50px;
+}
+.lg-offset-left-li ul {
+  margin-left: 100px;
 }
 .centered h5 {
   text-align: center;
@@ -345,7 +367,7 @@ ul.list-unstyled,
   animation: bounce 2s 1s;
 }
 .past .circle {
-  opacity: 1;
+  opacity: 1!important;
 }
 .crossed {
   -webkit-transition: all 2s 5s;
@@ -367,8 +389,21 @@ ul.list-unstyled,
 .two-columns .column-2 {
   float: right;
 }
+code {
+  border-radius: 10px;
+  background-color: rgba(22, 78, 119, 0.4);
+  color: white;
+  padding: 3px 6px;
+}
 .white {
   color: white;
+}
+.yellow {
+  color: #e5c000;
+}
+.fa-exclamation-triangle {
+  color: #e5c000;
+  font-size: 150%!important;
 }
 #aula-virt-desc.active li:nth-child(1) {
   top: -40px !important;
@@ -508,4 +543,55 @@ ul.list-unstyled,
   -o-transition: all 1s 1s;
   transition: all 1s 1s;
   opacity: 0;
+}
+#conclusiones {
+  opacity: 0;
+  color: white;
+}
+#conclusiones.active {
+  opacity: 1;
+}
+.circle-back {
+  -webkit-transform: scale(1.6666666666666667);
+  -moz-transform: scale(1.6666666666666667);
+  -ms-transform: scale(1.6666666666666667);
+  -o-transform: scale(1.6666666666666667);
+  transform: scale(1.6666666666666667);
+  z-index: -1;
+  position: absolute;
+  top: -4px;
+  left: 151px;
+  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  background-color: #164e77;
+  color: #f5fafd;
+  text-align: center;
+}
+#modelado-de-personas > ul li + li {
+  position: relative;
+}
+#modelado-de-personas > ul li + li ul {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 445px;
+}
+#modelado-de-personas > ul li + li ul li:nth-child(1) {
+  top: 0px !important;
+  position: relative !important;
+  -webkit-transform: rotate(5deg) !important;
+  -moz-transform: rotate(5deg) !important;
+  -ms-transform: rotate(5deg) !important;
+  -o-transform: rotate(5deg) !important;
+  transform: rotate(5deg) !important;
+}
+#modelado-de-personas > ul li + li ul li:nth-child(2) {
+  top: 5px !important;
+  position: relative !important;
+  -webkit-transform: rotate(20deg) !important;
+  -moz-transform: rotate(20deg) !important;
+  -ms-transform: rotate(20deg) !important;
+  -o-transform: rotate(20deg) !important;
+  transform: rotate(20deg) !important;
 }
