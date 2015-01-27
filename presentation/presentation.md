@@ -7,7 +7,7 @@
 % css/font-awesome.css
 %%
 % output-file: presentation.html
-
+% self-contained
 
 # Cygnus {rot-y=180 #first-step}
 
