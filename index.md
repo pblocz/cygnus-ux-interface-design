@@ -344,10 +344,38 @@ Muchas Gracias.
 Cygnus
 
 ## Resultados
+
 ### Ana
+
+El escenario concreto es su mesa de estudio lugar donde suele consultar su campus. Tiene 23 años y estudia CAFYD.
+
+#### Tabla de Reacciones
+
+#### Resumen de Problemas
+
 ### Clara
+
+El escenario concreto es su mesa de estudio, aunque ella suele estudiar de pie, consulta el campus sentada, utiliza rat´on enchufado a su port´atil. Tiene 22 años y estudia enfermer´ia.
+
+#### Tabla de Reacciones
+
+#### Resumen de Problemas
+
 ### Patricia
+
+El escenario es tirados en el suelo, ella siempre estudia en bibliotecas o en el suelo, la postura distendida la ayuda a concentrarse. Acaba de cumplir 20 años y estudia enfermer´ia
+
+#### Tabla de Reacciones
+
+#### Resumen de Problemas
+
 ### Usuario Extra: Estrella
+
+Por los asombrosos resultados de la evaluaci´on de Patricia, decidimos realizar la evaluaci´on con esta usuaria que casualmente naci´o el mismo d´ia y estudia en la misma universidad. Estrella tiene 20 años y estudia Psicolog´ia. El escenario es en la cama donde suele estudiar y tocar la guitarra.
+
+#### Tabla de Reacciones
+
+#### Resumen de Problemas
 
 ## Conclusiones
 ### Eventos de problemas
