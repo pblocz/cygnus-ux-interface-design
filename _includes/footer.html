@@ -1,5 +1,5 @@
 <!-- Bootstrap core JavaScript
-================================================== -->
+	================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
@@ -14,83 +14,99 @@
 
 
 <script type="text/javascript">
-    $("a").smoothScroll();
 
-    $('#markdown-toc').each(function(){
-        var wrapper = '<div class="markdown-toc-wrapper"></div>',
-            toogle = $('<div class="markdown-toc-toggle"><a href="javascript:void(0);">Tabla de contenidos</a></div>'),
-            toc = $(this);
+ (function(){
+     var node = $('#markdown-toc');//.clone();
+     node.css('display','block');
+     $('.sidebar-offcanvas .toc-wrapper').prepend(node);
+ })();
 
-        toogle.click(function(){
-            toc.slideToggle();
-        })
-        toc.wrap(wrapper).before(toogle);
-        toc.hide();
-    });
-    /*
+ $("a").smoothScroll();
+
+ /* $('#markdown-toc').each(function(){
+    var wrapper = '<div class="markdown-toc-wrapper"></div>',
+    toogle = $('<div class="markdown-toc-toggle"><a href="javascript:void(0);">Tabla de contenidos</a></div>'),
+    toc = $(this);
+
+    toogle.click(function(){
+    toc.slideToggle();
+    })
+    toc.wrap(wrapper).before(toogle);
+    toc.hide();
+    }); */
+
+
+
+ /*
     $('.skelleton-container .panel').each(function(){
-        var back_content = $('.skelleton-content',this).html();
-        $(this).click(function(){
-            var back = flippant.flip($(this).parent('.skelleton-container')[0],back_content);
-            $('.flippant-back').click(function(){back.close();});
-        })
+    var back_content = $('.skelleton-content',this).html();
+    $(this).click(function(){
+    var back = flippant.flip($(this).parent('.skelleton-container')[0],back_content);
+    $('.flippant-back').click(function(){back.close();});
+    })
 
     });
-    */
+  */
 
-    (function(win,doc,$){
-        function centerModal() {
-            console.log("sadf");
-            $(this).css('display', 'block');
-            var $dialog = $(this).find(".modal-dialog");
-            var offset = ($(window).height() - $dialog.height()) / 2;
-            // Center modal vertically in window
-            $dialog.css("margin-top", offset);
-        }
+ (function(win,doc,$){
+     function centerModal() {
+         console.log("sadf");
+         $(this).css('display', 'block');
+         var $dialog = $(this).find(".modal-dialog");
+         var offset = ($(window).height() - $dialog.height()) / 2;
+         // Center modal vertically in window
+         $dialog.css("margin-top", offset);
+     }
 
-        var modal_html =
-        '<div id="image-preview" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="image-preview-modal" aria-hidden="true">'+
-            '<div class="modal-dialog"> <div class="modal-content"> <div class="modal-body">'+
-                '<img class="img-responsive">'+
-            '</div> </div> </div>'+
-        '</div>';
+     var modal_html =
+     '<div id="image-preview" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="image-preview-modal" aria-hidden="true">'+
+     '<div class="modal-dialog"> <div class="modal-content"> <div class="modal-body">'+
+     '<img class="img-responsive">'+
+     '</div> </div> </div>'+
+     '</div>';
 
-        // add format to images
-        $('img').wrap('<a class="thumbnail" href="javascript:void(0);"></a>');
-        $('img').click(function(){
-            $('#image-preview img').attr('src',$(this).attr('src'));
-            $('#image-preview').modal('show');
-        })
+     // add format to images
+     $('img').wrap('<a class="thumbnail" href="javascript:void(0);"></a>');
+     $('img').click(function(){
+         $('#image-preview img').attr('src',$(this).attr('src'));
+         $('#image-preview').modal('show');
+     })
 
-        $('body').append($(modal_html));
-        $('.modal').on('show.bs.modal', centerModal);
-        $(window).on("resize", function () {
-            $('.modal:visible').each(centerModal);
-        });
+         $('body').append($(modal_html));
+     $('.modal').on('show.bs.modal', centerModal);
+     $(window).on("resize", function () {
+         $('.modal:visible').each(centerModal);
+     });
 
-    })(window,document,jQuery);
+ })(window,document,jQuery);
 
-    // cooper-vars
-    (function(win,doc,$){
-        $('.cooper-var').each(function(){
-            var max_h = Math.max.apply(this,$('.text',this).map(function(i,v){ return $(v).height();}));
-            var progress_h = $('.progress-bar',this).outerHeight();
+ // cooper-vars
+ (function(win,doc,$){
+     $('.cooper-var').each(function(){
+         var max_h = Math.max.apply(this,$('.text',this).map(function(i,v){ return $(v).height();}));
+         var progress_h = $('.progress-bar',this).outerHeight();
 
-            $('.text',this).each(function(){ $(this).height(max_h); });
-            /*
+         $('.text',this).each(function(){ $(this).height(max_h); });
+         /*
             max_h = Math.max.apply(this,$('.text',this).map(function(i,v){ return $(v).outerHeight();}));
 
             $('.progress',this).css('margin-top',""+(max_h - progress_h)/ 2.0+"px");
             $('.persona',this).each(function(){
-                console.log($(this).outerHeight()/2.0)
-                $(this).css('margin-top',''+((max_h - $(this).outerHeight())/2.0) + "px");
+            console.log($(this).outerHeight()/2.0)
+            $(this).css('margin-top',''+((max_h - $(this).outerHeight())/2.0) + "px");
             })
-            */
-        })
-    })(window,document,jQuery);
+          */
+     })
+ })(window,document,jQuery);
 
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-        $('[data-toggle="popover"]').popover();
-    });
+ $(function () {
+     $('[data-toggle="tooltip"]').tooltip();
+     $('[data-toggle="popover"]').popover();
+ });
+
+ $(document).ready(function () {
+     $('[data-toggle="offcanvas"]').click(function () {
+	 $('.row-offcanvas').toggleClass('active')
+     });
+ });
 </script>
