@@ -378,9 +378,13 @@ Por los asombrosos resultados de la evaluaci´on de Patricia, decidimos realizar
 #### Resumen de Problemas
 
 ## Conclusiones
+
 ### Eventos de problemas
+
 	TODO
+
 ### Posibles pasos siguientes
+
 El proceso de evaluación con usuarios, consideramos ha sido todo un éxito. Comenzamos evaluando a Ana y Clara dos chicas que llevan tiempo en la universidad y que se podría decir que tienen experiencia con campus virtuales. Las herramientas más novedosas en la interfaz les resultó complicado de entender, una vez se explicó el concepto supieron utilizarlo sin problemas. Mientras que la evaluación posterior a Patricia, que esta en segundo de grado, resultó poder realizar todas las acciones a la primera. Dada esta discordancia de resultados, decidimos probar con otro usuario de la misma edad (como hemos explicado anteriormente) que Patricia (nacida el mismo día), Estrella, que está en segundo de Psicología y los resultados como puede observarse son similares. Por eso, consideramos los cambios que describiremos más adelante, para poder soportar nuevos alumnos y alumnos veteranos. Estos dos tipos de alumnos no han podido ser identificados en la fase de investigación, aunque los teníamos como hipótesis de personas, por los motivos que se explican en ese apartado. Por ello las soluciones que se plantean están más orientadas a solucionar los problemas de los veteranos con ayudas visuales.
 
 + Para el problema de identificación de iconos, probablemente se cambiaría el icono de subir al "cloud" con uno similar al de descarga, y el resto se mantendrían aunque se pudiesen perfilar los diseños, con líneas más finas. El icono de bookmark se mantendría pero dejando claro que no es un favorito, sino guardar en tu perfil, en ningún lado se haría referencia a la palabra favorito.
