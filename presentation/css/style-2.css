@@ -317,6 +317,15 @@ ul.list-unstyled li:before,
 .big h1 {
   font-size: 100px;
 }
+.normal h1 {
+  font-size: 90%;
+}
+.sm-offset-top > * {
+  margin-top: 20px;
+}
+.md-offset-top > * {
+  margin-top: 50px;
+}
 .sm-offset-left > * {
   margin-left: 20px;
 }
@@ -401,9 +410,21 @@ code {
 .yellow {
   color: #e5c000;
 }
+.green {
+  color: #10B032;
+}
+.red {
+  color: #DD0910;
+}
 .fa-exclamation-triangle {
   color: #e5c000;
   font-size: 150%!important;
+}
+.fa-check {
+  color: #10B032;
+}
+.fa-times {
+  color: #DD0910;
 }
 #aula-virt-desc.active li:nth-child(1) {
   top: -40px !important;
@@ -594,4 +615,198 @@ code {
   -ms-transform: rotate(20deg) !important;
   -o-transform: rotate(20deg) !important;
   transform: rotate(20deg) !important;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+.persona {
+  background: white;
+}
+.persona img {
+  max-width: 400px;
+  max-height: 400px;
+  overflow: hidden;
+}
+.persona figure {
+  position: relative;
+}
+.persona figcaption {
+  display: none;
+}
+#diego-garcía,
+#eva-maría,
+#juan-martín {
+  padding: 80px;
+  border-radius: 10px;
+  border: 4px solid #164e77;
+}
+#diego-garcía h1:not(.show),
+#eva-maría h1:not(.show),
+#juan-martín h1:not(.show) {
+  display: none;
+}
+#diego-garcía h1,
+#eva-maría h1,
+#juan-martín h1 {
+  float: right;
+  display: inline-block;
+}
+#diego-garcía .subtext,
+#eva-maría .subtext,
+#juan-martín .subtext {
+  display: inline-block;
+  float: right;
+}
+#diego-garcía .alumno-img,
+#eva-maría .alumno-img,
+#juan-martín .alumno-img {
+  border-radius: 5px;
+  border: 4px solid #164e77;
+  padding: 2px;
+  box-sizing: content-box;
+  background-repeat: no-repeat;
+  background-position: 2px;
+  width: 225px;
+  height: 225px;
+  background-color: white;
+  background-image: url('../img/alumno.jpg');
+  background-reapeat: none;
+  background-size: 225px 225px;
+  display: inline-block;
+  float: left;
+}
+#diego-garcía .resto,
+#eva-maría .resto,
+#juan-martín .resto {
+  margin-top: 10px;
+}
+#diego-garcía .resto,
+#eva-maría .resto,
+#juan-martín .resto {
+  margin-top: 40px;
+}
+#section-8.active #entrevistas-1 li:nth-child(1) {
+  top: -30px !important;
+  position: relative !important;
+  -webkit-transform: rotate(-15deg) !important;
+  -moz-transform: rotate(-15deg) !important;
+  -ms-transform: rotate(-15deg) !important;
+  -o-transform: rotate(-15deg) !important;
+  transform: rotate(-15deg) !important;
+}
+#section-8.active #entrevistas-1 li:nth-child(2) {
+  top: 0px !important;
+  position: relative !important;
+  -webkit-transform: rotate(0deg) !important;
+  -moz-transform: rotate(0deg) !important;
+  -ms-transform: rotate(0deg) !important;
+  -o-transform: rotate(0deg) !important;
+  transform: rotate(0deg) !important;
+}
+#section-8.active #entrevistas-1 li {
+  opacity: 1;
+}
+#entrevistas-1 > * {
+  display: table-cell;
+}
+#entrevistas-1 h2 {
+  vertical-align: middle;
+  padding-right: 50px;
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+#entrevistas-1 ul {
+  position: relative;
+  top: -40px;
+}
+#entrevistas-1 li {
+  position: relative;
+  -webkit-transform: rotate(0deg) !important;
+  -moz-transform: rotate(0deg) !important;
+  -ms-transform: rotate(0deg) !important;
+  -o-transform: rotate(0deg) !important;
+  transform: rotate(0deg) !important;
+  -webkit-transition: all 1s 1s;
+  -moz-transition: all 1s 1s;
+  -o-transition: all 1s 1s;
+  transition: all 1s 1s;
+  opacity: 0;
+}
+#section-8.active #personas-1 li:nth-child(1) {
+  top: 0px !important;
+  position: relative !important;
+  -webkit-transform: rotate(0deg) !important;
+  -moz-transform: rotate(0deg) !important;
+  -ms-transform: rotate(0deg) !important;
+  -o-transform: rotate(0deg) !important;
+  transform: rotate(0deg) !important;
+}
+#section-8.active #personas-1 li:nth-child(2) {
+  top: 30px !important;
+  position: relative !important;
+  -webkit-transform: rotate(15deg) !important;
+  -moz-transform: rotate(15deg) !important;
+  -ms-transform: rotate(15deg) !important;
+  -o-transform: rotate(15deg) !important;
+  transform: rotate(15deg) !important;
+}
+#section-8.active #personas-1 li {
+  opacity: 1;
+}
+#personas-1 {
+  margin-top: 40px;
+}
+#personas-1 > * {
+  display: table-cell;
+}
+#personas-1 h2 {
+  vertical-align: middle;
+  padding-right: 50px;
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+#personas-1 ul {
+  position: relative;
+  top: 50px;
+}
+#personas-1 li {
+  position: relative;
+  -webkit-transform: rotate(0deg) !important;
+  -moz-transform: rotate(0deg) !important;
+  -ms-transform: rotate(0deg) !important;
+  -o-transform: rotate(0deg) !important;
+  transform: rotate(0deg) !important;
+  -webkit-transition: all 1s 1s;
+  -moz-transition: all 1s 1s;
+  -o-transition: all 1s 1s;
+  transition: all 1s 1s;
+  opacity: 0;
+}
+body.impress-on-no-se-quiere-colaboración {
+  background-color: #061621;
+  -webkit-transition: background-color 1s 0s;
+  -moz-transition: background-color 1s 0s;
+  -o-transition: background-color 1s 0s;
+  transition: background-color 1s 0s;
+}
+body.impress-on-no-se-quiere-colaboración .active {
+  color: white;
+}
+#section-11 {
+  opacity: 0;
+}
+#section-11.active,
+#section-11.past {
+  opacity: 1!important;
+}
+.step.img img {
+  max-width: 800px;
+  max-height: 800px;
 }

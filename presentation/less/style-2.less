@@ -317,6 +317,12 @@ ul.list-unstyled, .list-unstyled ul {
     h1 { font-size: 100px; }
 }
 
+.normal { h1 { font-size: 90%; } }
+
+
+.sm-offset-top > * { margin-top: 20px; }
+.md-offset-top > * { margin-top: 50px; }
+
 
 .sm-offset-left > * { margin-left: 20px; }
 .md-offset-left > * { margin-left: 50px; }
@@ -374,10 +380,13 @@ code {
 
 .white { color: white; }
 .yellow { color: darken(#FED500,5%); }
-
+.green { color: #10B032; }
+.red { color: #DD0910; }
 
 // specific markup
 .fa-exclamation-triangle { .yellow; font-size: 150%!important; }
+.fa-check { .green; }
+.fa-times { .red; }
 
 #aula-virt-desc{
 
@@ -469,3 +478,120 @@ code {
 	.rot_(1,2,5deg,15deg,0px,5px)!important;    
     }
 }
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.persona {
+    img { 
+	max-width: 400px;
+	max-height: 400px;
+	overflow: hidden;
+    }
+    figure { position: relative; }
+    figcaption { display: none; }
+
+    background: white;
+}
+
+
+#diego-garcía, #eva-maría, #juan-martín {
+    padding: 80px;
+    border-radius: 10px;
+    border: 4px solid @body-color;
+
+    h1:not(.show) { display: none; }
+    
+    h1 {
+	float: right;
+	display: inline-block;
+    }
+    .subtext {
+	display: inline-block;
+	float: right;	
+    }
+    .alumno-img {
+	border-radius: 5px;
+	border: 4px solid @body-color;
+	padding: 2px;
+	box-sizing: content-box;
+	background-repeat: no-repeat;
+	background-position: 2px;
+	width: 225px;
+	height: 225px;
+	background-color: white;
+	background-image: url('../img/alumno.jpg');
+	background-reapeat: none;
+	background-size: 225px 225px;
+	display: inline-block;
+	float: left;
+    }
+    .resto {
+	margin-top: 10px;
+
+    }
+    .resto { margin-top: 40px; }
+}
+
+
+
+
+
+#section-8.active { 
+    #entrevistas-1 {
+	.rot_(1,2,-15deg,15deg,-30px,30px)!important; 
+	li { opacity: 1; }
+    }
+}
+
+
+#entrevistas-1 {
+    > * { display: table-cell;}
+    h2 { vertical-align: middle; padding-right: 50px; .transform(rotate(-7deg));}
+    ul { position: relative; top: -40px; }
+
+    li { 
+	position: relative; 
+	.transform(rotate(0))!important; .transition(all 1s 1s); 
+	opacity: 0;
+    }
+}
+
+
+#section-8.active { 
+    #personas-1 {
+	.rot_(1,2,0deg,15deg,0px,30px)!important; 
+	li { opacity: 1; }
+    }
+}
+#personas-1 {
+    margin-top: 40px;
+    > * { display: table-cell;}
+    h2 { vertical-align: middle; padding-right: 50px; .transform(rotate(7deg));}
+    ul { position: relative; top: 50px; }
+
+    li { 
+	position: relative; 
+	.transform(rotate(0))!important; .transition(all 1s 1s); 
+	opacity: 0;
+    }
+}
+
+
+
+
+body.impress-on-no-se-quiere-colaboración {
+    background-color: darken(@body-color,20%);
+    .transition(background-color 1s 0s);
+    .active { color: white;} 
+}
+
+
+#section-11 { 
+    opacity: 0; 
+    &.active, &.past { opacity: 1!important; }
+}
+
+.step.img { img { max-width: 800px; max-height: 800px; } }

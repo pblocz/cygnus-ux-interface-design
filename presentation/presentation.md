@@ -95,6 +95,7 @@
 
 # Modelado de personas { xy=8000,-10000 rot=270}
 
+- modelo de cooper
 - 10-12 variables por actor
 - actores principales
   <div class="list-unstyled">
@@ -104,7 +105,7 @@
 
 # ¿Cuestionarios? { xy=8000,-11000 rot=270 .list-unstyled}
 
-- `personas virtuales` patrones
+- `personas virtuales`
 - clasificamos en el modelo de cooper
 
 # <i class="fa fa-exclamation-triangle"></i> mucho ruido en alumnos { xy=8000,-12000 rot=270 .lg-offset-left-li }
@@ -118,74 +119,124 @@
 - 1 entrevista de profesor...
 
 
-# Personas obtenidas { xy=8000,-2000 rot=270}
+# Personas obtenidas { xy=7000,-13000 rot=180 }
 
-# Diego García, alumno universitario { xy=8000,000 rot=270}
+# Diego García { xy=6000,-13000 rot=180 .persona }
 
-	TODO: poner alguna característica
+<div class="clearfix">
+<h1 class="show">Diego García</h1>
+[]<div .alumno-img>
+[Alumno universitario]<div .subtext>
+</div>
 
-# Eva María { xy=8000,2000 rot=270}
-	TODO: poner alguna característica
+## {.resto}
+- usa el cv para material del profesor
+- habla con el profesor directamente
+- sobre todo revisa notificaciones
 
-# Juan Martín { xy=8000,4000 rot=270}
-	TODO: poner alguna característica
+
+# Eva María { xy=4500,-13000 rot=180 .persona }
+
+<div class="clearfix">
+<h1 class="show">Eva María</h1>
+[]<div .alumno-img>
+[Profesora experimentada]<div .subtext>
+</div>
+
+## {.resto}
+- muchos años de docencia
+- usa poco la tecnología
+- usa el cv para subir apuntes
 
 
-# { xy=8000,6000 rot=270}
 
-## Entrvistas
-2 Alumnos | 1 profesor
+# Juan Martín { xy=3000,-13000 rot=180 .persona }
 
-## Personas
-1 Alumno | 2 profesores
+<div class="clearfix">
+<h1 class="show">Juan Martín</h1>
+[]<div .alumno-img>
+[Profesora joven]<div .subtext>
+</div>
+
+## {.resto}
+- uso cotidianas el ordenador
+- prepara y sube su material
+- revisa el correo y cv a menudo
+
+
+# { xy=3000,-13000 rot=180 zoom=5  }
+
+## Entrevistas {#entrevistas-1 .list-unstyled}
+- 2 Alumnos 
+- 1 Profesor
+
+
+## Personas {#personas-1 .list-unstyled}
+- 1 Alumno
+- 2 Profesores
+
 
 # ¿Por qué? { xy=8000,8000 rot=270}
 
-- cuestionarios de profesores muy esclarecedores
+## { .md-offset-left}
+- cuestionarios de profesores <i class="fa fa-check"></i>
+- cuestionarios de alumnos <i class="fa fa-times"></i>
+
+## {.list-unstyled  .sm-offset-top}
 - 2 *profesores virtuales* extras
-- 0 *alumnos virtuales*
-
-## Más patrones de profesor que alumnos
-
-
-# Nos hemos quedado sin idea { z=1000 zoom=10 }
-
-## ¿Ahora qué?
-
-# Continuamos a ver a donde llegamos { yz=3000,1000 zoom=10 }
 
 
 
-# Problemas y visiones { xy=10000,10000}
+# Conclusiones { xy=8000,6500 rot=270 }
 
-# Alumno { xy=10000,8000}
+# No se quiere colaboración <i class="fa fa-frown-o"></i> { z=1000 zoom=10 }
 
-# Revisa el campus muy a menudo para no perderse nada { xy=10000,7750}
-# Comunicarse y resolver dudas rápido { xy=10000,7500}
-# Resumen: Que me facilite la vida, no que me estorbe{ xy=10000,7250}
+## ¡¿Ahora qué?! { style="text-align: center;" }
 
-
-# Profesores { xy=10000,6000}
-
-# Repetir las mismas acciones a menudo { xy=10000,5750}
-# Notificaciones y mensajes?! { xy=10000,5500}
-# Resumen: Lo que hago ahora quiero hacerlo mejor { xy=10000,5250}
+#  { yz=3000,1000 zoom=10 }
+## A donde nos lleve la UX...
 
 
 
+#  { xy=10000,10000 rot=180}
+## Problemas/visiones {style="text-align: center;"} 
+## y {style="text-align: center;"}
+## Requisitos { style="text-align: center;"} 
+
+# Diego { xy=10000,7900 rot=180 .big}
+
+# No perderse nada nuevo { xy=10000,7800 rot=180 .normal}
+# No se le pasen entregas { xy=10000,7750 rot=180 .normal}
+# Poder subir y bajar documentos rápido { xy=10000,7700 rot=180 .normal .normal}
+
+
+# Eva y Juan { xy=10000,6000 rot=180 .big}
+
+# Subir apuntes y reutilizarlos { xy=10000,5850 rot=180 .normal}
+# Organizar clases, tutorías,... { xy=10000,5800 rot=180 .normal }
+# Calificar y corregir { xy=10000,5750 rot=180 .normal}
+
+
+  
 
 
 # Framework de diseño {x=20000 .big}
 
 # Aprox. 2 iteraciones {xy=20100,100}
 # [¿!Aproximadamente?!]<.drop> {xy=20100,100 style="margin-top:100px;"}
-# [Desarrollo continuo y fluido]<.drop> {xy=20100,100 style="margin-top:200px;"}
+# [Trabajado sin segmentar]<.drop> {xy=20100,100 style="margin-top:200px;"}
 
 
 # Primera iteración {xz=20800,-1000 rot=-90 .big}
 
 # Bocetos iniciales {xz=20900,-1000 rot=-90 .md-offset-left}
+# {xz=22900,-1000 rot=-90  .img .back-hidden}
+![](./img/boceto.jpg)
+
 # Elementos de datos {xz=20970,-1000 rot=-90 .md-offset-left}
+# {xz=23900,-1000 rot=-90  .img .back-hidden}
+![](./img/datos.jpeg)
+
 # Elementos visuales {xz=21040,-1000 rot=-90 .md-offset-left}
 
 # [Puesta en común]<.drop> { xyz=20800,-400,-1300 rot=-150 }
@@ -194,13 +245,20 @@
 # Segunda iteración {xyz=20900,-800,-2000 rot=-180 .big}
 
 # Datos y funcional refinados {xyz=20900,-900,-2000 rot=-180 .md-offset-left}
+# {xyz=20900,-2900,-2000 rot=-180 .md-offset-left}
+![](./img/requisitos_datos.png)
+
 # Bocetos y mockup pencil {xyz=20900,-970,-2000 rot=-180 .md-offset-left}
 
-<!-- # Prototipo Axure -->
 
-<!-- # Evaluaciones erísticas -->
+# Implementación { x=-10000 .big}
+# Prototipo Axure  {xy=-10000,200 }
+# Evaluaciones heurísticas {xy=-10000,400 }
+- 2 evaluadores
+- Observaciones de uso
+- Mejoras al diseño
 
-<!-- # Prototipo de final de alta fidelidad -->
+# Prototipo de alta fidelidad {xy=-20000,-300 }
 
 
 # {x=-20000}
