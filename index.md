@@ -238,3 +238,140 @@ mostrar producto / fotos
 - recordad que luego los leeremos a fondo
 
 -->
+
+# Evaluaciones de expertos
+
+## Plan
+	TODO
+
+## Resultados
+	Por subir
+
+## Conclusiones
+	TODO
+
+# Evaluaciones de usuarios
+
+## Plan 
+Queremos proceder a realizar la evaluación porque hemos terminado dos fases de diseño y desarrollado un prototipo de alta fidelidad. Queremos dar paso al desarrollo de la aplicación, pero para ello queremos verificar que el prototipo real tiene un diseño que agrade a usuarios reales.
+
+Por ello nos planteamos una serie de preguntas a las que queremos dar respuesta, que son:
+
+- ¿Los usuarios saben encontrar los materiales y la información relacionada con una asignatura?
+- ¿Los usuarios entienden el funcionamiento de los bookmarks (favoritos)?
+- ¿Los usuarios encuentran sus calificaciones o resumen general de las mismas?
+- ¿Los usuarios ven las notificaciones?
+- ¿Los usuarios entienden el sistema de chat?
+- ¿Los usuarios son capaces de compartir contenido y valorar otros contenidos?
+
+Para esto hemos seleccionado a unos usuarios que se asemejan a Diego García, son tres chicas universitarias de enfermería y de CAFYD (antiguo inef). No se les va a realizar un cuestionario previo, porque las conocemos con anterioridad suficiente, en los tres casos han pedido en alguna ocasión ayuda con su campus a uno de nosotros y sabemos que se asemejan suficiente a Diego García (salvo el género).
+
+Para proceder con la evaluación vamos a pedir una serie de tareas a nuestros usuarios:
+
+0. Movimiento libre (poco tiempo), vuelve a inicio.
+A. Consultar las calificaciones de todas las asignaturas.
+B. Marcar como favorito, un apunte de Análisis Numérico.
+C. Subir un archivo a Análisis Numérico.
+D. Consultar que es PC en análisis Numérico y votar las respuestas.
+E. Ver el calendario de entregas de este mes.
+F. Escribir a un miembro del grupo4 de DSI.
+G. Consultar detalles de una entrega.
+H. Consultar tus datos guardados.
+
+La tarea "0" la realizarán los tres usuarios, con ella queremos comprobar si las notificaciones sugieren suficiente como para abrirlas, o el mensaje pendiente. 
+
+El resto de tareas se repartirá del siguiente modo:
+
+Ana: A-B-C-F-G-H
+Patricia: B-E-F-G-H
+Clara: A-B-C-D-F-H
+
+Es decir, todos harán B,F y H por ser las tareas que cubren los casos más demandados.
+
+Las sesiones se realizarán en su zona de estudio habitual con un ordenador portátil, por lo que usarán trackpad salvo que posean ratón propio. Para recoger las evaluaciones grabaremos la aplicación, al usuario y le pediremos que detalle que va haciendo. Tendrá a su lado un moderador que cubrirá las carencias del prototipo. Los observadores no hablarán en ningún momento con los usuarios hasta una vez finalizada la prueba, se ha verificado que en las salas de estudio elegidas caben los observadores sin interferir.
+
+Las carencias del prototipo que se prevé aparezcan, son:
+1- Subir un archivo no surtirá efecto.
+2- Votar, no cambiará el número de votos.
+3- No se abrirá una ventana de chat rápida. 
+4- No se producirá un cambio de vista de las listas.
+5- Los eventos del calendario, no se corresponden con la realidad.
+6- No existen archivos que descargar.
+
+Además el moderador tomará nota de los eventos más importantes sin necesidad de apuntar el minuto exacto para evitar distracciones. Y animará al usuario a no dejar de hablar detallando que hace, piensa y siente.
+
+Posteriormente el moderador, preguntará motivos de las acciones que le hayan llamado la atención. Esto se hará de manera distendida merendando. Cabe la posibilidad de hacer este último paso, con Clara y Ana al mismo tiempo, dado que se ha quedado en el mismo lugar por limitación de tiempo, pero la evaluación si será separada (primero una y luego la otra sin capacidad de influenciarse).
+
+La observación y análisis de los resultados consistirá en evaluar las tareas completadas sin ayuda y las que se ha recibido alguna ayuda (no esperada por las carencias). Se anotarán iconos no comprendidos. Y los caminos no correctos (o numero de vueltas dadas) hasta que el usuario completa cada tareas.
+
+### Documento para el usuario
+Querida [NOMBRE]:
+
+Lo primero agradecerte que quieras colaborar con nosotros en el
+proceso de evaluación del prototipo de Cygnus. Este prototipo ha sido
+desarrollado con todo nuestro cariño para facilitar el acceso a la
+información relevante e interesante de las asignaturas de un
+universitario. 
+
+Para ponerte en situación, tu estas matriculada en tres asignaturas,
+DSI, IS y ANUM (luego te digo que significa). Y vas a realizar las
+siguientes tareas, por favor supón que es un día normal de
+universidad. Y no hagas caso ni de los observadores, e intenta actuar
+como si el moderador no estuviese. Sabes que el proceso se grabará la
+pantalla y tus reacciones, así como el sonido para posteriormente
+analizarlo. Agradecemos que nos cuentes constantemente como te
+sientes, incluso si es nervios y que nos narres en la medida de lo
+posible, porque realizas ciertas acciones. Por ejemplo, si tu tarea
+consiste en ponerte un sándwich, irías a la cocina y dirías estoy
+yendo a la cocina porque es allí donde tengo la comida, cogerías el
+pan y dirías cojo primero el pan porque es donde va el contenido y en
+ese sentido lo demás. De todos modos tranquila, todo lo que digas será
+analizado solo por nosotros, nadie más verá estos vídeos y audios. Por
+favor, no tengas miedo en criticar. 
+
+Simplemente se tu misma, pero hablando sola en voz alta.
+
+Tus tareas son:
+
+[TAREAS SEGUN
+
+Ana: A-B-C-F-G-H
+Patricia: B-E-F-G-H
+Clara: A-B-C-D-F-H
+}
+
+Muchas Gracias.
+Cygnus
+
+## Resultados
+### Ana
+### Clara
+### Patricia
+### Usuario Extra: Estrella
+
+## Conclusiones
+### Eventos de problemas
+	TODO
+### Posibles pasos siguientes
+El proceso de evaluación con usuarios, consideramos ha sido todo un éxito. Comenzamos evaluando a Ana y Clara dos chicas que llevan tiempo en la universidad y que se podría decir que tienen experiencia con campus virtuales. Las herramientas más novedosas en la interfaz les resultó complicado de entender, una vez se explicó el concepto supieron utilizarlo sin problemas. Mientras que la evaluación posterior a Patricia, que esta en segundo de grado, resultó poder realizar todas las acciones a la primera. Dada esta discordancia de resultados, decidimos probar con otro usuario de la misma edad (como hemos explicado anteriormente) que Patricia (nacida el mismo día), Estrella, que está en segundo de Psicología y los resultados como puede observarse son similares. Por eso, consideramos los cambios que describiremos más adelante, para poder soportar nuevos alumnos y alumnos veteranos. Estos dos tipos de alumnos no han podido ser identificados en la fase de investigación, aunque los teníamos como hipótesis de personas, por los motivos que se explican en ese apartado. Por ello las soluciones que se plantean están más orientadas a solucionar los problemas de los veteranos con ayudas visuales.
+
++ Para el problema de identificación de iconos, probablemente se cambiaría el icono de subir al "cloud" con uno similar al de descarga, y el resto se mantendrían aunque se pudiesen perfilar los diseños, con líneas más finas. El icono de bookmark se mantendría pero dejando claro que no es un favorito, sino guardar en tu perfil, en ningún lado se haría referencia a la palabra favorito.
+
++ Para el problema de añadir archivos, dudas y subir contenidos. La solución iría por agrandar el icono y darle color, habría que probar el resultado de estas medida. Otra solución podría ser quitar el icono y poner directamente la palabra.
+
++ Para el problema de utilizar la barra de búsqueda para todo menos buscar, podríamos plantear nuevos diseños de barra, como redondear los bordes o moverlo al lado derecho, hacer que no ocupe una posición tan principal para una función no primaria.
+
++ Para el problema de utilizar grupos en el chat, se buscará unificar la vista completa y la vista miniatura del chat, permitiendo en ambos lados la navegación por pestañas o combinar todas las pestañas, esta decisión habría que evaluarla, pero si que se unificarían por consistencia.
+
++ Para el problema de la no utilización del chat en miniatura, moveríamos el icono de maximizar o cambiar los colores de modo que no sea ese el botón que primero se pincha, sin desplegar el chat en pequeño.
+
++ Para el problema de consultar todas las notas de golpe con scroll, seguramente se pueda solucionar fácilmente, poniendo dos columnas como en el resto de páginas o iniciando la vista con el acordeón agrupado en vez de expandido, dado que nadie ha usado esa opción. Esta decisión debería pasar por un proceso de diseño.
+
++ Para el problema de identificación del perfil, podría valer con colocar "Mi perfil" en algún punto. Además habría que añadir las opciones de configurar y cerrar sesión dentro del desplegable y seguramente en la vista del perfil. 
+
++ Por último, para el problema de la no identificación de los detalles de una práctica, se puede poner la palabra "descripción" o buscar una forma de indicar eso, cambiando los colores o posición o forma del botón enunciado. Además habría que añadir algo que indicase el estado de la entrega sin necesidad de abrirla, dado que el botón gris si esta entregada no se aprecia frente al negro.
+
+Así no nos hemos planteado solucionar el concepto de guardado, ni de compartir, dado que los usuarios que comiencen a usar esta herramienta sin haber utilizado otras o empezando a utilizarlas por primera vez, podrán empezar asociando al campus virtual el concepto de compartir, colaborar y ser activo en el mismo, olvidándose de la posición pasiva que se tiene ahora mismo por las limitaciones del sistema.
+
+
+
