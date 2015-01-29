@@ -122,6 +122,7 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 	Qué entrevistas hemos hecho, por qué y un resumen de resultados
 
 ### Encuestas
+
     {% include include_id page_id='resumen-encuestas' %}
 
 
