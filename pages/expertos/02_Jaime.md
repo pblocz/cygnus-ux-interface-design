@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Informe Individual Ev. heurística
-id: adriel
+id: jaime
 excerpt: Experto en UX.
 ---
 
@@ -16,7 +16,7 @@ excerpt: Experto en UX.
 | *Hw/Sw* | Windows7, Navegador Chrome |
 | *Grabación* | [video_jaime]({{site.base}}/assets/documents/Experto_jaime.) |
 
-### Impresiones Positivas
+## Impresiones Positivas
 
 La aplicación tiene un diseño agradable y sencillo de usar.
 
@@ -25,7 +25,7 @@ Dentro de asignatura, me ha gustado mucho la incorporación de la opción de que
 
 Al haber pocos cambios de pantalla entre interacciones se favorece la navegación, y tanto usuarios noveles como más experimentados no encontrarían ningún problema a la hora de usarlo
 
-### Problemas detectados
+## Problemas detectados
 
 | *Nombre* | No se permite filtrar la búsqueda de asignaturas favoritas |
 | *Descripción* | En el perfil de usuario, en el apartado de apuntes favoritos, al querer buscar unos apuntes en particular no se permite filtrar por nombre, profesor, asignatura... |

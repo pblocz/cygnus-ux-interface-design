@@ -119,17 +119,19 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 {% include include_id page_id='analisis-competencia' %}
 
 ### Entrevista
-	Qué entrevistas hemos hecho, por qué y un resumen de resultados
+
+    Qué entrevistas hemos hecho, por qué y un resumen de resultados
 
 ### Encuestas
-    {% include include_id page_id='resumen-encuestas' %}
+
+{% include include_id page_id='resumen-encuestas' %}
 
 
 # Modelado
 
 ## Plan de Modelado
 
-	Explicar aquí la metodología usada
+{% include include_id page_id='plan-modelado' %}
 
 ## Resultados
 
@@ -165,7 +167,7 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 ## Plan de Requisitos
 
-   Que alguien escriba esto
+{% include include_id page_id='plan-requisitos' %}
 
 ## Resultados
 
