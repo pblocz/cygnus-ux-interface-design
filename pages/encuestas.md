@@ -6,13 +6,13 @@ id: resumen-encuestas
 
 Las personas encuestadas tienen las siguientes características:
 -Sexo:
-({{site.baseurl}}/assets/img/Gabriel_Boric.jpg)
+![Sexo]({{site.baseurl}}/assets/img/chart1.png)
 -Posición académica:
-({{site.baseurl}}/assets/img/Gabriel_Boric.jpg)
--Campo:
-({{site.baseurl}}/assets/img/Gabriel_Boric.jpg)
+![Posición Académica]({{site.baseurl}}/assets/img/chart2.png)
+-Campo (Rama):
+![Rama]({{site.baseurl}}/assets/img/chart3.png)
 -Edad:
-({{site.baseurl}}/assets/img/Gabriel_Boric.jpg)
+![Edad]({{site.baseurl}}/assets/img/chart4.png)
 
 De esta manera, se tiene una población de estudio lo más diversa posible.
 El modelado de personas se realizará a partir de las conclusiones que hemos obtenido a partir del cuestionario y que se exponen a continuación: 
