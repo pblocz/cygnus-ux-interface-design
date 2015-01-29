@@ -60,7 +60,7 @@ Herramientas de intercambio de apuntes:
 A continuación se muestra una tabla comparativa con información sobre cómo cubre cada producto de la competencia las dimensiones identificadas.
 
 
-| *Plataforma*   	  	  | *Moodle*  			| *Sakai*       	   	      	| *WebCT*  	      	       	|
+| *Plataforma*   	  	  | *Moodle*  			| *Sakai*       	   	      	| **WebCT**  	      	       	|
 | Gestión de apuntes	  | Subidos por el profesor	| Subidos por el profesor	| Subidos por el profesor	|
 | Permanencia		  | Un año  	   		| Un año      	 		| Un año      	 		|
 | Material docente	  | Apuntes, bibliografía, exámenes | Apuntes, bibliografía, exámenes | Apuntes, bibliografía, exámenes|

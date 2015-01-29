@@ -5,13 +5,14 @@ id: adriel
 excerpt: Experto en UX.
 ---
 
+# Informe Individual
 
 | *Nombre* | Adriel Saa Romano |
 | *Edad* | 24 |
 | *Sexo* | Hombre |
 | *Fecha* | 12/01/2015 |
 | *Hora* | 12:00 - 12:30 |
-| *Prototipo* | [Axure] |
+| *Prototipo* | Axure |
 | *Hw/Sw* | Windows7, Navegador Chrome |
 | *Grabación* | [video_adriel]({{site.base}}/assets/documents/Experto_adriel.) |
 

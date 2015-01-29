@@ -245,7 +245,8 @@ mostrar producto / fotos
 	TODO
 
 ## Resultados
-	{% include panel-show.html panel_show_folder="expertos" %}
+
+{% include panel-show.html panel_show_folder="expertos" %}
 
 Además les observamos y anotamos algunos de los comentarios que realizaban en voz alta:
 

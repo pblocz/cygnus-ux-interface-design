@@ -5,6 +5,7 @@ id: adriel
 excerpt: Experto en UX.
 ---
 
+# Informe Individual
 
 | *Nombre* | Jaime Mayordomo Moreno |
 | *Edad* | 24 |
