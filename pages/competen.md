@@ -61,7 +61,6 @@ A continuación se muestra una tabla comparativa con información sobre cómo cu
 
 
 | Plataforma   	  	  | Moodle  			| Sakai       	   	      	| WebCT  	      	       	|
-|:-:			  |:-:				|:-:				|:-:				|
 | Gestión de apuntes	  | Subidos por el profesor	| Subidos por el profesor	| Subidos por el profesor	|
 | Permanencia		  | Un año  	   		| Un año      	 		| Un año      	 		|
 | Material docente	  | Apuntes, bibliografía, exámenes | Apuntes, bibliografía, exámenes | Apuntes, bibliografía, exámenes|
@@ -70,7 +69,6 @@ A continuación se muestra una tabla comparativa con información sobre cómo cu
 
 
 | Plataforma | PatataBrava | RinconDelVago | Google Drive | Drop Box |
-|:-:	  |:-:	|:-:	|:-:	|:-:	|
 | Formato | PDF | PDF, DOC | Cualquiera | Cualquiera |
 | Tipo | Apuntes | Apuntes, trabajos, exámenes | Cualquiera | Cualquiera |
 | Límite espacio | 10 Mb | 10 Mb | 15 Gb | 2 Gb (gratuito) |
