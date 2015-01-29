@@ -123,7 +123,7 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 ### Encuestas
 
-    {% include include_id page_id='resumen-encuestas' %}
+{% include include_id page_id='resumen-encuestas' %}
 
 
 # Modelado

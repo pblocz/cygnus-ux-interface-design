@@ -4,7 +4,7 @@ title: Conclusiones de las Encuestas
 id: resumen-encuestas
 ---
 
-[(Todas las respuestas aquí)](.{{site.pages}}/assets/documents/Respuestas_Encuesta.xlsx)
+[(Todas las respuestas aquí)](.{{site.baseurl}}/assets/documents/Respuestas_Encuesta.xlsx)
 Las personas encuestadas tienen las siguientes características:
 -Sexo:
 ![Sexo]({{site.baseurl}}/assets/img/chart1.png)
