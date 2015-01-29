@@ -245,7 +245,26 @@ mostrar producto / fotos
 	TODO
 
 ## Resultados
-	Por subir
+	{% include panel-show.html panel_show_folder="expertos" %}
+
+Además les observamos y anotamos algunos de los comentarios que realizaban en voz alta:
+
++ Material subido lo ve el profe.
+
++ Casi no ha accedido al perfil.
+
++ El calendario lo ha mirado muy poco, hasta pasado un rato no se ha fijado.
+
++ Las notificaciones le han liado un poco.
+
++ El corazón no sabía muy bien para que era -> fav / otro?
+
++ Pestaña de extra no sabía para que era al principio.
+
++ La por en duda no sabía para que era.
+
++ Al añadir a favoritos no sabe donde está, poco visible en el perfil.
+
 
 ## Conclusiones
 	TODO
