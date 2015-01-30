@@ -358,19 +358,16 @@ Simplemente se tu misma, pero hablando sola en voz alta.
 
 Tus tareas son:
 
-[TAREAS SEGUN
+[TAREAS SEGUN PERSONA]
 
-Ana: A-B-C-F-G-H
-Patricia: B-E-F-G-H
-Clara: A-B-C-D-F-H
-}
-
-Muchas Gracias.
+Gracias.
 Cygnus
 
 ## Resultados
 
 ### Ana
+
+[(Video)](https://www.dropbox.com/s/adx6l4nj8a6b7gv/Ana.avi?dl=0)
 
 El escenario concreto es su mesa de estudio lugar donde suele consultar su campus. Tiene 23 años y estudia CAFYD.
 
@@ -405,6 +402,8 @@ El escenario concreto es su mesa de estudio lugar donde suele consultar su campu
 
 ### Clara
 
+[Video](https://www.dropbox.com/s/lzxcoc9dpb7b6ih/Clara.avi?dl=0)
+
 El escenario concreto es su mesa de estudio, aunque ella suele estudiar de pie, consulta el campus sentada, utiliza rat´on enchufado a su port´atil. Tiene 22 años y estudia enfermer´ia.
 
 #### Tabla de Reacciones
@@ -421,6 +420,8 @@ El escenario concreto es su mesa de estudio, aunque ella suele estudiar de pie, 
 | 05:05 | | Le llama la atención el icono de las notificaciones |
 
 ### Patricia
+
+[Video](https://www.dropbox.com/s/iybunuzc88w3hco/patri.avi?dl=0)
 
 El escenario es tirados en el suelo, ella siempre estudia en bibliotecas o en el suelo, la postura distendida la ayuda a concentrarse. Acaba de cumplir 20 años y estudia enfermer´ia
 
@@ -441,7 +442,9 @@ El escenario es tirados en el suelo, ella siempre estudia en bibliotecas o en el
 
 ### Usuario Extra: Estrella
 
-Por los asombrosos resultados de la evaluaci´on de Patricia, decidimos realizar la evaluaci´on con esta usuaria que casualmente naci´o el mismo d´ia y estudia en la misma universidad. Estrella tiene 20 años y estudia Psicolog´ia. El escenario es en la cama donde suele estudiar y tocar la guitarra.
+[Video](https://www.dropbox.com/s/pn0fo4g5o384k42/Estrella.avi?dl=0)
+
+Por los asombrosos resultados de la evaluación de Patricia, decidimos realizar la evaluación con esta usuaria que casualmente nació el mismo día y estudia en la misma universidad. Estrella tiene 20 años y estudia Psicología. El escenario es en la cama donde suele estudiar y tocar la guitarra.
 
 #### Tabla de Reacciones
 
