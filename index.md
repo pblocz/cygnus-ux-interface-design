@@ -373,7 +373,7 @@ Cygnus
 
 ### Ana
 
-![Vídeo](https://www.dropbox.com/s/adx6l4nj8a6b7gv/Ana.avi?dl=0)
+[Vídeo](https://www.dropbox.com/s/adx6l4nj8a6b7gv/Ana.avi?dl=0)
 
 El escenario concreto es su mesa de estudio lugar donde suele consultar su campus. Tiene 23 años y estudia CAFYD.
 
@@ -408,7 +408,7 @@ El escenario concreto es su mesa de estudio lugar donde suele consultar su campu
 
 ### Clara
 
-![Vídeo](https://www.dropbox.com/s/lzxcoc9dpb7b6ih/Clara.avi?dl=0)
+[Vídeo](https://www.dropbox.com/s/lzxcoc9dpb7b6ih/Clara.avi?dl=0)
 
 El escenario concreto es su mesa de estudio, aunque ella suele estudiar de pie, consulta el campus sentada, utiliza ratón enchufado a su portátil. Tiene 22 años y estudia enfermería.
 
@@ -427,7 +427,7 @@ El escenario concreto es su mesa de estudio, aunque ella suele estudiar de pie, 
 
 ### Patricia
 
-![Vídeo](https://www.dropbox.com/s/iybunuzc88w3hco/patri.avi?dl=0)
+[Vídeo](https://www.dropbox.com/s/iybunuzc88w3hco/patri.avi?dl=0)
 
 El escenario es tirados en el suelo, ella siempre estudia en bibliotecas o en el suelo, la postura distendida la ayuda a concentrarse. Acaba de cumplir 20 años y estudia enfermería
 
@@ -448,7 +448,7 @@ El escenario es tirados en el suelo, ella siempre estudia en bibliotecas o en el
 
 ### Usuario Extra: Estrella
 
-![Vídeo](https://www.dropbox.com/s/pn0fo4g5o384k42/Estrella.avi?dl=0)
+[Vídeo](https://www.dropbox.com/s/pn0fo4g5o384k42/Estrella.avi?dl=0)
 
 Por los asombrosos resultados de la evaluación de Patricia, decidimos realizar la evaluación con esta usuaria que casualmente nació el mismo día y estudia en la misma universidad. Estrella tiene 20 años y estudia Psicología. El escenario es en la cama donde suele estudiar y tocar la guitarra.
 

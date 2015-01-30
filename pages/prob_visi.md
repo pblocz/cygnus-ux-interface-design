@@ -5,6 +5,7 @@ id: problemas-visiones
 ---
 
 ### Enunciado de problemas y visiones
+A partir de los datos recopilados y de las personas descritas en el modelado, se redactaron una serie de problemas que deberían ser resueltos por nuestra aplicación para mejorar la experiencia de los usuarios. Esos mismos problemas, redactados desde el punto de vista de la aplicación, son las visiones:
 
 #### Problemas
 {:.problemas}
@@ -15,29 +16,26 @@ id: problemas-visiones
 
 + [Eva María](#eva-maria) ha hecho un cambio importante en el enunciado de unos entregables. Quiere informar a los alumnos de la forma más rápida posible para no hacerles perder el tiempo, pero es fin de semana y la siguiente clase no es hasta dentro de 5 días.
 
++ [Diego](#diego-garcia) revisa muy a menudo el cv para que no se le pase nada nuevo, además tiene notas (post-it) para recordar cuando tenía fechas destacadas.
 
++ [Juan Martín](#juan-martin) está cansado de tener que repetir la misma información de la asignatura (bibliografía,  método de calificación, descripción, ...) en varios sitios cada vez que decide modificar algo.
 
++ [Eva María](#eva-maria) no sabe lo que puede o no hacer en el cv por que hay muchas opciones y no se siente capaz/con ganas de mirar el manual o ponerse a investigar así que siempre usa las mismas 3 funciones y para el resto no usa el campus
 
-+ [Diego](#diego-garcia) revisa muy a menudo el cv para que no se le pase nada nuevo, además tiene notas (post-it) para recordar cuando tenía fechas destacadas.
++ [Diego](#diego-garcia) quiere compartir algo con sus compañeros de forma rápida,  pero no le interesa que el profesor se entere (o no puede ni debe enterarse por cuestiones legales ¬_¬).
 
-+ (El profesor) está cansado de tener que repetir la misma información de la asignatura (bibliografía,  método de calificación, descripción, ...) en varios sitios cada vez que decide modificar algo.
++ [Diego](#diego-garcia) quiere poder conservar sus apuntes de temas anteriores o  otro cursos/cursos anteriores a ver que se hizo, pero cuando el curso acaba se eliminan y no se pueden acceder a cursos que no son los suyos, además si se guarda algo en el ordenador, siempre se le olvida donde estaba.
 
-+ (El profesor) no sabe lo que puede o no hacer en el cv por que hay muchas opciones y no se siente capaz/con ganas de mirar el manual o ponerse a investigar así que siempre usa las mismas 3 funciones y para el resto no usa el campus
-
-+ (El alumno) quiere compartir algo con sus compañeros de forma rápida,  pero no le interesa que el profesor se entere (o no puede ni debe enterarse por cuestiones legales ¬_¬).
-
-+ (El alumno) quiere poder conservar sus apuntes de temas anteriores o  otro cursos/cursos anteriores a ver que se hizo, pero cuando el curso acaba se eliminan y no se pueden acceder a cursos que no son los suyos, además si se guarda algo en el ordenador, siempre se le olvida donde estaba.
-
-+ (El profesor) quiere poder dar de alta nuevas clases y cursos, pero el proceso es farragoso, con muchos pasos y es más sencillo clonar un curso anterior que crearlo de cero.
++ [Eva María](#eva-maria) quiere poder dar de alta nuevas clases y cursos, pero el proceso es farragoso, con muchos pasos y es más sencillo clonar un curso anterior que crearlo de cero.
 
 
 
 #### Visiones
 {:.visiones}
 
-+ (nuestro producto) permitirá la publicación de caificaciones de manera sencilla, de forma que los alumnos puedan consultarlas cómodamente desde casa. Además, se podrá hacer de manera privada para que cada alumno pueda ver sólo su nota.
++ (Nuestro producto) permitirá la publicación de caificaciones de manera sencilla, de forma que los alumnos puedan consultarlas cómodamente desde casa. Además, se podrá hacer de manera privada para que cada alumno pueda ver sólo su nota.
 
-+ (nuestro producto) facilitará la consulta y resolución de dudas, tanto por parte del profesor como de otros alumnos. Tiene que poder hacerse de forma rápida.
++ (Nuestro producto) facilitará la consulta y resolución de dudas, tanto por parte del profesor como de otros alumnos. Tiene que poder hacerse de forma rápida.
 
 + (nuestra herramienta) facilitará el envío de notificaciones importantes a todos los alumnos, de forma que se puedan enterar lo antes posibles de cambios en ejercicios, apuntes, fechas...
 
