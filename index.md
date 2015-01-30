@@ -205,7 +205,7 @@ Para terminar este punto, los métodos de entrada utilizados son los de cualquie
 
 ### Elementos de datos y funcionales
 
-![diagrama de gantt]({{site.baseurl}}/assets/img/requisitos_datos.png)
+![Requisitos de datos]({{site.baseurl}}/assets/img/requisitos_datos.png)
 
 ### Bocetos
 
@@ -231,7 +231,7 @@ Para terminar este punto, los métodos de entrada utilizados son los de cualquie
 6. evaluación
 
 
-cada seccion
+cada sección
 
 - organización del trabajo
 - resultados/productos
@@ -358,7 +358,7 @@ Simplemente se tu misma, pero hablando sola en voz alta.
 
 Tus tareas son:
 
-[TAREAS SEGUN PERSONA]
+[TAREAS SEGÚN PERSONA]
 
 Gracias.
 Cygnus
@@ -368,7 +368,7 @@ Cygnus
 
 ### Ana
 
-![Video](https://www.dropbox.com/s/adx6l4nj8a6b7gv/Ana.avi?dl=0)
+![Vídeo](https://www.dropbox.com/s/adx6l4nj8a6b7gv/Ana.avi?dl=0)
 
 El escenario concreto es su mesa de estudio lugar donde suele consultar su campus. Tiene 23 años y estudia CAFYD.
 
@@ -388,24 +388,24 @@ El escenario concreto es su mesa de estudio lugar donde suele consultar su campu
 | 04:40 | 04:55 | Guarda correctamente un archivo pero no sabe si lo ha hecho porque busca una estrella o corazón |
 | 05:35 | 06:30 | No entiende el concepto guardar de nuevo. |
 | 06:35 |  | Lo encuentra pero no sabe ni como lo ha hecho. |
-| 07:10 |  | Le molesta la distribucion de pestañas. |
+| 07:10 |  | Le molesta la distribución de pestañas. |
 | 07:30 | 07:40 | No sabe donde ver más detalles de una entrega. |
 | 08:00 |  | Abre el lugar que busca pero no es capaz de identificarlo. |
 | 08:20 | 09:00 | Sigue sin saber donde está, de hecho no se siente en la página de su universidad. |
 | 09:10 |  | Falta un link en la vista general de la asignatura donde podría ver su objetivo. |
 | 09:40 |  | Busca el enunciado de una entrega, en problemas o apuntes. |
 | 10:15 |  | Cambiamos de tarea sin lograrlo. |
-| 10:40 |  | Pincha repetidas veces el icono de mensajes intentando que se le abrá una página, no se fija en el desplegable. |
-| 11:08 |  | Pincha la palbra contactos para intentar abrir la lista de contactos |
+| 10:40 |  | Pincha repetidas veces el icono de mensajes intentando que se le habrá una página, no se fija en el desplegable. |
+| 11:08 |  | Pincha la palabra contactos para intentar abrir la lista de contactos |
 | 11:20 |  | Pide perdón reconociendo que no había visto la barra de chat. |
 | 12:00 |  | Usa intro para enviar y no funciona, se mete otra linea. |
 | 12:10 |  | El icono de envío de mensaje esta tapado por la pestaña Contactos. |
 
 ### Clara
 
-![Video](https://www.dropbox.com/s/lzxcoc9dpb7b6ih/Clara.avi?dl=0)
+![Vídeo](https://www.dropbox.com/s/lzxcoc9dpb7b6ih/Clara.avi?dl=0)
 
-El escenario concreto es su mesa de estudio, aunque ella suele estudiar de pie, consulta el campus sentada, utiliza rat´on enchufado a su port´atil. Tiene 22 años y estudia enfermer´ia.
+El escenario concreto es su mesa de estudio, aunque ella suele estudiar de pie, consulta el campus sentada, utiliza ratón enchufado a su portátil. Tiene 22 años y estudia enfermería.
 
 #### Tabla de Reacciones
 
@@ -415,21 +415,21 @@ El escenario concreto es su mesa de estudio, aunque ella suele estudiar de pie, 
 | 01:13 | 01:33 | Confusión Favorito y guardar |
 | 02:02 | 02:50 | No encuentra el botón de subir archivos en compartido |
 | 02:50 | | Moderador interviene para aclarar el icono de la nube |
-| 03:15 | 03:30 | Encuentra las dudas facilmente pero no se fija en los votos para ver la mejor respuesta |
-| 04:15 | | Entra en version completa de chat antes que la miniatura. |
+| 03:15 | 03:30 | Encuentra las dudas fácilmente pero no se fija en los votos para ver la mejor respuesta |
+| 04:15 | | Entra en versión completa de chat antes que la miniatura. |
 | 04:44 | | Encuentra perfectamente sus datos guardados en el desplegable del perfil |
 | 05:05 | | Le llama la atención el icono de las notificaciones |
 
 ### Patricia
 
-![Video](https://www.dropbox.com/s/iybunuzc88w3hco/patri.avi?dl=0)
+![Vídeo](https://www.dropbox.com/s/iybunuzc88w3hco/patri.avi?dl=0)
 
-El escenario es tirados en el suelo, ella siempre estudia en bibliotecas o en el suelo, la postura distendida la ayuda a concentrarse. Acaba de cumplir 20 años y estudia enfermer´ia
+El escenario es tirados en el suelo, ella siempre estudia en bibliotecas o en el suelo, la postura distendida la ayuda a concentrarse. Acaba de cumplir 20 años y estudia enfermería
 
 #### Tabla de Reacciones
 
 | 00:00 | | Comienza Movimiento Libre |
-| | | Lo primero que hace es ver ue ha guardado y que ha entregado usa constantemente el desplegable del perfil en vez de las pestañas. |
+| | | Lo primero que hace es ver que ha guardado y que ha entregado usa constantemente el desplegable del perfil en vez de las pestañas. |
 | 00:50 | | Mira notificaciones y los nuevos mensajes y lo comprende sin problemas |
 | 01:20 | | Duda de si el bookmark es el icono de guardar pero lo entiende perfectamente. |
 | 01:40 | | Busca el calendario de entregas, se conforma con una lista de entregas, seguido ve la otra vista y parece agradarle. |
@@ -443,7 +443,7 @@ El escenario es tirados en el suelo, ella siempre estudia en bibliotecas o en el
 
 ### Usuario Extra: Estrella
 
-![Video](https://www.dropbox.com/s/pn0fo4g5o384k42/Estrella.avi?dl=0)
+![Vídeo](https://www.dropbox.com/s/pn0fo4g5o384k42/Estrella.avi?dl=0)
 
 Por los asombrosos resultados de la evaluación de Patricia, decidimos realizar la evaluación con esta usuaria que casualmente nació el mismo día y estudia en la misma universidad. Estrella tiene 20 años y estudia Psicología. El escenario es en la cama donde suele estudiar y tocar la guitarra.
 
@@ -454,10 +454,10 @@ Por los asombrosos resultados de la evaluación de Patricia, decidimos realizar 
 | 00:36 | | Quiere ver los detalles de las prácticas desde general de la asignatura. (el link no funciona) |
 | 01:10 | | No sabe si sabría volver al inicio, pero lo hace sin problemas. |
 | 01:35 | | No sabe como guardarse el documento |
-| 01:40 | | Prueba el botón derecho para guardarselo. |
+| 01:40 | | Prueba el botón derecho para guardárselo. |
 | 01:50 | | Reconoce el bookmark y se lo guarda |
 | 02:20 | | Busca los detalles de las entregas en entregas, todo sin problemas. |
-| 02:40 | | Intenta ir al calendario y el boton no reacciona correctamente, pincha una segunda vez y si |
+| 02:40 | | Intenta ir al calendario y el botón no reacciona correctamente, pincha una segunda vez y si |
 | 03:10 | | Pincha en el sobre buscando escribir un mensaje y que se abriese una ventana pero no lo hace. |
 | 03:40 | | Busca el grupo en la ventana grande de chat |
 | 04:00 | | Intenta enviar un mensaje con el intro y no funciona. |
@@ -469,7 +469,7 @@ Por los asombrosos resultados de la evaluación de Patricia, decidimos realizar 
 | 06:50 | | Intenta añadir una duda con la búsqueda |
 | 07:14 | | Recuerda perfectamente que guardo unos apuntes en el perfil y encuentra guardado sin ningún problema |
 | 07:50 | | Busca una duda en su perfil sin haberla guardado. |
-| 08:10 | | Guarda su duda sin ningun problema |
+| 08:10 | | Guarda su duda sin ningún problema |
 
 ## Conclusiones
 
