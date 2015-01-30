@@ -210,6 +210,8 @@ Para terminar este punto, los métodos de entrada utilizados son los de cualquie
 
 {% include panel-show.html panel_show_folder="bocetos" %}
 
+{% include include_id page_id='pencil' %}
+
 ### Escenarios key path
 
 ### Escenarios de validación
