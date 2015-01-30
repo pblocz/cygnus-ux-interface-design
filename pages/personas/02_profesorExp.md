@@ -7,7 +7,7 @@ excerpt: Profesora Univarsitaria de la Fac. de Filosofia de la UB.
 
 # {{page.title}}
 
-![https://es.wikipedia.org/wiki/Izquierda_Aut%C3%B3noma#mediaviewer/File:Gabriel_Boric.jpg]({{site.baseurl}}/assets/img/Gabriel_Boric.jpg)
+![Eva_Maria]({{site.baseurl}}/assets/img/Eva_Maria.jpg)
 
 ## Demografía y perfil
 

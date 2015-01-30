@@ -7,7 +7,7 @@ excerpt: Profesor Univarsitario, recien doctorado, de la Fac. de Ciencias Matema
 
 # {{page.title}}
 
-![https://es.wikipedia.org/wiki/Izquierda_Aut%C3%B3noma#mediaviewer/File:Gabriel_Boric.jpg]({{site.baseurl}}/assets/img/Gabriel_Boric.jpg)
+![Juan_Martin]({{site.baseurl}}/assets/img/Juan_Martin.jpg)
 
 ## Demografía y perfil
 
