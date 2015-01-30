@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Informe Individual Ev. heurística
+title: Jaime, Evalución heurística
 id: jaime
-excerpt: Experto en UX.
+excerpt: Experto en UX y alumno universitario.
 ---
 
 # Informe Individual

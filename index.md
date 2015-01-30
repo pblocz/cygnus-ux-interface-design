@@ -243,36 +243,42 @@ mostrar producto / fotos
 
 -->
 
-# Evaluaciones de expertos
+# Evaluaciones heurísticas
 
 ## Plan
 	TODO
 
 ## Resultados
 
+### Evaluadores
 {% include panel-show.html panel_show_folder="expertos" %}
 
-Además les observamos y anotamos algunos de los comentarios que realizaban en voz alta:
 
-+ Material subido lo ve el profe.
+### Observaciones de uso
 
-+ Casi no ha accedido al perfil.
+Aprovechando que eran estudiantes, posibles usuarios objetivo, les pedimos que nos comentasen lo que iban haciendo y con lo que tenían dudas para hacernos una primera idea de las impresiones que causaba la interfaz.
 
-+ El calendario lo ha mirado muy poco, hasta pasado un rato no se ha fijado.
+También aprovechamos esta oportunidad para hacer una pequeña observación de uso y apuntar defectos y fallos de concepto que pudiesen haber. Así lo que anotamos es:
 
-+ Las notificaciones le han liado un poco.
-
-+ El corazón no sabía muy bien para que era -> fav / otro?
-
-+ Pestaña de extra no sabía para que era al principio.
-
-+ La por en duda no sabía para que era.
-
-+ Al añadir a favoritos no sabe donde está, poco visible en el perfil.
++ El material subido a la sección `extra` lo ve el profesor.
++ La sección `extra` no entendían bien para qué era.
++ Uno los evaluados casi no accedió al perfil.
++ Han interactuado muy poco con el calendario, lo han ignorado hasta bien avanzada la prueba.
++ El icono del corazón no les quedaba claro para que servía.
++ La `x` en dudas para marcar una duda cerrada no la han entendido.
++ Al añadir a favoritos un apunte no sabe donde se guarda, poco visible en el perfil.
++ Las notificaciones les han liado un poco.
 
 
 ## Conclusiones
-	TODO
+
+Debido a las anotaciones anteriores y a los fallos de usabilidad reportados, descubrimos problemas y desviaciones de concepto, además de algunas funcionalidades y elementos que nosotros le dábamos importancia, ellos no. 
+
+- **Eliminamos el calendario**. En este prototipo tenía un peso muy importante, casi un 30% de la interfaz, ya que querían saber cuando ocurrían los eventos, pero no tuvo el impacto deseado, hasta pasado casi el 60% de la prueba ni lo consideraron.
+- **Añadimos un desplegable al perfil**. Los evaluadores entraron al perfil y sin revisarlo mucho salieron (antes de ver que había sub-secciones). En el perfil aglutinamos la mitad de la funcionalidad dedicada a que los alumnos accedan rápido a su contenido, así que era importante darle visibilidad a las sub-secciones para que las explorasen.
+- **Carteles informativas en algunas secciones**: Algunas secciones no se entendió bien su propósito, al ser funcionalidades a las que no están acostumbrados (compartir o guardarte apuntes en un campus virtual), así que añadimos una ayuda con el propósito de secciones conflictivas que se puede eliminar para no estorbar al alumno.
+- **Alerta y feedback más informativo al realizar acciones**. En las acciones como guardar un apunte de una asignatura el resultado principal está reflejado en el perfil, así que añadimos mensaje de *qué acción* se ha realizado y *dónde se ve el resultado* de dicha acción.
+- **Eliminamos la `x` de dudas**. No entendieron para qué servía y en conversaciones posteriores vimos que no era tan relevante esta funcionalidad.
 
 # Evaluaciones de usuarios
 
