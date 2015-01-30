@@ -27,7 +27,6 @@ En el siguiente diagrama de Gantt se muestra el plan de trabajo ideado para real
 
 ![diagrama de gantt]({{site.baseurl}}/assets/img/gantt.png)
 
-
 Como se observa en amarillo, se dedicará la mayor parte del tiempo a la **investigación**, cuyo plan está adjunto.
 
 Con la información obtenida en las entrevistas y cuestionarios se procederá a realizar el **diseño de personas** durante las navidades hasta final de año.
@@ -450,7 +449,7 @@ El escenario es tirados en el suelo, ella siempre estudia en bibliotecas o en el
 
 ### Usuario Extra: Estrella
 
-[Vídeo](https://www.dropbox.com/s/pn0fo4g5o384k42/Estrella.avi?dl=0)
+[Vídeo](.https://www.dropbox.com/s/pn0fo4g5o384k42/Estrella.avi?dl=0)
 
 Por los asombrosos resultados de la evaluación de Patricia, decidimos realizar la evaluación con esta usuaria que casualmente nació el mismo día y estudia en la misma universidad. Estrella tiene 20 años y estudia Psicología. El escenario es en la cama donde suele estudiar y tocar la guitarra.
 
