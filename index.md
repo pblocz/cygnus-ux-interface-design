@@ -367,38 +367,38 @@ Cygnus
 
 ### Ana
 
-[(Video)](https://www.dropbox.com/s/adx6l4nj8a6b7gv/Ana.avi?dl=0)
+[Video](https://www.dropbox.com/s/adx6l4nj8a6b7gv/Ana.avi?dl=0)
 
 El escenario concreto es su mesa de estudio lugar donde suele consultar su campus. Tiene 23 años y estudia CAFYD.
 
 #### Tabla de Reacciones
 
-| 00:00 | | Comienza Movimiento Libre |
-| 00:10 | | Se queda leyendo el mensaje explicativo de guardado |
-| 00:20 | | Entiende el icono de subir prácticas. |
-| 00:40 | | No sabe como ver si esta corregida la práctica |
-| 01:23 | | No entiende guardar dudas, ni como crear una. Piensa crearla desde buscar |
-| 01:50 | | Consulta notas sin problemas pero le parece pobre la vista |
-| 02:30 | | Compartir un archivo lo confunde con entregar un archivo al profesor |
-| 02:48 | | Confunde El botón notificaciones y dudas, como objetivos para subir un archivo |
-| 03:30 | | No entiende el concepto compartir apuntes. |
-| 03:50 | | Encuentra e identifica la nube como icono para subir archivos. |
+| 00:00 |  | Comienza Movimiento Libre |
+| 00:10 |  | Se queda leyendo el mensaje explicativo de guardado |
+| 00:20 |  | Entiende el icono de subir prácticas. |
+| 00:40 |  | No sabe como ver si esta corregida la práctica |
+| 01:23 |  | No entiende guardar dudas, ni como crear una. Piensa crearla desde buscar |
+| 01:50 |  | Consulta notas sin problemas pero le parece pobre la vista |
+| 02:30 |  | Compartir un archivo lo confunde con entregar un archivo al profesor |
+| 02:48 |  | Confunde El botón notificaciones y dudas, como objetivos para subir un archivo |
+| 03:30 |  | No entiende el concepto compartir apuntes. |
+| 03:50 |  | Encuentra e identifica la nube como icono para subir archivos. |
 | 04:00 | 04:20 | Le sigue molestando compartir cosas con todos |
 | 04:40 | 04:55 | Guarda correctamente un archivo pero no sabe si lo ha hecho porque busca una estrella o corazón |
 | 05:35 | 06:30 | No entiende el concepto guardar de nuevo. |
-| 06:35 | | Lo encuentra pero no sabe ni como lo ha hecho. |
-| 07:10 | | Le molesta la distribucion de pestañas. |
+| 06:35 |  | Lo encuentra pero no sabe ni como lo ha hecho. |
+| 07:10 |  | Le molesta la distribucion de pestañas. |
 | 07:30 | 07:40 | No sabe donde ver más detalles de una entrega. |
-| 08:00 | | Abre el lugar que busca pero no es capaz de identificarlo. |
+| 08:00 |  | Abre el lugar que busca pero no es capaz de identificarlo. |
 | 08:20 | 09:00 | Sigue sin saber donde está, de hecho no se siente en la página de su universidad. |
-| 09:10 | | Falta un link en la vista general de la asignatura donde podría ver su objetivo. |
-| 09:40 | | Busca el enunciado de una entrega, en problemas o apuntes. |
-| 10:15 | | Cambiamos de tarea sin lograrlo. |
-| 10:40 | | Pincha repetidas veces el icono de mensajes intentando que se le abrá una página, no se fija en el desplegable. |
-| 11:08 | | Pincha la palbra contactos para intentar abrir la lista de contactos |
-| 11:20 | | Pide perdón reconociendo que no había visto la barra de chat. |
-| 12:00 | | Usa intro para enviar y no funciona, se mete otra linea. |
-| 12:10 | | El icono de envío de mensaje esta tapado por la pestaña Contactos. |
+| 09:10 |  | Falta un link en la vista general de la asignatura donde podría ver su objetivo. |
+| 09:40 |  | Busca el enunciado de una entrega, en problemas o apuntes. |
+| 10:15 |  | Cambiamos de tarea sin lograrlo. |
+| 10:40 |  | Pincha repetidas veces el icono de mensajes intentando que se le abrá una página, no se fija en el desplegable. |
+| 11:08 |  | Pincha la palbra contactos para intentar abrir la lista de contactos |
+| 11:20 |  | Pide perdón reconociendo que no había visto la barra de chat. |
+| 12:00 |  | Usa intro para enviar y no funciona, se mete otra linea. |
+| 12:10 |  | El icono de envío de mensaje esta tapado por la pestaña Contactos. |
 
 ### Clara
 
