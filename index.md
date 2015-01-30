@@ -8,7 +8,9 @@ title: Blogging Like a Hacker
 {:toc}
 
 
+<!--
 [test url](.{{ site.pages | where:"id","site-test" | map: "url" }})
+-->
 
 # Investigación
 

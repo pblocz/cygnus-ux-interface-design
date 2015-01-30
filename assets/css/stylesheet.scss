@@ -3,10 +3,28 @@
 $nstrips: 9;
 $bgsize: 50px;
 $bgbgcolor: white;
-$bgfgcolor: #BEBEBE;
+$bgfgcolor: darken(#1e88e5,20%); //#BEBEBE;
 $stripsize: 5px;
-$stripcolor: rgba(0,0,0,0.1);
+$stripcolor: rgba($bgfgcolor,0.15);//rgba(0,0,0,0.1);
+$title-bgcolor: #1976d2;
 $body_wdith: 45em;
+$body-color: darken(#0d47a1,20%);
+$light-background: #ECF1F6;// #E0E9F0;
+
+
+@font-face {
+	font-family: 'Merienda-Bold';
+	src: url('../fonts/Merienda/Merienda-Bold.ttf');
+}
+
+
+@font-face {
+	font-family: 'Mr-Darfoe';
+	src: url('../fonts/Mr-Darfoe/MrDafoe-Regular.ttf');
+}
+
+
+
 
 @mixin vertical-align {
     position: relative;
@@ -15,6 +33,7 @@ $body_wdith: 45em;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
 
 body {
     padding-top: 20px;
@@ -26,6 +45,7 @@ body .markdown-body {
     /* max-width: 45em; */
     padding: 30px;
     overflow: visible;
+    color: $body-color;
 }
 
 body {
@@ -70,6 +90,16 @@ p { text-align: justify; }
     max-width: 34em!important;
 }
 
+
+$title-size: 70px;
+.main-title {
+    font-family: 'Merienda-Bold'; //'Mr-Darfoe';
+    font-weight: bold;
+    font-size: $title-size;
+
+    img { height: 2 * $title-size; }
+}
+
 .markdown-body {
     a.thumbnail {
         @include image-style();
@@ -77,6 +107,17 @@ p { text-align: justify; }
 
     :not(a.thumbnail) > img {
         @include image-style();
+    }
+}
+
+.main-panel { 
+    padding: 0; 
+    border-color: $bgfgcolor;
+    > .panel-heading { 
+	//text-align: center;
+	padding: 40px;
+	color: white;
+	background-color: $title-bgcolor!important; //#42a5f5; //lighten(#C2DDFA,10%);
     }
 }
 
@@ -89,6 +130,7 @@ p { text-align: justify; }
 
 .panel-default {
     border-color: $bgfgcolor;
+    .panel-heading { background-color: $light-background; }
 }
 
 @for $counter from 1 through 2  {
@@ -196,8 +238,11 @@ $cooper-label-size: 100px;
     }
 
     .progress-bar {
-        background-color: $bgfgcolor;
+        background-color: $light-background;//$bgfgcolor;
         height: 10px;
+
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.05);
     }
 
     .text {
@@ -226,7 +271,7 @@ $cooper-label-size: 100px;
 
 .sidebar-offcanvas .toc-wrapper{ 
     $border-size: 2px; 
-    $border-toc-color: #860A52;
+    $border-toc-color: $bgfgcolor; //#860A52;
 
     width: inherit;
     position: fixed;
@@ -248,13 +293,17 @@ $cooper-label-size: 100px;
 	overflow: hidden;
     }
 
-    @mixin ul_($i, $s) {
+    @mixin ul_($i, $s, $b) {
+	$cur-size: $b * $i;
 	ul {
 	    > li {
-		&.active > a, & > a:hover { padding-left: $s - $border-size; }
+		&.active > a, & > a:hover { 
+		    padding-left: $s - $cur-size; 
+		    border-left-width: $cur-size;
+		}
 		> a { padding-left: $s; }
 	    }
-	    @if $i > 1 { @include ul_($i - 1, $s + $s); }
+	    @if $i > 1 { @include ul_($i - 1, $s + $s,$b); }
 	}
     }
 
@@ -263,14 +312,14 @@ $cooper-label-size: 100px;
 	padding-left: 0; 
 	list-style-type: none;
     }
-    @include ul_(5, 10px); 
+    @include ul_(3, 15px, $border-size); 
 
 
     > ul {
 	> li.active > a{
 	    font-weight: bold;
-	    padding-left: 10px - $border-size * 2;
-	    border-left-width: $border-size * 2;
+	    /* padding-left: 10px - $border-size * 2; */
+	    /* border-left-width: $border-size * 2; */
 	}
     }
 
@@ -281,23 +330,31 @@ $cooper-label-size: 100px;
 .row-offcanvas {
     .offcanvas-toggle {
 	position: fixed;
-	right: 15px;
+	right: 0;
 	z-index: 1000;
+	padding: 0;
+
+	> div { padding-right: 0; }
 	
 	button { 
+	    font-size: 30px;
+	    padding: 10px;
+	    border-radius: 0;
 	    float: right;
 	    position: relative;
-	    margin-right: 15px;
+	    //margin-right: 15px;
 	    right: 0;
 	    
 	    -webkit-transition: all .25s ease-out;
             -o-transition: all .25s ease-out;
             transition: all .25s ease-out;
+
+	    > * { display: block; }
 	}
     }
     &.active .offcanvas-toggle button{
 	right: 100%;
-	margin-right: 30px;
+	//margin-right: 30px;
     }
 }
 
@@ -354,4 +411,16 @@ body {
 	top: 0;
 	width: 50%; /* 6 columns */
     }
+}
+
+
+// specific small devices styles
+@media (max-width: 769px) {
+    .panel-wrapper { padding: 0; }
+    .main-panel { 
+	border-top: none; 
+	border-bottom: none;
+	border-radius: 0; 
+    }
+    body { padding: 0; }
 }

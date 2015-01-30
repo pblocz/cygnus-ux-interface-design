@@ -66,8 +66,8 @@
      '</div>';
 
      // add format to images
-     $('img').wrap('<a class="thumbnail" href="javascript:void(0);"></a>');
-     $('img').click(function(){
+     $('.markdown-body img').wrap('<a class="thumbnail" href="javascript:void(0);"></a>');
+     $('.markdown-body img').click(function(){
          $('#image-preview img').attr('src',$(this).attr('src'));
          $('#image-preview').modal('show');
      })
