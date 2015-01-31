@@ -125,9 +125,9 @@ Se han realizado finalmente tres entrevistas, hemos insistido mucho para poder c
 
 + Alumno UNED (transcripción).
 
-+ Alumno [(transcripción)]().
++ Alumno [(transcripción)](./assets/documents/alumno_entrevista.txt).
 
-+ Profesor (transcripción).
++ Profesor [(transcripción)](./assets/documents/profesor_entrevista.docx).
 
 ### Encuestas
 
