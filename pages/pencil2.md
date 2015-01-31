@@ -15,6 +15,5 @@ Las principales ideas que se plasmaron en este boceto fueron:
 
 Todos estos detalles se pueden apreciar en la siguiente imagen, que cmuestra la página incial de una de las asignaturas.
 ![Pencil]({{site.baseurl}}/assets/img/Pencil.jpg)
-![diagrama de gantt]({{site.baseurl}}/assets/img/gantt.png)
 
 Sin embargo, *Pencil* tiene muchas deficiencias en cuanto a diseño gráfico e interactividad, por lo que se decidió que para realizar el primer prototipo se utilizaría una herramienta un poco más completa, *Axure*, en el incluiría parte de lo mencionado anteriormente, se añadirían elementos nuevos y se descartarían algunos que no nos gustaron en este boceto preliminar.
