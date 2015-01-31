@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blogging Like a Hacker
+title: "[DSI] Cygnus - Diseño Guiado por Objetivos"
 ---
 
 * Table of contents
@@ -238,9 +238,7 @@ Se han realizado finalmente tres entrevistas, hemos insistido mucho para poder c
 
 {% include include_id page_id='plan-diseno' %}
 
-## Resultados
-
-### Factor de forma, la postura y métodos de entrada
+## Factor de forma, la postura y métodos de entrada ##
 
 El factor de forma viene definido en los escenarios de contexto, en resumen se podría decir que se trata de una interacción por medio de un ordenador habitual y las notificaciones en el móvil.
 
@@ -248,15 +246,15 @@ En lo referido a la postura, se trata principalmente de postura soberana ya que 
 
 Para terminar este punto, los métodos de entrada utilizados son los de cualquier PC, es decir, trackpad, ratón, teclado o pantalla táctil.
 
-### Elementos de datos y funcionales
+## Elementos de datos y funcionales ##
 
 ![Requisitos de datos]({{site.baseurl}}/assets/img/requisitos_datos.png)
 
-### Bocetos
+## Bocetos ##
 
 {% include panel-show.html panel_show_folder="bocetos" %}
 
-#### Prototipo con Pencil
+## Prototipo con Pencil ##
 
 A partir de los bocetos en papel realizados por cada miembro del equipo y los realizados en común, se decidió realizar un boceto más detallado mediante la herramienta *Pencil*, de manera que tubieramos un primer esbozo de nuestro diseño y con el pudiesemos trabajar en la pantalla para poder configurar de todos los elementos.
 
@@ -274,14 +272,40 @@ Todos estos detalles se pueden apreciar en la siguiente imagen, que cmuestra la 
 Sin embargo, *Pencil* tiene muchas deficiencias en cuanto a diseño gráfico e interactividad, por lo que se decidió que para realizar el primer prototipo se utilizaría una herramienta un poco más completa, *Axure*, en el incluiría parte de lo mencionado anteriormente, se añadirían elementos nuevos y se descartarían algunos que no nos gustaron en este boceto preliminar.
 
 
-#### Prototipo con Axure
+## Prototipo con Axure ##
 
-[Prototipo](./assets/proto/) (Recomendación: abrir en otra pestaña)
+<a target="_blanck" href="{{site.baseurl}}/assets/proto/" alt="Prototipo"> Prototipo</a>
 
-### Escenarios key path
+## Escenarios key path ##
 
-### Escenarios de validación
+### Alumno ###
 
+Diego Garía entra en la aplicación para ver si se ha subido algún material nuevo. Cuando entra se encuentra con la **lista de sus asignaturas** y además **al lado de cada una ve si ha habido cambias la asignatura**.
+
+Observa el **icono de notificaciones global** y ve que en total hay 3 notificaciones, pincha sobre él para ver cuales son y descubre que ha subido problemas nuevos. **Pincha sobre la notificación y le lleva a la hoja de problemas** dentro de la  asignatura correspondiente.
+
+Como esta hoja es importante y le gustaría poder acceder rápido, **usa el botón de guardar** para guardarlo entre sus apuntes, además como va a usarlo en clase le da al **botón de descargar** para imprimirlo y llevarlo a clase.
+
+Después de esto, antes de salir entra a su perfil pulsando en **botón de acceso al perfil**. Ahí entra en la **sección de dudas** y **pincha en responder una duda**, que ha estado pensando en la solución y quiere compartirla.
+
+Finalmente va al **calendario** a ver qué es lo que tenía que hacer, para que no se le pase nada y ver cuando era la fecha límite de su próxima entrega. 
+
+### Profesor
+
+Juan tiene clase después y quiere poner las hojas de problemas a sus alumnos para que los resuelvan en clase. Entra a la aplicación y se encuentra una **lista de asignaturas en las que da clase**. Entra en la asignatura y va a **sección de problemas**, allí usa la **barra de búsqueda** y encuentra la hoja de problemas. **Pulsa el botón de hacer visible la hoja** y que esté disponible para los alumnos. También tenía una hoja especial que había preparado, así que pulsa en el **botón de subir nuevo archivo**, aparece un formulario para rellenar los datos de la nueva hoja de problemas y lo sube.
+
+Se da cuenta de que ha aparecido una **notificación**, la mira y ve que han subido una duda nueva. **Pincha sobre la notificación** y le lleva a la duda en la  sección de dudas de la asignatura. Lee la duda y las respuesta y ve que no van por el buen camino, así que decide responder a la duda pulsando el **botón responder**.
+
+Tenía que escribirle a un alumno para comentarle una cosas de una de sus entregas, así que pincha en el **chat inferior**, en la parte de asignaturas y escribe el nombre del alumno. Abre un chat con él y le escribe lo que tenía que decir sobre la entrega para que lo lea cuando se conecte.
+
+## Escenarios de validación ##
+
+Al seguir el proceso y las distintas iteraciones fuimos considerando distintas posibilidades y casos con los prototipos para validarlos al hacer las puestas en común en las iteraciones. No generamos artefactos, pero usamos estas discusiones para refinar los prototipos.
+
+Esto nos sirvió para pasar del prototipo de *pencil* al de *axure*. Algunos de los cambios que decidimos de esta forma:
+
+- **Interfaz más visual**: listas de asignaturas con imágenes y siglas ya que con un simple vistazo es más sencillo encontrarlas.
+- **Barra superior** donde mostrar información global, por ser más consistente con lo que el usuario está acostumbrado.
 
 <!--
 
