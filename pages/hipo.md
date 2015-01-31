@@ -6,42 +6,45 @@ id: hipotesis-personas
 
 Se han realizado 5 hipótesis de persona:
 
-Alumnos:
-Tipo: Persona primaria.
-Datos demográficos:
-	· Edad: 21-24 años
-	· Sexo: ambos
-	· Nivel académico: alumnos de grado de 3º en adelante
-Conocimiento del dominio:
-	· Aplicaciones del ámbito que usa: CV, email institucional, webs de recursos, bibliografias
-· Cómo usa esas aplicaciones: PC, móvil, tablets
-· Actividades que realiza en ella: descargar apuntes y consultar notas, contacto profes, foros
-· Qué hace más a menudo: descargar apuntes, subir prácticas
-· Qué le gusta de lo que usa: 
-· Qué no le gusta de lo que usa: notificaciones y foros
+#### Alumnos:
+
+**Tipo**: Persona primaria.
+**Datos demográficos**:
++ *Edad*: 21-24 años
++ *Sexo*: ambos
++ *Nivel académico*: alumnos de grado de 3º en adelante
+**Conocimiento del dominio**:
++ *Aplicaciones del ámbito que usa*: CV, email institucional, webs de recursos, bibliografias
++ *Cómo usa esas aplicaciones*: PC, móvil, tablets
++ *Actividades que realiza en ella*: descargar apuntes y consultar notas, contacto profes, foros
++ *Qué hace más a menudo*: descargar apuntes, subir prácticas
++ *Qué le gusta de lo que usa*: 
++ *Qué no le gusta de lo que usa*: notificaciones y foros
 
 
-Nuevos alumnos:
-Tipo: Persona secundaria.
-Datos demográficos:
-	· Edad: 18-20 años
-	· Sexo: ambos
-	· Nivel académico: alumnos de 1º y 2º de grado
-Conocimiento del dominio:
-	· Aplicaciones del ámbito que usa: CV
-· Cómo usa esas aplicaciones: PC
-· Actividades que realiza en ella: descargar apuntes y consultar notas
-· Qué hace más a menudo: descargar apuntes
-· Qué le gusta de lo que usa: aun no sabe
-· Qué no le gusta de lo que usa: 
+#### Nuevos alumnos:
+
+**Tipo**: Persona secundaria.
+**Datos demográficos**:
++ *Edad*: 18-20 años
++ *Sexo*: ambos
++ *Nivel académico*: alumnos de 1º y 2º de grado
+**Conocimiento del dominio**:
++ *Aplicaciones del ámbito que usa*: CV
++ *Cómo usa esas aplicaciones*: PC
++ *Actividades que realiza en ella*: descargar apuntes y consultar notas
++ *Qué hace más a menudo*: descargar apuntes
++ *Qué le gusta de lo que usa*: aun no sabe
++ *Qué no le gusta de lo que usa*: 
 
 
-Antiguos alumnos:
-Tipo: Persona secundaria.
-Datos demográficos:
-	· Edad: 24 años en adelante
-	· Sexo: ambos
-	· Nivel académico: graduado
+#### Antiguos alumnos:
+
+**Tipo**: Persona secundaria.
+**Datos demográficos**:
++ *Edad*: 24 años en adelante
++ *Sexo*: ambos
++ *Nivel académico*: graduado
 Conocimiento del dominio:
 	· Aplicaciones del ámbito que usa: ninguna
 · Cómo usa esas aplicaciones: no
