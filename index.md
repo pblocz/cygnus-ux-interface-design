@@ -276,6 +276,34 @@ Sin embargo, *Pencil* tiene muchas deficiencias en cuanto a diseño gráfico e i
 
 <a target="_blanck" href="{{site.baseurl}}/assets/proto/" alt="Prototipo"> Prototipo</a>
 
+Como se a comentado anteriormente, se decidió utilzar *Axure* para desarrollar nuestro prototipo porque permitía mayor interacción con el usuario, al tiempo que resultaba sencillo de manejar. 
+
+Se mantienen muchas de las funciones del boceto anterior (area común, notificaciones, navegación en pestañas, etc.), pero se han introducido algunos cambios:
+
++ Se ha incluido una barra superior donde el usuario pude acceder a la mayor parte de la información: búsqueda rápida, información del usuario, notificaciones, correo y configuración.
+
++ Sigue habiendo una zona a la izquierda, pero ahora solo incluye el calendario y los eventos más proximos que se hayan añadido a la agenda.
+
++ Se ha incluido un panel de chat en la esquina inferior derecha, desplegable, para facilitar la comunicación de los usuarios.
+
++ Se le ha dado bastante importancia al componente visual de la aplicación de manera que se incorporaron iconos, botones y secciones que el usuario pueda reconocer y usar de manera intutitiva.
+
++ Se decidió que nuestra aplicación estaría dividida en dos partes: por un lado, las *asignaturas*, donde se pude encontrar toda la información relativa a dicha materia: apuntes, problemas,etc., además de permitir subir prácticas propias, compartir archivos con otros compañeros y consultar dudas.
+. Por otra parte, la otra sección se dedicaría al *alumno*, donde se almacena la información que se ha ido recopilando de las diferentes asignaturas.
+
++ Los archivos mostrados tanto en *apuntes* como en *problemas* muestran siempre la opción de *guardar en favoritos*, representada por un corazón, lo que permite verlos en la sección correspondiente del alumno, y que de esta manera sean más fácil acceder a ellos. Además, los nuevos archivos que no hayan sido examinados presentarn un icono de notificación para ser facilmente distinguibles.
+
++ En la sección extras, los alumnnos pueden subir nuevo material para compartirlo con los demás. Estas aportaciones pueden ser votadas mediante los iconos correspondientes y dicha votación puede verse juanto al nombre del archivo, de manera que se pueda apreciar la utilidad de dicho material extra.
+
++ En la sección de prácticas están disponibles tanto los enunciados como la opción de subir dichas prácticas. También se puede ver el estado actual de la práctica: fecha límite, estado, calificación etc.
+
++ Hemos icluido una sección de dudas para que los alumnos pongan sus preguntas. Éstas pueden ser respondidas por el profesor o por otros alumnos y ser votadas como en la sección de material extra para ver su utilidad.
+
++ La última sección de la aplicación sería las calificaciones, donde pueden verse de manera resumida las notas obtenidas en los distintos apartados de cada asignatura y la nota media.
+
+La interactividad de este prototipo nos permitió presentarlo a varios compañeros de la asignatura para que fuera evaluado. Los detalles de dicha evaluación y los cambios que se ralizaron por motivo de ella se detallan en otra sección.
+
+
 ## Escenarios key path ##
 
 ### Alumno ###
