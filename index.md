@@ -125,7 +125,7 @@ Se han realizado finalmente tres entrevistas, hemos insistido mucho para poder c
 
 + Alumno UNED (transcripción).
 
-+ Alumno [(transcripción)].
++ Alumno [(transcripción)]().
 
 + Profesor (transcripción).
 
@@ -144,7 +144,7 @@ Se han realizado finalmente tres entrevistas, hemos insistido mucho para poder c
 
 ### Hipótesis de personas
 
-	Añadir aquí las personas ad hoc
+{% include include_id page_id='hipotesis-personas' %}
 
 #### Profesores
 
