@@ -129,6 +129,8 @@ Se han realizado finalmente tres entrevistas, hemos insistido mucho para poder c
 
 + Profesor [(transcripción)](./assets/documents/profesor_entrevista.docx).
 
+    Falta por escribir las conclusiones.
+
 ### Encuestas
 
 {% include include_id page_id='resumen-encuestas' %}
