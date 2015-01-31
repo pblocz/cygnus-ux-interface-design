@@ -121,7 +121,13 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 ### Entrevista
 
-    Qué entrevistas hemos hecho, por qué y un resumen de resultados
+Se han realizado finalmente tres entrevistas, hemos insistido mucho para poder conseguir la entrevista al profesor porque temíamos pocas respuestas en los cuestionarios, finalmente conseguimos entrevistar a un profesor y dos alumnos dejando los siguientes resultados:
+
++ Alumno UNED (transcripción).
+
++ Alumno [(transcripción)].
+
++ Profesor (transcripción).
 
 ### Encuestas
 

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Escenario Profesor
-id: escenario-profesor
+title: Escenario Alumno
+id: escenario-alumno
 type: primary
-excerpt: Escenario de profesor un dia normal en la universidad.
+excerpt: Escenario de Diego un dia normal en la universidad.
 ---
 
 # {{ page.title}}
