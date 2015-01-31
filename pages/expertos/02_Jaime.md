@@ -14,7 +14,6 @@ excerpt: Experto en UX y alumno universitario.
 | *Hora* | 12:12 - 12:51 |
 | *Prototipo* | [Axure] |
 | *Hw/Sw* | Windows7, Navegador Chrome |
-| *Grabación* | [video_jaime]({{site.base}}/assets/documents/Experto_jaime.) |
 
 ## Impresiones Positivas
 

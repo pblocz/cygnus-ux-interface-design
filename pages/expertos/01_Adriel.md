@@ -14,7 +14,6 @@ excerpt: Experto en UX y alumno universitario.
 | *Hora* | 12:00 - 12:30 |
 | *Prototipo* | Axure |
 | *Hw/Sw* | Windows7, Navegador Chrome |
-| *Grabación* | [video_adriel]({{site.base}}/assets/documents/Experto_adriel.) |
 
 ## Impresiones Positivas
 
