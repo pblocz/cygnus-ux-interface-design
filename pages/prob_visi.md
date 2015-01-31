@@ -33,21 +33,21 @@ A partir de los datos recopilados y de las personas descritas en el modelado, se
 #### Visiones
 {:.visiones}
 
-+ (Nuestro producto) permitirá la publicación de caificaciones de manera sencilla, de forma que los alumnos puedan consultarlas cómodamente desde casa. Además, se podrá hacer de manera privada para que cada alumno pueda ver sólo su nota.
++ *Cygnus* permitirá la publicación de caificaciones de manera sencilla, de forma que los alumnos puedan consultarlas cómodamente desde casa. Además, se podrá hacer de manera privada para que cada alumno pueda ver sólo su nota.
 
-+ (Nuestro producto) facilitará la consulta y resolución de dudas, tanto por parte del profesor como de otros alumnos. Tiene que poder hacerse de forma rápida.
++ *Cygnus* facilitará la consulta y resolución de dudas, tanto por parte del profesor como de otros alumnos. Tiene que poder hacerse de forma rápida.
 
-+ (nuestra herramienta) facilitará el envío de notificaciones importantes a todos los alumnos, de forma que se puedan enterar lo antes posibles de cambios en ejercicios, apuntes, fechas...
++ *Cygnus* facilitará el envío de notificaciones importantes a todos los alumnos, de forma que se puedan enterar lo antes posibles de cambios en ejercicios, apuntes, fechas...
 
 + Se facilitará el poder ver de manera rápida si ha habido alguna modificación en alguno de los cursos y cuando, además esta información se notificará por distintos canales. También tendra alguna forma de calendario donde ver las futuras citas o eventos en general.
 
-+ (La aplicación) tendrá la información y secciones organizadas de manera lógica y todo lo que se pueda se autogenerará (por ejemplo las fichas docentes)
++ *Cygnus* tendrá la información y secciones organizadas de manera lógica y todo lo que se pueda se autogenerará (por ejemplo las fichas docentes)
 
-+ (La interfaz) tiene que ser muy simple y que de manera visual o con recordatorios simples se muestren las opciones (no solo mostrar subir archivo, crear apunte y que el profesor no use nada más).
++ *Cygnus* tiene que ser muy simple y que de manera visual o con recordatorios simples se muestren las opciones (no solo mostrar subir archivo, crear apunte y que el profesor no use nada más).
 
-+ (La aplicación) tendrá algún tipo de comunicación interna en la que los profesores no estén, por ejemplo, foros sin profesor, salas de grupo de chat (al estilo g-talk)...
++ *Cygnus* tendrá algún tipo de comunicación interna en la que los profesores no estén, por ejemplo, foros sin profesor, salas de grupo de chat (al estilo g-talk)...
 
-+ (La aplicación) tendrá distintos niveles de visibilidad para algunos contenidos, por ejemplo contenido por asignatura, facultad, curso,... y que es visible para todos los que pertenezcan a ese grupo. Además permitirá que el alumno se guarde contenido de cursos anteriores, ya sea a nivel de curso o de apunte.
++ *Cygnus* tendrá distintos niveles de visibilidad para algunos contenidos, por ejemplo contenido por asignatura, facultad, curso,... y que es visible para todos los que pertenezcan a ese grupo. Además permitirá que el alumno se guarde contenido de cursos anteriores, ya sea a nivel de curso o de apunte.
 
 + El proceso de creación (o cualquier otro en el que se soliciten datos) sea muy granulado, pudiendo dejarlo para otro momento o terminarlo una vez que este creado.
 
