@@ -209,7 +209,7 @@ Para terminar este punto, los métodos de entrada utilizados son los de cualquie
 
 {% include panel-show.html panel_show_folder="bocetos" %}
 
-#### Prototipo con pencil
+#### Prototipo con Pencil
 
 A partir de los bocetos en papel realizados por cada miembro del equipo y los realizados en común, se decidió realizar un boceto más detallado mediante la herramienta *Pencil*, de manera que tubieramos un primer esbozo de nuestro diseño y con el pudiesemos trabajar en la pantalla para poder configurar de todos los elementos.
 
@@ -226,6 +226,10 @@ Todos estos detalles se pueden apreciar en la siguiente imagen, que cmuestra la 
 
 Sin embargo, *Pencil* tiene muchas deficiencias en cuanto a diseño gráfico e interactividad, por lo que se decidió que para realizar el primer prototipo se utilizaría una herramienta un poco más completa, *Axure*, en el incluiría parte de lo mencionado anteriormente, se añadirían elementos nuevos y se descartarían algunos que no nos gustaron en este boceto preliminar.
 
+
+#### Prototipo con Axure
+
+[Prototipo](.{{site.baseurl}}/assets/proto/)
 
 ### Escenarios key path
 
