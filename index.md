@@ -187,6 +187,45 @@ Se han realizado finalmente tres entrevistas, hemos insistido mucho para poder c
 
 {% include include_id page_id='problemas-visiones' %}
 
+### Expectativas de personas
+
+#### Juan Martín de la Torre (prof nov)
+
++ Avanzado en nuevas tecnologías, tiene poca dificultad en aprender y usar nuevas herramientas web, móvil le presenta un poco más de dificultad.
+
++ Quiere impartir las clases verticales pero con cierta tendencia a la horizontalidad, es decir, impartir sus conocimientos, pero que el alumno esté muy implicado en la asignatura y con el resto de compañeros.
+
++ Usar el campus le parece una buena idea para agrupar a los alumnos y comunicarse con ellos.
+
++ Quiere que el campus le permita utilizarlo sin que él tenga que cambiar sus metodologías docentes (p.e. ponderación de notas).
+
++ Quiere que sus alumnos tengan los apuntes durante las clases, y los lleven al día.
+
+#### Eva Maria (Prof exp)
+
++ Se ha podido adaptar un poco a las nuevas tecnologías, pero no se siente cómoda aprendiendo a usar una nueva herramienta.
+
++ Sus clases siempre han sido verticales, aunque los últimos cambios legislativos la han obligado ha hacer participar más activamente a sus alumnos.
+
++ Usa el campus como lugar para dejar los apuntes y olvidarse de ello.
+
++ Le gustaría que el campus resultase más fácil de utilizar.
+
+#### Diego García (Alumno)
+
++ Nativo de las nuevas tecnologías que no tiene problema en aprender y usar una nueva herramienta basada en web o móvil, además lo usa como base para todo: comunicación, buscar información, hacer trabajos, colaborar,...
+
++ Todas sus clases hasta hace poco han sido verticales (magistrales), el profesor enseña y ellos aprenden, la comunicación y enseñanza en horizontal con sus compañeros se limitaba a compartir apuntes y experiencia.
+
++ Quiere que cuando usa el campus no tenga que preocuparse de si han subido algo nuevo o tiene que entregar algo, si no que la aplicación le avise de manera cómoda de ello para no tener que entrar todos los días y a diario.
+
++ Para comunicarse con sus amigos usa las redes sociales y otras aplicaciones, así que no quiere usar el campus para ello, su uso del campus se limita al ámbito académico y de aprendizaje
+
++ Al comunicarse con los profesores de manera rápida está acostumbrado a ir a buscarlos en persona porque teme molestarlos o que no lo vean / le respondan, además de ser más personal
+
++ Comparte prácticas, apuntes, libros, enlaces… con sus compañeros a través del correo, dropbox u otras aplicaciones
+
+
 ### Escenarios de contexto y requisitos
 
 {% include panel-show.html panel_show_folder="escenarios" %}

@@ -6,26 +6,24 @@ id: plan-requisitos
 
 Para llevar a cabo el diseño de nuestra aplicación es imprescindible saber qué funcionalidades debe tener, que dependerán de las necesidades de los usuarios finales. 
 
-Para conocer dichas necesidades hemos seguido el proceso de requisitos de Cooper, según el cual el proceso para la definición de requisitos a partir de personas y escenarios se divide las siguientes etapas:
+Para conocer dichas necesidades vamos a seguir mayoritariamente el proceso de requisitos de Cooper, según el cual el proceso para la definición de requisitos a partir de personas y escenarios se divide las siguientes etapas:
 
 ### Enunciar los problemas y las visiones:
 
-A partir de los datos recopilados y de las personas descritas en el modelado, se redactaron una serie de problemas que deberían ser resueltos por nuestra aplicación para mejorar la experiencia de los usuarios. Esos mismos problemas, redactados desde el punto de vista de la aplicación, son las visiones.
-Tanto los problemas como las visiones pueden verse en la sección de resultados.
+A partir de los datos recopilados y de las personas descritas en el modelado, se redactarán una serie de problemas que deberán ser resueltos por nuestra aplicación para mejorar la experiencia de los usuarios. Para ello tomaremos el perfil de cada persona y por parejas iremos generando estos datos.
 
 ### Lluvia de ideas:
 
-Para este apartado nos reunimos todos los miembros del equipo y pusimos en común las ideas, opiniones y sugerencias que se se habían ido pensando durante las etapas anteriores. Algunas propuestas fueron rechazadas por contradecir otras, y algunas se combinaron por ser muy similares, pero la mayoría no se cambiaron y se quedaron como se muestran en la sección de resultados.
+Para este apartado, aprovecharemos el estar todos los miembros del equipo reunidos para los problemas y visiones, y realizaremos la lluvia de ideas escribiendo cada uno en el mismo documento drive, diciendolas en alto para poder identificar similitudes.
 
 ### Identificación de expectativas de las personas:
 
-Tendríamos que haber hecho esto para cada una de las personas, pero en lugar de ello pasamos directamente a  los escenarios y requisitos, pués ya habíamos hecho algo muy similar durante el modelado de personas. 
+En la fase de modelado realizaremos una previa identificación de expectativas que tendrán las personas, y tras ello, concretaremos estas expectativas basandonos principalmente en los problemas y visiones que saquemos del proceso.
 
 ### Construcción de los escenarios de contexto:
 
-Con todos los datos reunidos en los apartados anteriores, fuimos capaces de redactar situaciones cotidianas de cada una de las personas en las que usan nuestra aplicación y se describe cómo y para que la usan.
+Con todos los datos reunidos en los apartados anteriores, seremos capaces de redactar situaciones cotidianas de cada una de las personas en las que usan nuestra aplicación y se describirá cómo y para que la usan. El modo de proceder, será asignando una persona a cada miembro del equipo y, dado que solo tenemos tres personas, el cuarto repasará lo producido por los demás.
 
 ### Identificación de requisitos: 
 
-Finalmente, analizando los escenarios descritos con anterioridad, se especificaron los requisitos concretos que requieren los usuarios de nuestra aplicación.
-Tanto los escenarios como los requisitos se muestran, agrupados por las personas a las que van dirigidas, en la siguiente sección de resultados.
+Finalmente, analizando los escenarios descritos con anterioridad, se especificarán los requisitos concretos que requieren los usuarios de nuestra aplicación. Para ello se agruparan en función de la persona a la que afecten.
