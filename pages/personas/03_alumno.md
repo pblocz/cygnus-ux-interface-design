@@ -7,7 +7,7 @@ excerpt: Alumno de 3º de Ingeniería Química que va al día con sus asignatura
 
 # {{page.title}}
 
-![https://es.wikipedia.org/wiki/Izquierda_Aut%C3%B3noma#mediaviewer/File:Gabriel_Boric.jpg]({{site.baseurl}}/assets/img/Gabriel_Boric.jpg)
+![Diego]({{site.baseurl}}/assets/img/Gabriel_Boric.jpg)
 
 ## Demografía y perfil
 
