@@ -229,7 +229,7 @@ Sin embargo, *Pencil* tiene muchas deficiencias en cuanto a diseño gráfico e i
 
 #### Prototipo con Axure
 
-[Prototipo](./assets/proto/)
+[Prototipo](./assets/proto/) (Recomendación: abrir en otra pestaña)
 
 ### Escenarios key path
 
