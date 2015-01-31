@@ -262,8 +262,9 @@ mostrar producto / fotos
 
 # Evaluaciones heurísticas
 
-## Plan
-	TODO
+## Plan de Evaluación Heurística
+
+{% include include_id page_id='plan-heuristicas' %}
 
 ## Resultados
 
