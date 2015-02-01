@@ -1,0 +1,26 @@
+Grupo 4.
+
+- Alejandro Aguirre
+- Pablo Cabeza
+- Jesús Doménech
+- Diego González
+
+
+Nuestra memoria está realizada en HTML y subida a GitHub con todos los
+archivos.
+
+Para acceder a ella usar el enlace:
+
+     https://pblocz.github.io/cygnus-ux-interface-design/
+
+Al ser un repositorio de GitHub pueden descargarse los datos y ver los
+cambios (así como las fechas de los commits, para ver que no hemos
+hecho trampa) en:
+
+     https://github.com/pblocz/cygnus-ux-interface-design
+
+
+Además de esto, para acceder el prototipo de alta fidelidad (hay
+acceso desde la memoria también) se usará el enlace:
+     
+     https://pblocz.github.io/cygnus-hifi-prototype
