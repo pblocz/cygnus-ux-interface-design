@@ -16,15 +16,10 @@ This template generates cards for the elements in a folder
           >
           <div class="panel-heading">
               <h3 class="panel-title">
-                  <a href="{% if include.nolink %}{% else %}{{site.baseurl}}{{page.url}}{% endif %}" id="{{page.id}}">{{ page.title }}</a>
+                  <a href="javascript: void(0)" id="{{page.id}}">{{ page.title }}</a>
               </h3>
           </div>
           <div class="panel-body">
-              <div>
-                  {{page.excerpt}}
-              </div>
-          </div>
-          <div class="skelleton-content" style="display:none;">
                 {{page.content}}
           </div>
       </div>

@@ -1,0 +1,16 @@
+{% comment %}
+This template generates cards for the elements in a folder
+
+:param: panel_show_folder The folder name (just the name) where to search
+{% endcomment %}
+
+<div class="container-fluid skelleton-container">
+{% for page in site.static_files %}
+ {% assign url_array = page.path | split: "/" %}
+ {% if  url_array contains include.panel_show_folder %}
+  <div class="col-sm-6">
+      <img src="{{site.baseurl}}{{page.path}}"/>
+  </div>
+ {% endif %}
+{% endfor %}
+</div>

@@ -123,7 +123,7 @@ Este punto es muy genérico, así que lo centraremos en herramientas que se usen
 
 Se han realizado finalmente tres entrevistas, hemos insistido mucho para poder conseguir la entrevista al profesor porque temíamos pocas respuestas en los cuestionarios, finalmente conseguimos entrevistar a un profesor y dos alumnos dejando los siguientes resultados:
 
-+ Alumno UNED (transcripción).
++ Alumno UNED [(transcripción)]({{site.baseurl}}/assets/documents/alumno_uned_entrevista.txt).
 
 + Alumno [(transcripción)](./assets/documents/alumno_entrevista.txt).
 
@@ -248,11 +248,20 @@ Para terminar este punto, los métodos de entrada utilizados son los de cualquie
 
 ## Elementos de datos y funcionales ##
 
+Después de dos iteraciones generamos los siguientes elementos de datos y funcionales.
+
+### Datos
+
 ![Requisitos de datos]({{site.baseurl}}/assets/img/requisitos_datos.png)
+
+### Funcional
+
+{% include panel-show-content.html panel_show_folder="funcional" %}
+
 
 ## Bocetos ##
 
-{% include panel-show.html panel_show_folder="bocetos" %}
+{% include panel-show-images.html panel_show_folder="bocetos" %}
 
 ## Prototipo con Pencil ##
 
