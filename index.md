@@ -127,9 +127,12 @@ Se han realizado finalmente tres entrevistas, hemos insistido mucho para poder c
 
 + Alumno [(transcripción)](./assets/documents/alumno_entrevista.txt).
 
+De los alumnos, obtenemos principalmente que usan el campus virtual para revisar si hay apuntes del profesor y que les es muy pesada esta actividad porque en la mayoría de las situaciones no hay nada nuevo y han perdido mucho tiempo entrando. Otro punto sería que los alumnos prefieren tener tutorías presenciales antes que escribír un mensaje al profesor. Y por último, enlazado con el primer punto, les gustaría que hubiese un sistema de notificaciones para no perderse nada de lo relaccionado con la universidad.
+
 + Profesor [(transcripción)](./assets/documents/profesor_entrevista.docx).
 
-    Falta por escribir las conclusiones.
+Del profesor vemos principalmente que tiene apetito por usar las nuevas tecnologías con sus alumnos pero no da de sí las herramientas de que dispone. Además no ha querído aprender a usar nuevas herramientas porque le parecen demasiado complicadas para lo poco que le van a aportar. Desea que haya una mejor integración con las clases de hoy en día. Notamos también que el profesor prepara sus apuntes aparte y luego los sube a la aplicación. Por costumbres previas a ser profesor, revisa el email con frecuencia y usa con bastante frecuencia el ordenador.
+
 
 ### Encuestas
 
