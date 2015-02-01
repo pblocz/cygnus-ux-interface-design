@@ -11,6 +11,15 @@ title: "[DSI] Cygnus - Diseño Guiado por Objetivos"
 [test url](.{{ site.pages | where:"id","site-test" | map: "url" }})
 -->
 
+<h1>Grupo 4 de DSI</h1>
+
+<h4>Autores:</h4>
+- Alejandro Aguirre
+- Pablo Cabeza
+- Jesús Doménech
+- Diego González
+
+
 # Investigación
 
 El proyecto no está realmente definido, sino que se pretende investigar cual sería la aplicación que mejor se adecúe a las necesidades actuales del ámbito universitario, centrándonos especialmente en el *sharing* de apuntes, prácticas, etc. entre todos los miembros de la comunidad educativa. Será importante también proporcionar herramientas que faciliten el *feedback* entre alumnos y profesores, e incluso con alumnos de años anteriores.
@@ -346,6 +355,15 @@ Esto nos sirvió para pasar del prototipo de *pencil* al de *axure*. Algunos de 
 
 - **Interfaz más visual**: listas de asignaturas con imágenes y siglas ya que con un simple vistazo es más sencillo encontrarlas.
 - **Barra superior** donde mostrar información global, por ser más consistente con lo que el usuario está acostumbrado.
+
+## Prototipo de alta fidelidad
+
+- [prototipo de alta fidelidad](https://pblocz.github.io/cygnus-hifi-prototype/)
+
+Este prototipo surge como parte final del diseño guiado por objetivo después de remodelar el prototipo de axure a causa de las evaluaciones heurísticas.
+
+Para desarrollarlo usamos [cactus](https://github.com/koenbok/cactus) como generador web estático con plantillas html y [bootstrap](http://getbootstrap.com/) con diversos plugins para las diversas interacciones y vistas. La razón de esto es que Axure nos parecía que estaba muy alejado de la realidad del proceso de desarrollo y con muchas restricciones.
+
 
 <!--
 
